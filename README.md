@@ -1,7 +1,5 @@
 # Hrithik Mhatre's Portfolio
 
-Welcome to my GitHub portfolio! I am a final-year B.Tech student in Civil Engineering with a Minor in Computer Science and Engineering at the Indian Institute of Technology (IIT) Bombay. My interests lie at the intersection of civil engineering and data science, and I am passionate about leveraging technology to address real-world challenges.
-
 ## Table of Contents
 - [Education](#education)
 - [Scholastic Achievements](#scholastic-achievements)

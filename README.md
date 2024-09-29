@@ -1,5 +1,3 @@
-# Hrithik Mhatre's Portfolio
-
 ## Table of Contents
 - [Education](#education)
 - [Scholastic Achievements](#scholastic-achievements)

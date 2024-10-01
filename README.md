@@ -10,7 +10,6 @@
 - [Online Courses](#online-courses)
 - [Extracurricular Activities](#extracurricular-activities)
 
-## Portfolio
 
 <h2 style="color: blue;">Education</h2>
 **Indian Institute of Technology (IIT) Bombay**  

@@ -10,7 +10,7 @@
 - [Online Courses](#online-courses)
 - [Extracurricular Activities](#extracurricular-activities)
 
-## <h2 style="color: blue;">Education</h2>
+<h2 style="color: blue;">Edu</h2>
 **Indian Institute of Technology (IIT) Bombay**  
 Bachelor of Technology in Civil Engineering with a Minor in Computer Science and Engineering  
 **GPA:** 8.83/10  

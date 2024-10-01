@@ -2,7 +2,7 @@
 - [Education](#education)
 - [Scholastic Achievements](#scholastic-achievements)
 - [Professional Experience](#professional-experience)
-- [Research & Development Projects](#research--development-projects)
+- [Research & Development Projects](#reasearch--development-projects)
 - [Technical Projects](#technical-projects)
 - [Positions of Responsibility](#positions-of-responsibility)
 - [Skills](#skills)
@@ -10,7 +10,7 @@
 - [Online Courses](#online-courses)
 - [Extracurricular Activities](#extracurricular-activities)
 
-## Education
+## <h2 style="color: blue;">Education</h2>
 **Indian Institute of Technology (IIT) Bombay**  
 Bachelor of Technology in Civil Engineering with a Minor in Computer Science and Engineering  
 **GPA:** 8.83/10  

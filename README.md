@@ -1,4 +1,4 @@
-## Table of Contents
+<h1 style="color: blue;">Table of Contents</h1>
 - [Education](#education)
 - [Scholastic Achievements](#scholastic-achievements)
 - [Professional Experience](#professional-experience)

@@ -317,6 +317,35 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <a href="https://github.com/hrithikM86/Deepfakes-GAN-based-Face-swapping" target="_blank">Visit GitHub</a>
 </div>
 
+<!-- Positions of Responsibility Section -->
+<div class="section-title" onclick="toggleSection('positions-responsibility', 'positions-links')">Positions of Responsibility &#9660;</div>
+
+<div id="positions-responsibility" class="section-content">
+    <ul>
+        <li>
+            <strong>Electrical Subsystem Head | Student Satellite Program, IIT Bombay</strong><br>
+            A 40+ member student team dedicated to making IIT Bombay a center of excellence in space technology.
+            <ul>
+                <li>Led a 9 member interdisciplinary team on Hardware In-Loop Simulation of the STADS module.</li>
+                <li>Executed a 3-step recruitment process to select 6 of 50+ applicants, evaluating their technical skills.</li>
+                <li>Successfully designed, mentored & evaluated two technical hardware projects for the mini-project round.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Senior Department Academic Mentor & Subgroup Head | Civil Engineering Department</strong><br>
+            Member of a selective mentoring team supporting 170+ freshmen & sophomores in the Civil Department.
+            <ul>
+                <li>Monitoring the academic performance of 6 sophomores to provide personalized guidance & counseling.</li>
+                <li>Leading a 6-member team to survey departmental needs and facilitate effective mentorship delivery.</li>
+                <li>Received the DAMP Special Recognition Award, given to 17/400 students for exceptional contribution.</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<div class="link-container" id="positions-links">
+    <!-- You can add any relevant links here if needed -->
+</div>
 
 <h2 id="skills">Skills</h2>
 <ul>

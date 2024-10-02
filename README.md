@@ -83,6 +83,20 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <a href="https://www.example.com" target="_blank">Visit GitHub</a>
 </div>
 
+
+<h1 id="international-experience">International Experience</h1>
+<div class="section-title" onclick="toggleSection('sdc-content', 'sdc-github')">Seismic Design Competition, San Francisco, USA</div>
+<div id="sdc-content" class="section-content">
+    <ul>
+        <li>Developed solutions for the Earthquake Engineering Research Institute's Seismic Design Competition.</li>
+        <li>Achieved 8th position internationally as the sole Indian team.</li>
+        <li>Designed a 19-storey skyscraper with sustainable design elements.</li>
+    </ul>
+</div>
+<div id="sdc-github" class="github-link">
+    <a href="https://www.example.com" target="_blank">Visit GitHub</a>
+</div>
+
 <h1 id="research-projects">Research & Development Projects</h1>
 
 <div class="section-title" onclick="toggleSection('crack-detection', 'crack-github')">Classification, Segmentation and GAN Implementation on Concrete Crack Surfaces</div>

@@ -53,6 +53,7 @@
     <li><a href="#skills">Skills</a></li>
     <li><a href="#relevant-courses">Relevant Courses</a></li>
     <li><a href="#extracurricular-activities">Extracurricular Activities</a></li>
+    <li><a href="#international-experience">International Experience</a></li>
 </ul>
 
 <h1 id="education">Education</h1>
@@ -79,18 +80,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 <div id="amex-github" class="github-link">
-    <a href="https://www.example.com" target="_blank">Visit GitHub</a>
-</div>
-
-<div class="section-title" onclick="toggleSection('sdc-content', 'sdc-github')">Seismic Design Competition, San Francisco, USA</div>
-<div id="sdc-content" class="section-content">
-    <ul>
-        <li>Developed solutions for the Earthquake Engineering Research Institute's Seismic Design Competition.</li>
-        <li>Achieved 8th position internationally as the sole Indian team.</li>
-        <li>Designed a 19-storey skyscraper with sustainable design elements.</li>
-    </ul>
-</div>
-<div id="sdc-github" class="github-link">
     <a href="https://www.example.com" target="_blank">Visit GitHub</a>
 </div>
 
@@ -153,6 +142,19 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h1 id="extracurricular-activities">Extracurricular Activities</h1>
 <p>Participated in XLR8 and built an advanced WiFi-controlled racing bot using ESP32.</p>
+
+<h1 id="international-experience">International Experience</h1>
+<div class="section-title" onclick="toggleSection('sdc-content', 'sdc-github')">Seismic Design Competition, San Francisco, USA</div>
+<div id="sdc-content" class="section-content">
+    <ul>
+        <li>Developed solutions for the Earthquake Engineering Research Institute's Seismic Design Competition.</li>
+        <li>Achieved 8th position internationally as the sole Indian team.</li>
+        <li>Designed a 19-storey skyscraper with sustainable design elements.</li>
+    </ul>
+</div>
+<div id="sdc-github" class="github-link">
+    <a href="https://www.example.com" target="_blank">Visit GitHub</a>
+</div>
 
 <script>
     function toggleSection(contentId, githubId) {

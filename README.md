@@ -117,8 +117,8 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </div>
 
 <!-- GitHub Link -->
-<div class="github-link">
-    <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank" style="color: blue; text-decoration: underline;">Visit GitHub</a>
+<div class="github-link" style="margin: 10px 0; font-weight: bold; font-size: 1.1em; color: #1a73e8;">
+    <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank" style="color: inherit; text-decoration: none;">Visit GitHub</a>
 </div>
 
 <!-- Professor Website Link -->
@@ -139,8 +139,8 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </div>
 
 <!-- GitHub Link -->
-<div class="github-link">
-    <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank" style="color: blue; text-decoration: underline;">Visit GitHub</a>
+<div class="github-link" style="margin: 10px 0; font-weight: bold; font-size: 1.1em; color: #1a73e8;">
+    <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank" style="color: inherit; text-decoration: none;">Visit GitHub</a>
 </div>
 
 <!-- Professor Website Link -->
@@ -161,14 +161,15 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </div>
 
 <!-- GitHub Link -->
-<div class="github-link">
-    <a href="https://www.example.com" target="_blank" style="color: blue; text-decoration: underline;">Visit GitHub</a>
+<div class="github-link" style="margin: 10px 0; font-weight: bold; font-size: 1.1em; color: #1a73e8;">
+    <a href="https://www.example.com" target="_blank" style="color: inherit; text-decoration: none;">Visit GitHub</a>
 </div>
 
 <!-- Professor Website Link -->
 <div class="professor-website">
     <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Prof. Archak Mittal</a>
 </div>
+
 
 
 

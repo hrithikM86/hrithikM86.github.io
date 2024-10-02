@@ -88,7 +88,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </div>
 
 <div class="link-container" id="amex-links">
-    <a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank">Manager</a>
+    <a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank">Manager : Archit Jain</a>
 </div>
 
 <h2 id="international-experience">International Experience</h2>
@@ -104,10 +104,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-<div class="link-container" id="sdc-links">
-    <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar</a>
-    <a href="https://github.com/hrithikM86/your-github-repo" target="_blank">Visit GitHub</a>
-</div>
 
 <h2 id="research-projects">Research & Development Projects</h2>
 
@@ -161,17 +157,167 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Guide: Prof. Archak Mittal</a>
 </div>
 
-<h2 id="technical-projects">Technical Projects</h2>
-<ul>
-    <li>Developed a machine learning-based model for predicting water potability using various water quality parameters.</li>
-    <li>Conducted feature selection techniques to identify the most impactful features affecting potability predictions.</li>
-</ul>
 
-<h2 id="positions-of-responsibility">Positions of Responsibility</h2>
-<ul>
-    <li>Mentored 25+ students in machine learning and data science for impactful projects at WIDS.</li>
-    <li>Received the DAMP Special Recognition Award for outstanding contributions as a member of the SMP team.</li>
-</ul>
+
+<h2 id="technical-projects">Technical Projects</h2>
+<!-- GCON-VEGATHON | IEEE-GCON 2023 | C-DAC & IIT Guwahati -->
+<div class="section-title" onclick="toggleSection('gcon-vega', 'gcon-links')">1. GCON-VEGATHON | IEEE-GCON 2023 | C-DAC & IIT Guwahati &#9660;</div>
+<div id="gcon-vega" class="section-content">
+    <ul>
+        <li>Selected as a top 15 semi-finalist out of 50+ competitors, showcasing exceptional skills & teamwork.</li>
+        <li>Proposed a bare-metal embedded system with an OV2640 image sensor to capture low-resolution images and efficiently extract star centroids using a feature extraction algorithm on a VEGA processor.</li>
+        <li>Designed a Printed Circuit Board (PCB) to seamlessly integrate the camera and VEGA board.</li>
+    </ul>
+</div>
+<div class="link-container" id="gcon-links">
+    <a href="https://github.com/hrithikM86/gcon-vega" target="_blank">Visit GitHub</a>
+</div>
+
+<!-- Sentiment Analysis of Customer Reviews for Singapore Airlines -->
+<div class="section-title" onclick="toggleSection('sentiment-analysis', 'sentiment-links')">2. Sentiment Analysis of Customer Reviews for Singapore Airlines using NLP &#9660;</div>
+<div id="sentiment-analysis" class="section-content">
+    <ul>
+        <li>Developed a preprocessing pipeline, including tokenization and stopword removal using NLTK.</li>
+        <li>Trained CBOW & Skip-Gram embeddings from scratch, used PCA for visualization & compared results with pretrained Word2Vec across ML frameworks, including SVM, XGBoost & Neural Networks.</li>
+        <li>Selected the best techniques to achieve 71% accuracy in a 5-class sentiment classification of customer reviews, delivering valuable insights to enhance customer experience and inform decision-making.</li>
+    </ul>
+</div>
+<div class="link-container" id="sentiment-links">
+    <a href="https://github.com/hrithikM86/sentiment-analysis" target="_blank">Visit GitHub</a>
+</div>
+
+<!-- Attendance Mate | Face Recognition Attendance System -->
+<div class="section-title" onclick="toggleSection('attendance-mate', 'attendance-links')">3. Attendance Mate | Face Recognition Attendance System &#9660;</div>
+<div id="attendance-mate" class="section-content">
+    <ul>
+        <li>Developed a reliable & cost-effective attendance system utilizing students’ phones to mark attendance.</li>
+        <li>Developed a robust pipeline utilizing MTCNN & YOLO algorithms for accurate student face extraction, complemented by Keras-VGGFace to generate face embedding vectors for enhanced facial recognition.</li>
+        <li>Developed and successfully optimized a Siamese network using triplet loss, achieving 87.1% accuracy.</li>
+    </ul>
+</div>
+<div class="link-container" id="attendance-links">
+    <a href="https://github.com/hrithikM86/attendance-mate" target="_blank">Visit GitHub</a>
+</div>
+
+<!-- Optimizing Stock Trading with Reinforcement Learning -->
+<div class="section-title" onclick="toggleSection('stock-trading', 'stock-links')">4. Optimizing Stock Trading with Reinforcement Learning &#9660;</div>
+<div id="stock-trading" class="section-content">
+    <ul>
+        <li>Utilized OpenAI Gym to explore Reinforcement Learning algorithms, including DQN and DDPG.</li>
+        <li>Developed a Reinforcement learning-based trading environment using the Actor-Critic Model (DDPG) with a robust action space and reward function to optimize trading strategies for G^SPC2018 stocks.</li>
+        <li>Gained $140 profit from a $5,000 investment, demonstrating the effectiveness of the RL-based approach.</li>
+    </ul>
+</div>
+<div class="link-container" id="stock-links">
+    <a href="https://github.com/hrithikM86/stock-trading" target="_blank">Visit GitHub</a>
+</div>
+
+<!-- Understanding Credit Score Models -->
+<div class="section-title" onclick="toggleSection('credit-score', 'credit-links')">5. Understanding Credit Score Models &#9660;</div>
+<div id="credit-score" class="section-content">
+    <ul>
+        <li>Performed data preprocessing, oversampling, feature engineering and EDA on the lending data.</li>
+        <li>Employed the XGBoost algorithm to classify individuals’ credit scores, achieving an accuracy of 86%.</li>
+        <li>Researched credit scores, scoring techniques, and AI/ML applications in credit score modeling.</li>
+    </ul>
+</div>
+<div class="link-container" id="credit-links">
+    <a href="https://github.com/hrithikM86/credit-score" target="_blank">Visit GitHub</a>
+</div>
+
+<!-- Neural Networks and Large Language Models -->
+<div class="section-title" onclick="toggleSection('neural-networks', 'neural-links')">6. Neural Networks and Large Language Models &#9660;</div>
+<div id="neural-networks" class="section-content">
+    <ul>
+        <li>Developed a Gradio QnA bot with FLAN-T5 and GPU acceleration for real-time text generation.</li>
+        <li>Built a custom binary neural network for image classification in PyTorch, achieving 81% accuracy.</li>
+        <li>Developed a BERT-based sentiment analysis model with a Gradio interface, achieving 85% accuracy.</li>
+    </ul>
+</div>
+<div class="link-container" id="neural-links">
+    <a href="https://github.com/hrithikM86/neural-networks" target="_blank">Visit GitHub</a>
+</div>
+
+<!-- Great Lunar Expedition for Everyone (GLEE) -->
+<div class="section-title" onclick="toggleSection('glee', 'glee-links')">7. Great Lunar Expedition for Everyone (GLEE) &#9660;</div>
+<div id="glee" class="section-content">
+    <ul>
+        <li>The Great Lunar Expedition for Everyone is a global mission for lunar surface science using chipsats.</li>
+        <li>Cleaned, processed & analyzed earthquake data using Python libraries Numpy, Matplotlib & Pandas.</li>
+        <li>Implemented Time Difference of Arrival algorithm to accurately locate a single seismic wave source.</li>
+    </ul>
+</div>
+<div class="link-container" id="glee-links">
+    <a href="https://github.com/hrithikM86/glee" target="_blank">Visit Website</a>
+</div>
+
+<!-- Star Tracker based Attitude Determination System (STADS) -->
+<div class="section-title" onclick="toggleSection('stads', 'stads-links')">8. Star Tracker based Attitude Determination System (STADS) &#9660;</div>
+<div id="stads" class="section-content">
+    <ul>
+        <li>STADS is a CubeSat-compatible star tracker system for attitude determination, to be tested on POEM.</li>
+        <li>Integrated a camera with Raspberry Pi for Hardware-in-the-Loop Simulations & developed a robust script to automate the 3-stage algorithmic pipeline during the headless mode startup of Raspberry Pi.</li>
+        <li>Collaborated on power budget development and modified code to enhance system power efficiency.</li>
+        <li>Developed a code to optimise 5 hyperparameters of the Star Tracker algorithm using Genetic Algorithm.</li>
+    </ul>
+</div>
+<div class="link-container" id="stads-links">
+    <a href="https://github.com/hrithikM86/stads" target="_blank">Visit Website</a>
+</div>
+
+<!-- AI powered chatbot -->
+<div class="section-title" onclick="toggleSection('ai-chatbot', 'ai-links')">9. AI powered chatbot &#9660;</div>
+<div id="ai-chatbot" class="section-content">
+    <ul>
+        <li>Developed an AI-powered PDF chatbot using NLP, word embeddings, and similarity search techniques.</li>
+        <li>Configured OpenAI’s API key for language processing access & establishing a question-answering chain.</li>
+        <li>Implemented document similarity search with FAISS, comparing 1000+ text chunks using LangChain.</li>
+    </ul>
+</div>
+<div class="link-container" id="ai-links">
+    <a href="https://github.com/hrithikM86/ai-chatbot" target="_blank">Visit GitHub</a>
+</div>
+
+<!-- Robotic Arm -->
+<div class="section-title" onclick="toggleSection('robotic-arm', 'robotic-links')">10. Robotic Arm &#9660;</div>
+<div id="robotic-arm" class="section-content">
+    <ul>
+        <li>Creating a programmable robotic arm to perform specific movements, controlled via mobile application.</li>
+        <li>Implemented MG996R and SG90 Micro Servo Motors to achieve desired rotations in the robotic arm.</li>
+        <li>Created a versatile system linking mobile devices to control the robotic arm’s specific movements.</li>
+        <li>Utilized Arduino UNO as the microcontroller to interface between Bluetooth module & mobile network.</li>
+    </ul>
+</div>
+<div class="link-container" id="robotic-links">
+    <a href="https://github.com/hrithikM86/robotic-arm" target="_blank">Visit GitHub</a>
+</div>
+
+<!-- Precipitation Prediction using ML -->
+<div class="section-title" onclick="toggleSection('precipitation-prediction', 'precipitation-links')">11. Precipitation Prediction using ML &#9660;</div>
+<div id="precipitation-prediction" class="section-content">
+    <ul>
+        <li>Created ML models using Random Forest & Logistic Regression to accurately predict precipitation.</li>
+        <li>Handled class imbalance with oversampling, achieving 98.03% accuracy and 98.01% ROC-AUC score.</li>
+        <li>Used chi-squared test to select the best features for the model, performed data preprocessing & EDA.</li>
+    </ul>
+</div>
+<div class="link-container" id="precipitation-links">
+    <a href="https://github.com/hrithikM86/precipitation-prediction" target="_blank">Visit GitHub</a>
+</div>
+
+<!-- Deepfakes: GAN-based Face-swapping -->
+<div class="section-title" onclick="toggleSection('deepfakes', 'deepfakes-links')">12. Deepfakes: GAN-based Face-swapping &#9660;</div>
+<div id="deepfakes" class="section-content">
+    <ul>
+        <li>Advanced skills in modern deep learning frameworks and OOP, specializing in neural networks.</li>
+        <li>Studied AttGAN & Deepfakes, implemented GAN-based face-swapping using TensorFlow & PyTorch.</li>
+        <li>Enhanced facial attribute editing skills & deepened understanding of GANs through project execution.</li>
+    </ul>
+</div>
+<div class="link-container" id="deepfakes-links">
+    <a href="https://github.com/hrithikM86/deepfakes" target="_blank">Visit GitHub</a>
+</div>
+
 
 <h2 id="skills">Skills</h2>
 <ul>

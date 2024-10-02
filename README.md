@@ -118,7 +118,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <!-- GitHub Link -->
 <div class="github-link">
-    <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">Visit GitHub</a>
+    <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank" style="color: blue; text-decoration: underline;">Visit GitHub</a>
 </div>
 
 <!-- Professor Website Link -->
@@ -140,12 +140,12 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <!-- GitHub Link -->
 <div class="github-link">
-    <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank">Visit GitHub</a>
+    <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank" style="color: blue; text-decoration: underline;">Visit GitHub</a>
 </div>
 
 <!-- Professor Website Link -->
 <div class="professor-website">
-    <a href="https://iitb.irins.org/profile/52104" target="_blank">Prof Ganesh Ramkrishnan</a>
+    <a href="https://iitb.irins.org/profile/52104" target="_blank">Prof. Ganesh Ramkrishnan</a>
 </div>
 
 <!-- Traffic Signal Optimization Section -->
@@ -160,10 +160,16 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
+<!-- GitHub Link -->
+<div class="github-link">
+    <a href="https://www.example.com" target="_blank" style="color: blue; text-decoration: underline;">Visit GitHub</a>
+</div>
+
 <!-- Professor Website Link -->
 <div class="professor-website">
     <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Prof. Archak Mittal</a>
 </div>
+
 
 
 

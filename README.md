@@ -250,25 +250,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <li>Volunteered for the IIT Bombay Student Chapter of the Earthquake Engineering Research Institute (EERI).</li>
 </ul>
 
-<h2 id="international-experience">International Experience</h2>
-<div class="section-title" onclick="toggleSection('international-exp', 'international-github', 'international-professor-website')">1. Global Learning Experience at XYZ University &#9660;</div>
-
-<div id="international-exp" class="section-content">
-    <ul>
-        <li>Participated in a summer research program focusing on sustainable urban development and smart city initiatives.</li>
-        <li>Collaborated with students from diverse backgrounds to develop innovative solutions addressing urban challenges.</li>
-    </ul>
-</div>
-
-<!-- GitHub Link -->
-<div class="github-link" id="international-github" style="margin: 10px 0; font-weight: bold; font-size: 1.1em;">
-    <a href="https://github.com/hrithikM86/global-learning-experience" target="_blank">Visit GitHub</a>
-</div>
-
-<!-- Professor Website Link -->
-<div class="professor-website" id="international-professor-website">
-    <a href="https://iitb.irins.org/profile/155634" target="_blank">Prof. Alankar Alankar</a>
-</div>
 
 <script>
     function toggleSection(contentId, githubId, professorId) {

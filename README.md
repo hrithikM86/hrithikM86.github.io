@@ -120,15 +120,16 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
+<!-- Professor Website Link -->
+<div class="professor-website" id="crack-professor-website">
+    <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide : Prof. Alankar Alankar</a>
+</div>
+
 <!-- GitHub Link -->
 <div class="github-link" id="crack-github" style="margin: 10px 0; font-weight: bold; font-size: 1.1em;">
     <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">Visit GitHub</a>
 </div>
 
-<!-- Professor Website Link -->
-<div class="professor-website" id="crack-professor-website">
-    <a href="https://iitb.irins.org/profile/155634" target="_blank">Prof. Alankar Alankar</a>
-</div>
 
 <!-- Public Health Dashboard Section -->
 <div class="section-title" onclick="toggleSection('health-dashboard', 'health-github', 'health-professor-website')">2. Dashboard For Public Health Systems &#9660;</div>
@@ -142,15 +143,36 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
+<!-- Professor Website Link -->
+<div class="professor-website" id="health-professor-website">
+    <a href="https://iitb.irins.org/profile/52104" target="_blank">Guide : Prof. Ganesh Ramkrishnan</a>
+</div>
+
 <!-- GitHub Link -->
 <div class="github-link" id="health-github" style="margin: 10px 0; font-weight: bold; font-size: 1.1em;">
     <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank">Visit GitHub</a>
 </div>
 
-<!-- Professor Website Link -->
-<div class="professor-website" id="health-professor-website">
-    <a href="https://iitb.irins.org/profile/155634" target="_blank">Prof. Alankar Alankar</a>
+
+<!-- Traffic Signal Optimization Section -->
+<div class="section-title" onclick="toggleSection('traffic-signal', 'traffic-github', 'traffic-professor-website')">3. Traffic Signal Optimization at Network Level using Machine Learning &#9660;</div>
+
+<div id="traffic-signal" class="section-content">
+    <ul>
+        <li>Modeled traffic using SUMO and explored optimization techniques with Tracy for traffic flow analysis.</li>
+        <li>Conducted a literature review on traffic signal optimization to understand state-of-the-art methods.</li>
+        <li>Implemented YOLO for real-time car detection and applied optimization algorithms to multi-lane traffic.</li>
+        <li>Future work includes utilizing evolutionary optimization algorithms to optimize traffic signals at the network level, aiming to reduce overall delays, model a mini-city, and test the algorithms within this environment.</li>
+    </ul>
 </div>
+
+<!-- Professor Website Link -->
+<div class="professor-website" id="traffic-professor-website">
+    <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Guide: Prof. Archak Mittal</a>
+</div>
+
+
+
 
 <h2 id="technical-projects">Technical Projects</h2>
 

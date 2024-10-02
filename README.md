@@ -90,7 +90,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <div class="link-container" id="amex-links">
     <a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank">Manager</a>
-    <a href="https://github.com/hrithikM86/your-github-repo" target="_blank">Visit GitHub</a>
 </div>
 
 <h2 id="international-experience">International Experience</h2>
@@ -161,7 +160,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <div class="link-container" id="traffic-links">
     <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Guide: Prof. Archak Mittal</a>
-    <a href="https://github.com/hrithikM86/Traffic-Signal-Optimization" target="_blank">Visit GitHub</a>
 </div>
 
 <h2 id="technical-projects">Technical Projects</h2>

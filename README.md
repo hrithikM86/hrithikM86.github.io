@@ -331,9 +331,10 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-<div class="link-container" id="electrical-links">
+<div class="link-container" id="ai-links">
     <a href="https://www.aero.iitb.ac.in/satlab/" target="_blank">Learn More</a>
 </div>
+
 
 <!-- Senior Department Academic Mentor Section -->
 <div class="section-title" onclick="toggleSection('academic-mentor', 'academic-links')">2. Senior Department Academic Mentor & Subgroup Head | Civil Engineering Department (Jun 2023 - Present) &#9660;</div>
@@ -346,11 +347,9 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-<div class="link-container" id="academic-links">
+<div class="link-container" id="ai-links">
     <a href="https://civildampiitb.github.io/" target="_blank">Learn More</a>
 </div>
-
-
 
 
 

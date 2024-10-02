@@ -153,4 +153,85 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div id="traffic-signal" class="section-content">
     <ul>
         <li>Modeled traffic using SUMO and explored optimization techniques with Tracy for traffic flow analysis.</li>
-        <li>
+        <li>Conducted a literature review on traffic signal optimization to understand state-of-the-art methods.</li>
+        <li>Implemented YOLO for real-time car detection and applied optimization algorithms to multi-lane traffic.</li>
+        <li>Future work includes utilizing evolutionary optimization algorithms to optimize traffic signals at the network level, aiming to reduce overall delays, model a mini-city, and test the algorithms within this environment.</li>
+    </ul>
+</div>
+
+<div class="link-container" id="traffic-links">
+    <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Guide: Prof. Archak Mittal</a>
+    <a href="https://github.com/hrithikM86/Traffic-Signal-Optimization" target="_blank">Visit GitHub</a>
+</div>
+
+<h2 id="technical-projects">Technical Projects</h2>
+<ul>
+    <li>Developed a machine learning-based model for predicting water potability using various water quality parameters.</li>
+    <li>Conducted feature selection techniques to identify the most impactful features affecting potability predictions.</li>
+</ul>
+
+<h2 id="positions-of-responsibility">Positions of Responsibility</h2>
+<ul>
+    <li>Mentored 25+ students in machine learning and data science for impactful projects at WIDS.</li>
+    <li>Received the DAMP Special Recognition Award for outstanding contributions as a member of the SMP team.</li>
+</ul>
+
+<h2 id="skills">Skills</h2>
+<ul>
+    <li>Deep Learning Frameworks: TensorFlow, Keras</li>
+    <li>Programming Languages: Python, C++, JavaScript</li>
+    <li>Tools: SUMO, YOLO, OpenAI Gym, Raspberry Pi, Git</li>
+    <li>Machine Learning Techniques: Neural Networks, Reinforcement Learning, GANs</li>
+</ul>
+
+<h2 id="relevant-courses">Relevant Courses</h2>
+<ul>
+    <li>Machine Learning</li>
+    <li>Deep Learning</li>
+    <li>Data Structures and Algorithms</li>
+    <li>Computer Vision</li>
+    <li>Artificial Intelligence</li>
+</ul>
+
+<h2 id="extracurricular-activities">Extracurricular Activities</h2>
+<ul>
+    <li>Participated in hackathons and workshops related to data science and machine learning.</li>
+    <li>Active member of the Civil Engineering Tech Team at EERI, IITB Student Chapter.</li>
+</ul>
+
+<h2 id="international-experience">International Experience</h2>
+<div class="section-title" onclick="toggleSection('sdc-content', 'sdc-links')">1. Seismic Design Competition, San Francisco, USA &#9660;</div>
+
+<div id="sdc-content" class="section-content">
+    <ul>
+        <li>Integral member of the Civil Engineering Tech Team at the Earthquake Engineering Research Institute (EERI), IITB Student Chapter, developing solutions for the Seismic Design Competition (SDC) by EERI in San Francisco.</li>
+        <li>Achieved 8th position internationally as the sole Indian team, competing against participants from 10+ different countries and 30+ renowned universities.</li>
+        <li>Generated building income of $0.38 million+ while ensuring the 19-storey skyscraper withstood all ground motions with negligible rooftop acceleration.</li>
+        <li>Designed the exterior of a 19-storey skyscraper with 4 sky bridges, seamlessly integrating with San Francisco’s cityscape using 3ds Max, Revit, and V-Ray to create 3D renderings.</li>
+        <li>Researched LEED certification and proposed sustainable elements such as Xeriscaping for enhanced carbon absorption and Double Sheet Eco-Sense Glass for a green building façade design.</li>
+    </ul>
+</div>
+
+<div class="link-container" id="sdc-links">
+    <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar</a>
+    <a href="https://github.com/hrithikM86/your-github-repo" target="_blank">Visit GitHub</a>
+</div>
+
+<script>
+    function toggleSection(contentId, linksId) {
+        const content = document.getElementById(contentId);
+        const links = document.getElementById(linksId);
+
+        // Toggle the display of the content
+        if (content.style.display === "block") {
+            content.style.display = "none";
+            links.style.display = "none"; // Hide links when content is hidden
+        } else {
+            content.style.display = "block";
+            links.style.display = "block"; // Show links when content is shown
+        }
+    }
+</script>
+
+</body>
+</html>

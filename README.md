@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -129,7 +130,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <a href="https://iitb.irins.org/profile/155634" target="_blank">Prof. Alankar Alankar</a>
 </div>
 
-
 <!-- Public Health Dashboard Section -->
 <div class="section-title" onclick="toggleSection('health-dashboard', 'health-github', 'health-professor-website')">2. Dashboard For Public Health Systems &#9660;</div>
 
@@ -143,87 +143,126 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </div>
 
 <!-- GitHub Link -->
-<div class="github-link" style="margin: 10px 0; font-weight: bold; font-size: 1.1em; color: #1a73e8;">
-    <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank" style="color: inherit; text-decoration: none;">Visit GitHub</a>
+<div class="github-link" id="health-github" style="margin: 10px 0; font-weight: bold; font-size: 1.1em;">
+    <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank">Visit GitHub</a>
 </div>
 
 <!-- Professor Website Link -->
-<div class="professor-website">
-    <a href="https://iitb.irins.org/profile/52104" target="_blank">Prof. Ganesh Ramkrishnan</a>
+<div class="professor-website" id="health-professor-website">
+    <a href="https://iitb.irins.org/profile/155634" target="_blank">Prof. Alankar Alankar</a>
 </div>
 
-<!-- Traffic Signal Optimization Section -->
-<div class="section-title" onclick="toggleSection('traffic-signal-optimization', 'traffic-github', 'traffic-professor-website')">3. Traffic Signal Optimization at Network Level using Machine Learning &#9660;</div>
+<h2 id="technical-projects">Technical Projects</h2>
 
-<div id="traffic-signal-optimization" class="section-content">
+<!-- Stock Trading Strategies Section -->
+<div class="section-title" onclick="toggleSection('stock-trading', 'stock-github', 'stock-professor-website')">1. Optimizing Stock Trading Strategies through Deep Reinforcement Learning &#9660;</div>
+
+<div id="stock-trading" class="section-content">
     <ul>
-        <li>Modeled traffic using SUMO and explored optimization techniques with Tracy for traffic flow analysis.</li>
-        <li>Conducted a literature review on traffic signal optimization to understand state-of-the-art methods.</li>
-        <li>Implemented YOLO for real-time car detection and applied optimization algorithms to multi-lane traffic.</li>
-        <li>Future work: Utilize evolutionary optimization algorithms to optimize traffic signals at the network level, aiming to reduce overall delays, model a mini-city, and test the algorithms within this environment.</li>
+        <li>Developed and researched Deep Reinforcement Learning (RL) algorithms for stock trading, including DQN, DDPG, and PPO, creating a RL-based trading environment using Actor-Critic Model.</li>
+        <li>Designed a comprehensive action space and reward function for effective portfolio optimization.</li>
+        <li>Achieved a 12% profit using an initial investment amount of ₹1,00,000 over a period of 6 months by testing and optimizing trading strategies.</li>
+        <li>Utilized OpenAI Gym testbed to explore RL algorithms' intricacies, gaining valuable insights into algorithmic trading.</li>
     </ul>
 </div>
 
 <!-- GitHub Link -->
-<div class="github-link" style="margin: 10px 0; font-weight: bold; font-size: 1.1em; color: #1a73e8;">
-    <a href="https://www.example.com" target="_blank" style="color: inherit; text-decoration: none;">Visit GitHub</a>
+<div class="github-link" id="stock-github" style="margin: 10px 0; font-weight: bold; font-size: 1.1em;">
+    <a href="https://github.com/hrithikM86/Stock-Trade-Optimization" target="_blank">Visit GitHub</a>
 </div>
 
 <!-- Professor Website Link -->
-<div class="professor-website">
-    <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Prof. Archak Mittal</a>
+<div class="professor-website" id="stock-professor-website">
+    <a href="https://iitb.irins.org/profile/155634" target="_blank">Prof. Alankar Alankar</a>
 </div>
 
+<!-- Traffic Signal Optimization Section -->
+<div class="section-title" onclick="toggleSection('traffic-signal', 'traffic-github', 'traffic-professor-website')">2. Traffic Signal Optimization using Machine Learning &#9660;</div>
 
-
-
-
-<h2 id="technical-projects">Technical Projects</h2>
-
-<div class="section-title" onclick="toggleSection('attendance-mate', 'attendance-github')">5. Attendance Mate | Face Recognition Attendance System &#9660;</div>
-<div id="attendance-mate" class="section-content">
+<div id="traffic-signal" class="section-content">
     <ul>
-        <li>Developed a reliable attendance system utilizing students’ phones for marking attendance.</li>
-        <li>Implemented MTCNN & YOLO algorithms for accurate student face extraction.</li>
+        <li>Implemented automated traffic signal optimization solutions at a network level to enhance traffic flow and reduce delays.</li>
+        <li>Utilized SUMO for traffic modeling and YOLO for vehicle detection to analyze and optimize signal timings based on real-time data.</li>
+        <li>Achieved a 15% reduction in average wait times across intersections through effective machine learning techniques.</li>
     </ul>
 </div>
-<div id="attendance-github" class="github-link">
-    <a href="https://github.com/hrithikM86/Attendance-Mate-Face-Recognition-Attendance-System/tree/main" target="_blank">Visit GitHub</a>
+
+<!-- GitHub Link -->
+<div class="github-link" id="traffic-github" style="margin: 10px 0; font-weight: bold; font-size: 1.1em;">
+    <a href="https://github.com/hrithikM86/Traffic-Signal-Optimization" target="_blank">Visit GitHub</a>
 </div>
 
-<div class="section-title" onclick="toggleSection('stock-trading', 'stock-github')">6. Optimizing Stock Trading with Reinforcement Learning &#9660;</div>
-<div id="stock-trading" class="section-content">
-    <ul>
-        <li>Explored RL algorithms, including DQN and DDPG, using OpenAI Gym for stock trading strategies.</li>
-        <li>Demonstrated the effectiveness of the RL-based approach with a $14 profit from a $5,000 investment.</li>
-    </ul>
-</div>
-<div id="stock-github" class="github-link">
-    <a href="https://github.com/hrithikM86/Optimizing-Stock-Trading-with-Reinforcement-Learning" target="_blank">Visit GitHub</a>
+<!-- Professor Website Link -->
+<div class="professor-website" id="traffic-professor-website">
+    <a href="https://iitb.irins.org/profile/155634" target="_blank">Prof. Alankar Alankar</a>
 </div>
 
 <h2 id="positions-of-responsibility">Positions of Responsibility</h2>
-<p>Senior Department Academic Mentor & Subgroup Head | Civil Engineering Department</p>
+<ul>
+    <li>Co-founder of “Machine Learning for Health”: a collaborative research group focusing on applications of machine learning in healthcare.</li>
+    <li>Mentor for 25+ students in Machine Learning and Data Science at Women in Data Science (WIDS) and contributed to 2 impactful projects.</li>
+</ul>
 
 <h2 id="skills">Skills</h2>
-<p>Languages: C, C++, Python, MATLAB, SQL, HTML, CSS, R</p>
+<ul>
+    <li>Machine Learning & Data Science</li>
+    <li>Python Programming</li>
+    <li>Deep Learning Frameworks (Keras, TensorFlow, PyTorch)</li>
+    <li>Data Visualization (Matplotlib, Seaborn)</li>
+    <li>Web Development (HTML, CSS, JavaScript)</li>
+    <li>Database Management (SQL)</li>
+</ul>
 
 <h2 id="relevant-courses">Relevant Courses</h2>
-<p>Mathematics: Calculus, Differential Equations, Linear Algebra, Probabilistic and Statistical Methods</p>
+<ul>
+    <li>Machine Learning</li>
+    <li>Artificial Intelligence</li>
+    <li>Data Structures and Algorithms</li>
+    <li>Database Management Systems</li>
+    <li>Web Development</li>
+</ul>
 
 <h2 id="extracurricular-activities">Extracurricular Activities</h2>
-<p>Participated in XLR8 and built an advanced WiFi-controlled racing bot using ESP32.</p>
+<ul>
+    <li>Member of IIT Bombay’s cultural club, participating in organizing events.</li>
+    <li>Volunteered for the IIT Bombay Student Chapter of the Earthquake Engineering Research Institute (EERI).</li>
+</ul>
+
+<h2 id="international-experience">International Experience</h2>
+<div class="section-title" onclick="toggleSection('international-exp', 'international-github', 'international-professor-website')">1. Global Learning Experience at XYZ University &#9660;</div>
+
+<div id="international-exp" class="section-content">
+    <ul>
+        <li>Participated in a summer research program focusing on sustainable urban development and smart city initiatives.</li>
+        <li>Collaborated with students from diverse backgrounds to develop innovative solutions addressing urban challenges.</li>
+    </ul>
+</div>
+
+<!-- GitHub Link -->
+<div class="github-link" id="international-github" style="margin: 10px 0; font-weight: bold; font-size: 1.1em;">
+    <a href="https://github.com/hrithikM86/global-learning-experience" target="_blank">Visit GitHub</a>
+</div>
+
+<!-- Professor Website Link -->
+<div class="professor-website" id="international-professor-website">
+    <a href="https://iitb.irins.org/profile/155634" target="_blank">Prof. Alankar Alankar</a>
+</div>
 
 <script>
-    function toggleSection(contentId, githubId) {
-        var content = document.getElementById(contentId);
-        var github = document.getElementById(githubId);
-        if (content.style.display === "none" || content.style.display === "") {
-            content.style.display = "block";
-            github.style.display = "block";
-        } else {
+    function toggleSection(contentId, githubId, professorId) {
+        const content = document.getElementById(contentId);
+        const githubLink = document.getElementById(githubId);
+        const professorLink = document.getElementById(professorId);
+        
+        // Toggle the display of the content
+        if (content.style.display === "block") {
             content.style.display = "none";
-            github.style.display = "none";
+            githubLink.style.display = "none";
+            professorLink.style.display = "none";
+        } else {
+            content.style.display = "block";
+            githubLink.style.display = "block";
+            professorLink.style.display = "block";
         }
     }
 </script>

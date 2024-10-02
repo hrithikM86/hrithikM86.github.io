@@ -71,6 +71,8 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h2 id="professional-experience">Professional Experience</h2>
 
+<div class="section-title" onclick="toggleSection('amex-content', 'amex-github')">1. American Express &#9660;</div>
+
 <div id="amex-content" class="section-content">
     <ul>
         <li>Developed a variable rationalization framework to enhance model stability with minimal performance impact, utilizing an in-house Vendor Evaluation Tool along with SHAP, mRMR, and ALE techniques.</li>

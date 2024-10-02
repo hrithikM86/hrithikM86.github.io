@@ -71,16 +71,20 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h2 id="professional-experience">Professional Experience</h2>
 
-<div class="section-title" onclick="toggleSection('amex-content', 'amex-github')">1. American Express &#9660;</div>
 <div id="amex-content" class="section-content">
     <ul>
-        <li>Developed a variable rationalization framework to enhance model stability using SHAP, mRMR, and ALE techniques.</li>
+        <li>Developed a variable rationalization framework to enhance model stability with minimal performance impact, utilizing an in-house Vendor Evaluation Tool along with SHAP, mRMR, and ALE techniques.</li>
+        <li>Proposed strategies to mitigate overfitting and performance decay in previous generation models.</li>
         <li>Utilized GBM algorithms for default prediction and Bayesian optimization for hyperparameter tuning.</li>
-        <li>Achieved a 50% reduction in model variables, leading to a 30% improvement in monthly capture rate stability.</li>
+        <li>Achieved a 50%+ (179/345) reduction in model variables using the variable rationalization framework.</li>
+        <li>Developed a novel metric using basis points (bps) drop per variable in Gini and capture rate to assess model stability.</li>
+        <li>Utilized variables suggested by the rationalization tool to develop models, achieving a 30% improvement in monthly capture rate stability for commercial risk models managing over $100 billion in exposures.</li>
     </ul>
 </div>
+
+<!-- GitHub Link -->
 <div id="amex-github" class="github-link">
-    <a href="https://www.example.com" target="_blank">Visit GitHub</a>
+    <a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank">Manager</a>
 </div>
 
 <h2 id="international-experience">International Experience</h2>

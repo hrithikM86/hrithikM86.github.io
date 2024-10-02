@@ -88,9 +88,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank">Manager</a>
 </div>
 
-<div class="professor-website" id="amex-professor-website">
-    <a href="https://iitb.irins.org/profile/155634" target="_blank">Prof. Alankar Alankar</a>
-</div>
 
 <h2 id="international-experience">International Experience</h2>
 <div class="section-title" onclick="toggleSection('sdc-content', 'sdc-github', 'sdc-professor-website')">1. Seismic Design Competition, San Francisco, USA &#9660;</div>
@@ -108,7 +105,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <h2 id="research-projects">Research & Development Projects</h2>
 
 <!-- Concrete Crack Detection Section -->
-<div class="section-title" onclick="toggleSection('crack-detection', 'crack-github', 'crack-professor-website')">1. Classification, Segmentation and GAN Implementation on Concrete Crack Surfaces &#9660;</div>
+<div class="section-title" onclick="toggleSection('crack-detection')">1. Classification, Segmentation and GAN Implementation on Concrete Crack Surfaces &#9660;</div>
 
 <div id="crack-detection" class="section-content">
     <ul>
@@ -117,21 +114,18 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
         <li>Implemented a U-Net architecture in TensorFlow for crack surface segmentation, achieving a Dice Coefficient of 75.3% and a Mean Intersection over Union (IoU) of 61.3%.</li>
         <li>Future work: Configuring a Raspberry Pi with an integrated camera to implement a crack detection algorithm, enabling detection in rotary machines and predicting overall machine health.</li>
     </ul>
+    <div class="links">
+        <div class="professor-website" id="crack-professor-website">
+            <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar</a>
+        </div>
+        <div class="github-link" id="crack-github" style="margin-left: 20px;">
+            <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">Visit GitHub</a>
+        </div>
+    </div>
 </div>
-
-<!-- Professor Website Link -->
-<div class="professor-website" id="crack-professor-website">
-    <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide : Prof. Alankar Alankar</a>
-</div>
-
-<!-- GitHub Link -->
-<div class="github-link" id="crack-github" style="margin: 10px 0; font-weight: bold; font-size: 1.1em;">
-    <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">Visit GitHub</a>
-</div>
-
 
 <!-- Public Health Dashboard Section -->
-<div class="section-title" onclick="toggleSection('health-dashboard', 'health-github', 'health-professor-website')">2. Dashboard For Public Health Systems &#9660;</div>
+<div class="section-title" onclick="toggleSection('health-dashboard')">2. Dashboard For Public Health Systems &#9660;</div>
 
 <div id="health-dashboard" class="section-content">
     <ul>
@@ -140,21 +134,18 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
         <li>Pioneered a comprehensive ‘Health Index’ to assess district health conditions, with a focus on mental health metrics.</li>
         <li>Accurately identified 11 out of 34 districts with suboptimal Health Index scores and recommended targeted strategies for urgent intervention and improved health management practices.</li>
     </ul>
+    <div class="links">
+        <div class="professor-website" id="health-professor-website">
+            <a href="https://iitb.irins.org/profile/52104" target="_blank">Guide: Prof. Ganesh Ramkrishnan</a>
+        </div>
+        <div class="github-link" id="health-github" style="margin-left: 20px;">
+            <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank">Visit GitHub</a>
+        </div>
+    </div>
 </div>
-
-<!-- Professor Website Link -->
-<div class="professor-website" id="health-professor-website">
-    <a href="https://iitb.irins.org/profile/52104" target="_blank">Guide : Prof. Ganesh Ramkrishnan</a>
-</div>
-
-<!-- GitHub Link -->
-<div class="github-link" id="health-github" style="margin: 10px 0; font-weight: bold; font-size: 1.1em;">
-    <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank">Visit GitHub</a>
-</div>
-
 
 <!-- Traffic Signal Optimization Section -->
-<div class="section-title" onclick="toggleSection('traffic-signal', 'traffic-github', 'traffic-professor-website')">3. Traffic Signal Optimization at Network Level using Machine Learning &#9660;</div>
+<div class="section-title" onclick="toggleSection('traffic-signal')">3. Traffic Signal Optimization at Network Level using Machine Learning &#9660;</div>
 
 <div id="traffic-signal" class="section-content">
     <ul>
@@ -163,13 +154,15 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
         <li>Implemented YOLO for real-time car detection and applied optimization algorithms to multi-lane traffic.</li>
         <li>Future work includes utilizing evolutionary optimization algorithms to optimize traffic signals at the network level, aiming to reduce overall delays, model a mini-city, and test the algorithms within this environment.</li>
     </ul>
+    <div class="links">
+        <div class="professor-website" id="traffic-professor-website">
+            <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Guide: Prof. Archak Mittal</a>
+        </div>
+        <div class="github-link" id="traffic-github" style="margin-left: 20px;">
+            <a href="https://github.com/hrithikM86/Traffic-Signal-Optimization" target="_blank">Visit GitHub</a>
+        </div>
+    </div>
 </div>
-
-<!-- Professor Website Link -->
-<div class="professor-website" id="traffic-professor-website">
-    <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Guide: Prof. Archak Mittal</a>
-</div>
-
 
 
 

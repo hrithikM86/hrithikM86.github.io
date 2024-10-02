@@ -330,13 +330,10 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
         <li>Executed a 3-step recruitment process to select 6 of 50+ applicants, evaluating their technical skills.</li>
         <li>Successfully designed, mentored, and evaluated two technical hardware projects for the mini-project round.</li>
     </ul>
+    <div class="link-container" id="electrical-links">
+        <a href="https://www.aero.iitb.ac.in/satlab/" target="_blank">Learn More</a>
+    </div>
 </div>
-
-
-<div class="link-container" id="academic-links">
-    <a href="https://www.aero.iitb.ac.in/satlab/" target="_blank">Learn More</a>
-</div>
-
 
 <!-- Senior Department Academic Mentor Section -->
 <div class="section-title" onclick="toggleSection('academic-mentor', 'academic-links')">2. Senior Department Academic Mentor & Subgroup Head | Civil Engineering Department &#9660;</div>
@@ -347,11 +344,11 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
         <li>Leading a 6-member team to survey departmental needs and facilitate effective mentorship delivery.</li>
         <li>Received the DAMP Special Recognition Award, given to 17 out of 400 students for exceptional contributions.</li>
     </ul>
+    <div class="link-container" id="academic-links">
+        <a href="https://civildampiitb.github.io/" target="_blank">Learn More</a>
+    </div>
 </div>
 
-<div class="link-container" id="electrical-links">
-    <a href="https://civildampiitb.github.io/" target="_blank">Learn More</a>
-</div>
 
 
 
@@ -361,7 +358,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <ul>
     <li><strong>Programming Languages:</strong> C, C++, Python, MATLAB, SQL, HTML, CSS, R</li>
     <li><strong>Deep Learning Frameworks:</strong> TensorFlow, Keras, PyTorch</li>
-    <li><strong>Machine Learning Techniques:</strong> Neural Networks, Reinforcement Learning, GANs</li>
     <li><strong>Tools:</strong> SUMO, YOLO, OpenAI Gym, Raspberry Pi, Git, GitHub, EAGLE, Microchip Studio, QGIS, ETABS, Eclipse, MapWindow GIS</li>
     <li><strong>Libraries:</strong> Scikit-learn, NumPy, SciPy, Matplotlib, Pandas, PySpark, PiCamera, VRay</li>
 </ul>

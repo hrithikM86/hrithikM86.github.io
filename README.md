@@ -90,41 +90,82 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </div>
 
 <h2 id="international-experience">International Experience</h2>
-<div class="section-title" onclick="toggleSection('sdc-content', 'sdc-github')">2. Seismic Design Competition, San Francisco, USA &#9660;</div>
+<div class="section-title" onclick="toggleSection('sdc-content', 'sdc-github')">1. Seismic Design Competition, San Francisco, USA &#9660;</div>
+
 <div id="sdc-content" class="section-content">
     <ul>
-        <li>Developed solutions for the Earthquake Engineering Research Institute's Seismic Design Competition.</li>
-        <li>Achieved 8th position internationally as the sole Indian team.</li>
-        <li>Designed a 19-storey skyscraper with sustainable design elements.</li>
+        <li>Integral member of the Civil Engineering Tech Team at the Earthquake Engineering Research Institute (EERI), IITB Student Chapter, developing solutions for the Seismic Design Competition (SDC) by EERI in San Francisco.</li>
+        <li>Achieved 8th position internationally as the sole Indian team, competing against participants from 10+ different countries and 30+ renowned universities.</li>
+        <li>Generated building income of $0.38 million+ while ensuring the 19-storey skyscraper withstood all ground motions with negligible rooftop acceleration.</li>
+        <li>Designed the exterior of a 19-storey skyscraper with 4 sky bridges, seamlessly integrating with San Francisco’s cityscape using 3ds Max, Revit, and V-Ray to create 3D renderings.</li>
+        <li>Researched LEED certification and proposed sustainable elements such as Xeriscaping for enhanced carbon absorption and Double Sheet Eco-Sense Glass for a green building façade design.</li>
     </ul>
-</div>
-<div id="sdc-github" class="github-link">
-    <a href="https://www.example.com" target="_blank">Visit GitHub</a>
 </div>
 
 <h2 id="research-projects">Research & Development Projects</h2>
 
-<div class="section-title" onclick="toggleSection('crack-detection', 'crack-github')">3. Classification, Segmentation and GAN Implementation on Concrete Crack Surfaces &#9660;</div>
+<!-- Concrete Crack Detection Section -->
+<div class="section-title" onclick="toggleSection('crack-detection', 'crack-github', 'professor-website')">1. Classification, Segmentation and GAN Implementation on Concrete Crack Surfaces &#9660;</div>
+
 <div id="crack-detection" class="section-content">
     <ul>
         <li>Implemented DenseNet121, ResNet50, and EfficientNet models for concrete crack detection.</li>
-        <li>Engineered a Deep Convolutional Generative Adversarial Network (DCGAN) to generate images of concrete cracks.</li>
+        <li>Conducted a literature survey on Generative Adversarial Networks (GANs) and engineered a Deep Convolutional GAN (DCGAN) to generate images of concrete cracks.</li>
+        <li>Implemented a U-Net architecture in TensorFlow for crack surface segmentation, achieving a Dice Coefficient of 75.3% and a Mean Intersection over Union (IoU) of 61.3%.</li>
+        <li>Future work: Configuring a Raspberry Pi with an integrated camera to implement a crack detection algorithm, enabling detection in rotary machines and predicting overall machine health.</li>
     </ul>
 </div>
-<div id="crack-github" class="github-link">
+
+<!-- GitHub Link -->
+<div class="github-link">
     <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">Visit GitHub</a>
 </div>
 
-<div class="section-title" onclick="toggleSection('health-dashboard', 'health-github')">4. Dashboard For Public Health Systems &#9660;</div>
+<!-- Professor Website Link -->
+<div class="professor-website">
+    <a href="https://iitb.irins.org/profile/155634" target="_blank">Prof. Alankar Alankar</a>
+</div>
+
+<!-- Public Health Dashboard Section -->
+<div class="section-title" onclick="toggleSection('health-dashboard', 'health-github', 'health-professor-website')">2. Dashboard For Public Health Systems &#9660;</div>
+
 <div id="health-dashboard" class="section-content">
     <ul>
-        <li>Developed a dashboard for analytics on regional healthcare services in Maharashtra.</li>
-        <li>Pioneered a comprehensive ‘Health Index’ for assessing district health conditions.</li>
+        <li>Developed a data-driven dashboard for analytics and actionable insights on regional healthcare services in Maharashtra.</li>
+        <li>Extracted key insights, including a 6-fold increase in mental health cases due to COVID-19, and visualized mental health patient data on the Maharashtra map, culminating in a comprehensive report.</li>
+        <li>Pioneered a comprehensive ‘Health Index’ to assess district health conditions, with a focus on mental health metrics.</li>
+        <li>Accurately identified 11 out of 34 districts with suboptimal Health Index scores and recommended targeted strategies for urgent intervention and improved health management practices.</li>
     </ul>
 </div>
-<div id="health-github" class="github-link">
+
+<!-- GitHub Link -->
+<div class="github-link">
     <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank">Visit GitHub</a>
 </div>
+
+<!-- Professor Website Link -->
+<div class="professor-website">
+    <a href="https://iitb.irins.org/profile/52104" target="_blank">Prof Ganesh Ramkrishnan</a>
+</div>
+
+<!-- Traffic Signal Optimization Section -->
+<div class="section-title" onclick="toggleSection('traffic-signal-optimization', 'traffic-github', 'traffic-professor-website')">3. Traffic Signal Optimization at Network Level using Machine Learning &#9660;</div>
+
+<div id="traffic-signal-optimization" class="section-content">
+    <ul>
+        <li>Modeled traffic using SUMO and explored optimization techniques with Tracy for traffic flow analysis.</li>
+        <li>Conducted a literature review on traffic signal optimization to understand state-of-the-art methods.</li>
+        <li>Implemented YOLO for real-time car detection and applied optimization algorithms to multi-lane traffic.</li>
+        <li>Future work: Utilize evolutionary optimization algorithms to optimize traffic signals at the network level, aiming to reduce overall delays, model a mini-city, and test the algorithms within this environment.</li>
+    </ul>
+</div>
+
+<!-- Professor Website Link -->
+<div class="professor-website">
+    <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Prof. Archak Mittal</a>
+</div>
+
+
 
 <h2 id="technical-projects">Technical Projects</h2>
 

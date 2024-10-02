@@ -321,7 +321,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <h2 id="positions-of-responsibility">Positions of Responsibility</h2>
 
 <!-- Electrical Subsystem Head Section -->
-<div class="section-title" onclick="toggleSection('electrical-head', 'electrical-links')">1. Electrical Subsystem Head | Student Satellite Program, IIT Bombay (Apr 2023 - Mar 2024) &#9660;</div>
+<div class="section-title" onclick="toggleSection('electrical-head', 'electrical-links')">1. Electrical Subsystem Head | Student Satellite Program, IIT Bombay &#9660;</div>
 
 <div id="electrical-head" class="section-content">
     <ul>
@@ -337,7 +337,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 
 <!-- Senior Department Academic Mentor Section -->
-<div class="section-title" onclick="toggleSection('academic-mentor', 'academic-links')">2. Senior Department Academic Mentor & Subgroup Head | Civil Engineering Department (Jun 2023 - Present) &#9660;</div>
+<div class="section-title" onclick="toggleSection('academic-mentor', 'academic-links')">2. Senior Department Academic Mentor & Subgroup Head | Civil Engineering Department &#9660;</div>
 
 <div id="academic-mentor" class="section-content">
     <ul>

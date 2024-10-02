@@ -321,7 +321,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <h2 id="positions-of-responsibility">Positions of Responsibility</h2>
 
 <!-- Electrical Subsystem Head Section -->
-<div class="section-title" onclick="toggleSection('electrical-head', 'electrical-links')">1. Electrical Subsystem Head | Student Satellite Program, IIT Bombay &#9660;</div>
+<div class="section-title" onclick="toggleSection('electrical-head', 'electrical-links')">1. Electrical Subsystem Head | Student Satellite Program, IIT Bombay (Apr 2023 - Mar 2024) &#9660;</div>
 
 <div id="electrical-head" class="section-content">
     <ul>
@@ -331,10 +331,12 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-
+<div class="link-container" id="electrical-links">
+    <a href="https://www.aero.iitb.ac.in/satlab/" target="_blank">Learn More</a>
+</div>
 
 <!-- Senior Department Academic Mentor Section -->
-<div class="section-title" onclick="toggleSection('academic-mentor', 'academic-links')">2. Senior Department Academic Mentor & Subgroup Head | Civil Engineering Department &#9660;</div>
+<div class="section-title" onclick="toggleSection('academic-mentor', 'academic-links')">2. Senior Department Academic Mentor & Subgroup Head | Civil Engineering Department (Jun 2023 - Present) &#9660;</div>
 
 <div id="academic-mentor" class="section-content">
     <ul>
@@ -343,6 +345,11 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
         <li>Received the DAMP Special Recognition Award, given to 17 out of 400 students for exceptional contributions.</li>
     </ul>
 </div>
+
+<div class="link-container" id="academic-links">
+    <a href="https://civildampiitb.github.io/" target="_blank">Learn More</a>
+</div>
+
 
 
 

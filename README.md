@@ -250,6 +250,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <a href="https://www.aero.iitb.ac.in/satlab/glee.php" target="_blank">Visit Website</a>
 </div>
 
+
 <!-- Star Tracker based Attitude Determination System (STADS) -->
 <div class="section-title" onclick="toggleSection('stads', 'stads-links')">8. Star Tracker based Attitude Determination System (STADS) &#9660;</div>
 <div id="stads" class="section-content">
@@ -331,7 +332,8 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-<div class="link-container" id="ai-links">
+
+<div class="link-container" id="academic-links">
     <a href="https://www.aero.iitb.ac.in/satlab/" target="_blank">Learn More</a>
 </div>
 
@@ -347,7 +349,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-<div class="link-container" id="ai-links">
+<div class="link-container" id="electrical-links">
     <a href="https://civildampiitb.github.io/" target="_blank">Learn More</a>
 </div>
 
@@ -357,26 +359,46 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h2 id="skills">Skills</h2>
 <ul>
-    <li>Deep Learning Frameworks: TensorFlow, Keras</li>
-    <li>Programming Languages: Python, C++, JavaScript</li>
-    <li>Tools: SUMO, YOLO, OpenAI Gym, Raspberry Pi, Git</li>
-    <li>Machine Learning Techniques: Neural Networks, Reinforcement Learning, GANs</li>
+    <li><strong>Programming Languages:</strong> C, C++, Python, MATLAB, SQL, HTML, CSS, R</li>
+    <li><strong>Deep Learning Frameworks:</strong> TensorFlow, Keras, PyTorch</li>
+    <li><strong>Machine Learning Techniques:</strong> Neural Networks, Reinforcement Learning, GANs</li>
+    <li><strong>Tools:</strong> SUMO, YOLO, OpenAI Gym, Raspberry Pi, Git, GitHub, EAGLE, Microchip Studio, QGIS, ETABS, Eclipse, MapWindow GIS</li>
+    <li><strong>Libraries:</strong> Scikit-learn, NumPy, SciPy, Matplotlib, Pandas, PySpark, PiCamera, VRay</li>
 </ul>
 
 <h2 id="relevant-courses">Relevant Courses</h2>
 <ul>
-    <li>Machine Learning</li>
-    <li>Deep Learning</li>
-    <li>Data Structures and Algorithms</li>
-    <li>Computer Vision</li>
-    <li>Artificial Intelligence</li>
+    <li><strong>Academic Courses:</strong>
+        <ul>
+            <li>Mathematics: Calculus, Differential Equations, Linear Algebra, Probabilistic and Statistical Methods in Civil Engineering</li>
+            <li>Programming: Data Structures and Algorithms (DSA), Design and Analysis of Algorithms (DAA), Introduction to Machine Learning, Logic for Computer Science</li>
+        </ul>
+    </li>
+    <li><strong>Online Courses:</strong>
+        <ul>
+            <li>Deep Learning Specialization by Andrew Ng</li>
+            <li>Machine Learning Specialization by Andrew Ng</li>
+            <li>Natural Language Processing Specialization</li>
+            <li>Data Science Bootcamp by WIDS</li>
+            <li>MATLAB Onramp</li>
+        </ul>
+    </li>
 </ul>
 
 <h2 id="extracurricular-activities">Extracurricular Activities</h2>
 <ul>
     <li>Participated in hackathons and workshops related to data science and machine learning.</li>
     <li>Active member of the Civil Engineering Tech Team at EERI, IITB Student Chapter.</li>
+    <li>Participated in XLR8 and built an advanced WiFi-controlled racing bot using the ESP32 micro-controller.</li>
+    <li>Participated in an RC plane competition and built a high-performance aircraft showcasing technical skills.</li>
+    <li>Developed a Bluetooth-controlled robotic arm with Arduino UNO, capable of precise movements.</li>
+    <li>Guided 12+ students in developing a CNN-based model that translates ASL live video to text at SoC.</li>
+    <li>Mentored over 25+ students in machine learning and data science for two impactful projects at WIDS.</li>
+    <li>Presented Pratham and STADS modules at the Tech & RnD Expo as part of the Student Satellite team.</li>
+    <li>Participated in a Satellite Tracking Session, gaining hands-on experience in tracking satellites.</li>
+    <li>Dedicated 80+ hours to impactful community service as a volunteer for UMMEED, an initiative under NSS.</li>
 </ul>
+
 
 
 <script>

@@ -197,23 +197,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <li>Active member of the Civil Engineering Tech Team at EERI, IITB Student Chapter.</li>
 </ul>
 
-<h2 id="international-experience">International Experience</h2>
-<div class="section-title" onclick="toggleSection('sdc-content', 'sdc-links')">1. Seismic Design Competition, San Francisco, USA &#9660;</div>
-
-<div id="sdc-content" class="section-content">
-    <ul>
-        <li>Integral member of the Civil Engineering Tech Team at the Earthquake Engineering Research Institute (EERI), IITB Student Chapter, developing solutions for the Seismic Design Competition (SDC) by EERI in San Francisco.</li>
-        <li>Achieved 8th position internationally as the sole Indian team, competing against participants from 10+ different countries and 30+ renowned universities.</li>
-        <li>Generated building income of $0.38 million+ while ensuring the 19-storey skyscraper withstood all ground motions with negligible rooftop acceleration.</li>
-        <li>Designed the exterior of a 19-storey skyscraper with 4 sky bridges, seamlessly integrating with San Francisco’s cityscape using 3ds Max, Revit, and V-Ray to create 3D renderings.</li>
-        <li>Researched LEED certification and proposed sustainable elements such as Xeriscaping for enhanced carbon absorption and Double Sheet Eco-Sense Glass for a green building façade design.</li>
-    </ul>
-</div>
-
-<div class="link-container" id="sdc-links">
-    <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar</a>
-    <a href="https://github.com/hrithikM86/your-github-repo" target="_blank">Visit GitHub</a>
-</div>
 
 <script>
     function toggleSection(contentId, linksId) {

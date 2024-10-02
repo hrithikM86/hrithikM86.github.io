@@ -24,18 +24,18 @@
             margin-left: 20px;
         }
 
-        .github-link {
+        .github-link, .professor-website {
             display: none;
             margin-left: 20px;
             color: green;
         }
 
-        .github-link a {
+        .github-link a, .professor-website a {
             color: green;
             text-decoration: none;
         }
 
-        .github-link a:hover {
+        .github-link a:hover, .professor-website a:hover {
             text-decoration: underline;
         }
     </style>
@@ -71,7 +71,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h2 id="professional-experience">Professional Experience</h2>
 
-<div class="section-title" onclick="toggleSection('amex-content', 'amex-github')">1. American Express &#9660;</div>
+<div class="section-title" onclick="toggleSection('amex-content', 'amex-github', 'amex-professor-website')">1. American Express &#9660;</div>
 
 <div id="amex-content" class="section-content">
     <ul>
@@ -84,13 +84,16 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-<!-- GitHub Link -->
-<div id="amex-github" class="github-link">
+<div class="github-link" id="amex-github" style="margin: 10px 0; font-weight: bold; font-size: 1.1em;">
     <a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank">Manager</a>
 </div>
 
+<div class="professor-website" id="amex-professor-website">
+    <a href="https://iitb.irins.org/profile/155634" target="_blank">Prof. Alankar Alankar</a>
+</div>
+
 <h2 id="international-experience">International Experience</h2>
-<div class="section-title" onclick="toggleSection('sdc-content', 'sdc-github')">1. Seismic Design Competition, San Francisco, USA &#9660;</div>
+<div class="section-title" onclick="toggleSection('sdc-content', 'sdc-github', 'sdc-professor-website')">1. Seismic Design Competition, San Francisco, USA &#9660;</div>
 
 <div id="sdc-content" class="section-content">
     <ul>
@@ -105,7 +108,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <h2 id="research-projects">Research & Development Projects</h2>
 
 <!-- Concrete Crack Detection Section -->
-<div class="section-title" onclick="toggleSection('crack-detection', 'crack-github', 'professor-website')">1. Classification, Segmentation and GAN Implementation on Concrete Crack Surfaces &#9660;</div>
+<div class="section-title" onclick="toggleSection('crack-detection', 'crack-github', 'crack-professor-website')">1. Classification, Segmentation and GAN Implementation on Concrete Crack Surfaces &#9660;</div>
 
 <div id="crack-detection" class="section-content">
     <ul>
@@ -117,14 +120,15 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </div>
 
 <!-- GitHub Link -->
-<div class="github-link" style="margin: 10px 0; font-weight: bold; font-size: 1.1em; color: #1a73e8;">
-    <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank" style="color: inherit; text-decoration: none;">Visit GitHub</a>
+<div class="github-link" id="crack-github" style="margin: 10px 0; font-weight: bold; font-size: 1.1em;">
+    <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">Visit GitHub</a>
 </div>
 
 <!-- Professor Website Link -->
-<div class="professor-website">
+<div class="professor-website" id="crack-professor-website">
     <a href="https://iitb.irins.org/profile/155634" target="_blank">Prof. Alankar Alankar</a>
 </div>
+
 
 <!-- Public Health Dashboard Section -->
 <div class="section-title" onclick="toggleSection('health-dashboard', 'health-github', 'health-professor-website')">2. Dashboard For Public Health Systems &#9660;</div>

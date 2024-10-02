@@ -15,7 +15,7 @@
 
         .section-title {
             cursor: pointer;
-            color: black;
+            color: blue; /* Set the heading color to blue */
             margin: 10px 0;
             font-weight: bold;
         }
@@ -38,16 +38,6 @@
 
         .github-link a:hover {
             text-decoration: underline;
-        }
-
-        .arrow {
-            display: inline-block;
-            margin-left: 5px;
-            transition: transform 0.3s ease;
-        }
-
-        .collapsed .arrow {
-            transform: rotate(-90deg); /* Rotate arrow when collapsed */
         }
     </style>
 </head>
@@ -82,7 +72,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h2 id="professional-experience">Professional Experience</h2>
 
-<div class="section-title collapsed" onclick="toggleSection('amex-content', 'amex-github', this)">1. American Express <span class="arrow">↓</span></div>
+<div class="section-title" onclick="toggleSection('amex-content', 'amex-github')">1. American Express &#9660;</div>
 <div id="amex-content" class="section-content">
     <ul>
         <li>Developed a variable rationalization framework to enhance model stability using SHAP, mRMR, and ALE techniques.</li>
@@ -95,7 +85,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </div>
 
 <h2 id="international-experience">International Experience</h2>
-<div class="section-title collapsed" onclick="toggleSection('sdc-content', 'sdc-github', this)">2. Seismic Design Competition, San Francisco, USA <span class="arrow">↓</span></div>
+<div class="section-title" onclick="toggleSection('sdc-content', 'sdc-github')">2. Seismic Design Competition, San Francisco, USA &#9660;</div>
 <div id="sdc-content" class="section-content">
     <ul>
         <li>Developed solutions for the Earthquake Engineering Research Institute's Seismic Design Competition.</li>
@@ -109,7 +99,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h2 id="research-projects">Research & Development Projects</h2>
 
-<div class="section-title collapsed" onclick="toggleSection('crack-detection', 'crack-github', this)">3. Classification, Segmentation and GAN Implementation on Concrete Crack Surfaces <span class="arrow">↓</span></div>
+<div class="section-title" onclick="toggleSection('crack-detection', 'crack-github')">3. Classification, Segmentation and GAN Implementation on Concrete Crack Surfaces &#9660;</div>
 <div id="crack-detection" class="section-content">
     <ul>
         <li>Implemented DenseNet121, ResNet50, and EfficientNet models for concrete crack detection.</li>
@@ -120,7 +110,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">Visit GitHub</a>
 </div>
 
-<div class="section-title collapsed" onclick="toggleSection('health-dashboard', 'health-github', this)">4. Dashboard For Public Health Systems <span class="arrow">↓</span></div>
+<div class="section-title" onclick="toggleSection('health-dashboard', 'health-github')">4. Dashboard For Public Health Systems &#9660;</div>
 <div id="health-dashboard" class="section-content">
     <ul>
         <li>Developed a dashboard for analytics on regional healthcare services in Maharashtra.</li>
@@ -133,7 +123,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h2 id="technical-projects">Technical Projects</h2>
 
-<div class="section-title collapsed" onclick="toggleSection('attendance-mate', 'attendance-github', this)">5. Attendance Mate | Face Recognition Attendance System <span class="arrow">↓</span></div>
+<div class="section-title" onclick="toggleSection('attendance-mate', 'attendance-github')">5. Attendance Mate | Face Recognition Attendance System &#9660;</div>
 <div id="attendance-mate" class="section-content">
     <ul>
         <li>Developed a reliable attendance system utilizing students’ phones for marking attendance.</li>
@@ -144,7 +134,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <a href="https://github.com/hrithikM86/Attendance-Mate-Face-Recognition-Attendance-System/tree/main" target="_blank">Visit GitHub</a>
 </div>
 
-<div class="section-title collapsed" onclick="toggleSection('stock-trading', 'stock-github', this)">6. Optimizing Stock Trading with Reinforcement Learning <span class="arrow">↓</span></div>
+<div class="section-title" onclick="toggleSection('stock-trading', 'stock-github')">6. Optimizing Stock Trading with Reinforcement Learning &#9660;</div>
 <div id="stock-trading" class="section-content">
     <ul>
         <li>Explored RL algorithms, including DQN and DDPG, using OpenAI Gym for stock trading strategies.</li>
@@ -168,14 +158,18 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <p>Participated in XLR8 and built an advanced WiFi-controlled racing bot using ESP32.</p>
 
 <script>
-    function toggleSection(contentId, githubId, section) {
+    function toggleSection(contentId, githubId) {
         var content = document.getElementById(contentId);
         var github = document.getElementById(githubId);
         if (content.style.display === "none" || content.style.display === "") {
             content.style.display = "block";
             github.style.display = "block";
-            section.classList.remove("collapsed");
         } else {
             content.style.display = "none";
             github.style.display = "none";
-            section
+        }
+    }
+</script>
+
+</body>
+</html>

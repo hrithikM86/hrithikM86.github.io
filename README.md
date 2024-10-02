@@ -169,9 +169,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
         <li>Designed a Printed Circuit Board (PCB) to seamlessly integrate the camera and VEGA board.</li>
     </ul>
 </div>
-<div class="link-container" id="gcon-links">
-    <a href="https://github.com/hrithikM86/gcon-vega" target="_blank">Visit GitHub</a>
-</div>
+
 
 <!-- Sentiment Analysis of Customer Reviews for Singapore Airlines -->
 <div class="section-title" onclick="toggleSection('sentiment-analysis', 'sentiment-links')">2. Sentiment Analysis of Customer Reviews for Singapore Airlines using NLP &#9660;</div>
@@ -183,7 +181,8 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 <div class="link-container" id="sentiment-links">
-    <a href="https://github.com/hrithikM86/sentiment-analysis" target="_blank">Visit GitHub</a>
+    <a href="https://iitb.irins.org/profile/155763" target="_blank">Guide: Dr. Abir De</a>
+    <a href="https://github.com/hrithikM86/CS419-Sentiment-Analysis-of-Customer-Reviews-for-Singapore-Airlines-using-NLP/tree/main" target="_blank">Visit GitHub</a>
 </div>
 
 <!-- Attendance Mate | Face Recognition Attendance System -->
@@ -196,7 +195,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 <div class="link-container" id="attendance-links">
-    <a href="https://github.com/hrithikM86/attendance-mate" target="_blank">Visit GitHub</a>
+    <a href="https://github.com/hrithikM86/Attendance-Mate-Face-Recognition-Attendance-System/tree/main" target="_blank">Visit GitHub</a>
 </div>
 
 <!-- Optimizing Stock Trading with Reinforcement Learning -->
@@ -209,7 +208,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 <div class="link-container" id="stock-links">
-    <a href="https://github.com/hrithikM86/stock-trading" target="_blank">Visit GitHub</a>
+    <a href="https://github.com/hrithikM86/Optimizing-Stock-Trading-with-Reinforcement-Learning" target="_blank">Visit GitHub</a>
 </div>
 
 <!-- Understanding Credit Score Models -->
@@ -222,7 +221,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 <div class="link-container" id="credit-links">
-    <a href="https://github.com/hrithikM86/credit-score" target="_blank">Visit GitHub</a>
+    <a href="https://github.com/hrithikM86/Understanding-Credit-Score-Models/tree/main" target="_blank">Visit GitHub</a>
 </div>
 
 <!-- Neural Networks and Large Language Models -->
@@ -235,7 +234,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 <div class="link-container" id="neural-links">
-    <a href="https://github.com/hrithikM86/neural-networks" target="_blank">Visit GitHub</a>
+    <a href="https://github.com/hrithikM86/Neural-Networks-and-Large-Language-Models/tree/main" target="_blank">Visit GitHub</a>
 </div>
 
 <!-- Great Lunar Expedition for Everyone (GLEE) -->
@@ -248,7 +247,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 <div class="link-container" id="glee-links">
-    <a href="https://github.com/hrithikM86/glee" target="_blank">Visit Website</a>
+    <a href="https://www.aero.iitb.ac.in/satlab/glee.php" target="_blank">Visit Website</a>
 </div>
 
 <!-- Star Tracker based Attitude Determination System (STADS) -->
@@ -262,7 +261,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 <div class="link-container" id="stads-links">
-    <a href="https://github.com/hrithikM86/stads" target="_blank">Visit Website</a>
+    <a href="https://www.aero.iitb.ac.in/satlab/glee.php" target="_blank">Visit Website</a>
 </div>
 
 <!-- AI powered chatbot -->
@@ -275,7 +274,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 <div class="link-container" id="ai-links">
-    <a href="https://github.com/hrithikM86/ai-chatbot" target="_blank">Visit GitHub</a>
+    <a href="https://github.com/hrithikM86/AI-Powered-Chatbot" target="_blank">Visit GitHub</a>
 </div>
 
 <!-- Robotic Arm -->
@@ -289,7 +288,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 <div class="link-container" id="robotic-links">
-    <a href="https://github.com/hrithikM86/robotic-arm" target="_blank">Visit GitHub</a>
+    <a href="https://github.com/hrithikM86/RoboCivs/tree/main" target="_blank">Visit GitHub</a>
 </div>
 
 <!-- Precipitation Prediction using ML -->
@@ -302,7 +301,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 <div class="link-container" id="precipitation-links">
-    <a href="https://github.com/hrithikM86/precipitation-prediction" target="_blank">Visit GitHub</a>
+    <a href="https://github.com/hrithikM86/Precipitation-Prediction-using-ML/tree/main" target="_blank">Visit GitHub</a>
 </div>
 
 <!-- Deepfakes: GAN-based Face-swapping -->
@@ -315,7 +314,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 <div class="link-container" id="deepfakes-links">
-    <a href="https://github.com/hrithikM86/deepfakes" target="_blank">Visit GitHub</a>
+    <a href="https://github.com/hrithikM86/Deepfakes-GAN-based-Face-swapping" target="_blank">Visit GitHub</a>
 </div>
 
 

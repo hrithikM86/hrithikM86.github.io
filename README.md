@@ -42,7 +42,7 @@
 </head>
 <body>
 
-<h1>Table of Contents</h1>
+<h2>Table of Contents</h2>
 <ul>
     <li><a href="#education">Education</a></li>
     <li><a href="#scholastic-achievements">Scholastic Achievements</a></li>
@@ -56,20 +56,20 @@
     <li><a href="#international-experience">International Experience</a></li>
 </ul>
 
-<h1 id="education">Education</h1>
+<h2 id="education">Education</h2>
 <p><b>Indian Institute of Technology (IIT) Bombay</b><br>
 Bachelor of Technology in Civil Engineering with a Minor in Computer Science and Engineering<br>
 <b>GPA:</b> 8.83/10<br>
 <b>Expected Graduation:</b> 2025</p>
 
-<h1 id="scholastic-achievements">Scholastic Achievements</h1>
+<h2 id="scholastic-achievements">Scholastic Achievements</h2>
 <ul>
     <li>Ranked 8 out of 150+ students in the B.Tech Civil Engineering program at IIT Bombay (2024)</li>
     <li>Secured an All India Rank of 3225 in JEE Advanced 2021</li>
     <li>Achieved a 99.17 percentile in JEE Main 2021</li>
 </ul>
 
-<h1 id="professional-experience">Professional Experience</h1>
+<h2 id="professional-experience">Professional Experience</h2>
 
 <div class="section-title" onclick="toggleSection('amex-content', 'amex-github')">American Express</div>
 <div id="amex-content" class="section-content">
@@ -83,7 +83,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <a href="https://www.example.com" target="_blank">Visit GitHub</a>
 </div>
 
-<h1 id="international-experience">International Experience</h1>
+<h2 id="international-experience">International Experience</h2>
 <div class="section-title" onclick="toggleSection('sdc-content', 'sdc-github')">Seismic Design Competition, San Francisco, USA</div>
 <div id="sdc-content" class="section-content">
     <ul>
@@ -96,7 +96,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <a href="https://www.example.com" target="_blank">Visit GitHub</a>
 </div>
 
-<h1 id="research-projects">Research & Development Projects</h1>
+<h2 id="research-projects">Research & Development Projects</h2>
 
 <div class="section-title" onclick="toggleSection('crack-detection', 'crack-github')">Classification, Segmentation and GAN Implementation on Concrete Crack Surfaces</div>
 <div id="crack-detection" class="section-content">
@@ -120,7 +120,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank">Visit GitHub</a>
 </div>
 
-<h1 id="technical-projects">Technical Projects</h1>
+<h2 id="technical-projects">Technical Projects</h2>
 
 <div class="section-title" onclick="toggleSection('attendance-mate', 'attendance-github')">Attendance Mate | Face Recognition Attendance System</div>
 <div id="attendance-mate" class="section-content">
@@ -144,16 +144,16 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <a href="https://github.com/hrithikM86/Optimizing-Stock-Trading-with-Reinforcement-Learning" target="_blank">Visit GitHub</a>
 </div>
 
-<h1 id="positions-of-responsibility">Positions of Responsibility</h1>
+<h2 id="positions-of-responsibility">Positions of Responsibility</h2>
 <p>Senior Department Academic Mentor & Subgroup Head | Civil Engineering Department</p>
 
-<h1 id="skills">Skills</h1>
+<h2 id="skills">Skills</h2>
 <p>Languages: C, C++, Python, MATLAB, SQL, HTML, CSS, R</p>
 
-<h1 id="relevant-courses">Relevant Courses</h1>
+<h2 id="relevant-courses">Relevant Courses</h2>
 <p>Mathematics: Calculus, Differential Equations, Linear Algebra, Probabilistic and Statistical Methods</p>
 
-<h1 id="extracurricular-activities">Extracurricular Activities</h1>
+<h2 id="extracurricular-activities">Extracurricular Activities</h2>
 <p>Participated in XLR8 and built an advanced WiFi-controlled racing bot using ESP32.</p>
 
 <script>

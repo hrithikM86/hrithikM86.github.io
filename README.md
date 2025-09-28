@@ -282,9 +282,99 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h2 id="technical-projects">Technical Projects</h2>
 
+<!-- Star Tracker based Attitude Determination System (STADS) -->
+<div class="section-title" onclick="toggleSection('stads')">1. Star-Tracker based Attitude Determination System (STADS) &#9660;</div>
+<div id="stads" class="section-content">
+    <div class="link-container">
+        <a href="https://www.aero.iitb.ac.in/satlab/stads.php" target="_blank">Student Satellite Program (SatLab), IIT Bombay |</a>
+        <a href="https://scholar.google.com/citations?user=DBpGmU4AAAAJ&hl=en" target="_blank">Guide: Prof. Varun Bhalerao</a>
+    </div>
+    <ul>
+        <li>Enhanced Lost-in-Space star-matching algorithm, reducing hardware run time by 50%.</li>
+        <li>Optimized star matching, verification, and estimation algorithms using Genetic Algorithm, achieving benchmark accuracy of 87% of images from 4 diverse constellations within 36 arc-seconds error.</li>
+        <li>Integrated a camera and Raspberry Pi for Hardware-in-the-Loop Simulations & developed a robust script to automate the 3-stage algorithmic pipeline during headless mode startup.</li>
+    </ul>
+</div>
+
+
+<!-- Multi-Objective Optimization and Uncertainty Analysis of the Lake Problem -->
+<div class="section-title" onclick="toggleSection('lake-problem')">2. Multi-Objective Optimization and Uncertainty Analysis of the Lake Problem &#9660;</div>
+<div id="lake-problem" class="section-content">
+    <div class="link-container">
+        <a href="https://scholar.google.com/citations?user=VpsQcKoAAAAJ&hl=en" target="_blank">Guide: Prof. Riddhi Singh, Civil Engineering Department, IIT Bombay |</a>
+        <a href="#" target="_blank">Course Project |</a>
+        <a href="https://github.com/hrithikM86/Stochastic-Multi-Objective-Optimization-and-Uncertainty-Analysis-of-the-Lake-Problem" target="_blank">GitHub |</a>
+        <a href="https://drive.google.com/file/d/1PYypVYhoAfWQLZlBek_08MFmRB7cZZXu/view" target="_blank">Report</a>
+    </div>
+    <ul>
+        <li>Developed a stochastic optimization model to balance multiple environmental and economic goals in the lake pollution problem.</li>
+        <li>Incorporated uncertainty analysis using Monte Carlo simulations to improve robustness of decision-making.</li>
+        <li>Applied NSGA-II and MOEA/D to generate Pareto fronts, highlighting trade-offs and identifying optimal solutions.</li>
+    </ul>
+</div>
+
+
+<!-- Optimizing Stock Trading with Reinforcement Learning -->
+<div class="section-title" onclick="toggleSection('stock-trading')">3. Optimizing Stock Trading with Reinforcement Learning &#9660;</div>
+<div id="stock-trading" class="section-content">
+    <div class="link-container">
+        <a href="#" target="_blank">Finance Club, IIT Bombay |</a>
+        <a href="https://github.com/hrithikM86/Optimizing-Stock-Trading-with-Reinforcement-Learning" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Utilized OpenAI Gym to explore Reinforcement Learning algorithms, including DQN and DDPG.</li>
+        <li>Developed an RL-based trading environment using the Actor-Critic Model (DDPG) with a robust action space and reward function for portfolio optimization on G^SPC2018 stocks.</li>
+        <li>Achieved a profit of $140 from a $5,000 investment, demonstrating the effectiveness of the RL-based approach.</li>
+    </ul>
+</div>
+
+<!-- Attendance Mate - Face Recognition Attendance System -->
+<div class="section-title" onclick="toggleSection('attendance-mate')">4. Attendance Mate - Face Recognition Attendance System &#9660;</div>
+<div id="attendance-mate" class="section-content">
+    <div class="link-container">
+        <a href="https://makerbhavanfoundation.org/programs/" target="_blank">The SANDBOX Program, IIT Bombay | Selected and Fully Funded |</a>
+        <a href="https://github.com/hrithikM86/Attendance-Mate-Face-Recognition-Attendance-System/tree/main" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Developed a reliable and cost-effective attendance system utilizing students’ phones to record attendance.</li>
+        <li>Engineered a robust pipeline using the MTCNN algorithm for accurate student face extraction, followed by Keras-VGGFace to generate face embedding vectors for enhanced recognition.</li>
+        <li>Designed and fine-tuned a Siamese neural network with triplet loss, achieving 87.1% accuracy.</li>
+    </ul>
+</div>
+
+<!-- Sentiment Analysis of Customer Reviews for Singapore Airlines -->
+<div class="section-title" onclick="toggleSection('sentiment-nlp')">5. Sentiment Analysis of Customer Reviews for Singapore Airlines using NLP &#9660;</div>
+<div id="sentiment-nlp" class="section-content">
+    <div class="link-container">
+        <a href="https://scholar.google.co.in/citations?user=_9ZKKbIAAAAJ&hl=en" target="_blank">Guide: Prof. Abir De, Department of Computer Science, IIT Bombay |</a>
+        <a href="https://github.com/hrithikM86/CS419-Sentiment-Analysis-of-Customer-Reviews-for-Singapore-Airlines-using-NLP/tree/main" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Developed a preprocessing pipeline, including tokenization and stopword removal using NLTK.</li>
+        <li>Trained CBOW & Skip-Gram embeddings from scratch, used PCA for visualization, and compared results with pre-trained Word2Vec across ML frameworks including SVM, XGBoost, and Neural Networks.</li>
+        <li>Selected the best techniques to achieve 71% accuracy in 5-class sentiment classification of reviews.</li>
+    </ul>
+</div>
+
+<!-- Deepfakes: GAN-based Face-swapping -->
+<div class="section-title" onclick="toggleSection('deepfakes')">6. Deepfakes: GAN-based Face-swapping &#9660;</div>
+<div id="deepfakes" class="section-content">
+    <div class="link-container">
+        <a href="https://github.com/hrithikM86/Deepfakes-GAN-based-Face-swapping" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Advanced skills in modern deep learning frameworks and OOP, specializing in neural networks.</li>
+        <li>Studied AttGAN & Deepfakes, implemented GAN-based face-swapping using TensorFlow & PyTorch.</li>
+        <li>Enhanced facial attribute editing skills & deepened understanding of GANs through project execution.</li>
+    </ul>
+</div>
+
 <!-- GCON-VEGATHON | IEEE-GCON 2023 | C-DAC & IIT Guwahati -->
-<div class="section-title" onclick="toggleSection('gcon-vega', 'gcon-links')">1. GCON-VEGATHON | IEEE-GCON 2023 | C-DAC & IIT Guwahati &#9660;</div>
+<div class="section-title" onclick="toggleSection('gcon-vega')">7. GCON-VEGATHON | IEEE-GCON 2023 | C-DAC & IIT Guwahati &#9660;</div>
 <div id="gcon-vega" class="section-content">
+    <div class="link-container">
+        <a href="https://ieee-gcon.org/" target="_blank">Website</a>
+    </div>
     <ul>
         <li>Selected as a top 15 semi-finalist out of 50+ competitors, showcasing exceptional skills & teamwork.</li>
         <li>Proposed a bare-metal embedded system with an OV2640 image sensor to capture low-resolution images and efficiently extract star centroids using a feature extraction algorithm on a VEGA processor.</li>
@@ -292,117 +382,68 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-
-<!-- Sentiment Analysis of Customer Reviews for Singapore Airlines -->
-<div class="section-title" onclick="toggleSection('sentiment-analysis', 'sentiment-links')">2. Sentiment Analysis of Customer Reviews for Singapore Airlines using NLP &#9660;</div>
-<div id="sentiment-analysis" class="section-content">
-    <ul>
-        <li>Developed a preprocessing pipeline, including tokenization and stopword removal using NLTK.</li>
-        <li>Trained CBOW & Skip-Gram embeddings from scratch, used PCA for visualization & compared results with pretrained Word2Vec across ML frameworks, including SVM, XGBoost & Neural Networks.</li>
-        <li>Selected the best techniques to achieve 71% accuracy in a 5-class sentiment classification of customer reviews, delivering valuable insights to enhance customer experience and inform decision-making.</li>
-    </ul>
-</div>
-<div class="link-container" id="sentiment-links">
-    <a href="https://iitb.irins.org/profile/155763" target="_blank">Guide: Dr. Abir De</a>
-    <a href="https://github.com/hrithikM86/CS419-Sentiment-Analysis-of-Customer-Reviews-for-Singapore-Airlines-using-NLP/tree/main" target="_blank">Visit GitHub</a>
-</div>
-
-<!-- Attendance Mate | Face Recognition Attendance System -->
-<div class="section-title" onclick="toggleSection('attendance-mate', 'attendance-links')">3. Attendance Mate | Face Recognition Attendance System &#9660;</div>
-<div id="attendance-mate" class="section-content">
-    <ul>
-        <li>Developed a reliable & cost-effective attendance system utilizing students’ phones to mark attendance.</li>
-        <li>Developed a robust pipeline utilizing MTCNN & YOLO algorithms for accurate student face extraction, complemented by Keras-VGGFace to generate face embedding vectors for enhanced facial recognition.</li>
-        <li>Developed and successfully optimized a Siamese network using triplet loss, achieving 87.1% accuracy.</li>
-    </ul>
-</div>
-<div class="link-container" id="attendance-links">
-    <a href="https://github.com/hrithikM86/Attendance-Mate-Face-Recognition-Attendance-System/tree/main" target="_blank">Visit GitHub</a>
-</div>
-
-<!-- Optimizing Stock Trading with Reinforcement Learning -->
-<div class="section-title" onclick="toggleSection('stock-trading', 'stock-links')">4. Optimizing Stock Trading with Reinforcement Learning &#9660;</div>
-<div id="stock-trading" class="section-content">
-    <ul>
-        <li>Utilized OpenAI Gym to explore Reinforcement Learning algorithms, including DQN and DDPG.</li>
-        <li>Developed a Reinforcement learning-based trading environment using the Actor-Critic Model (DDPG) with a robust action space and reward function to optimize trading strategies for G^SPC2018 stocks.</li>
-        <li>Gained $140 profit from a $5,000 investment, demonstrating the effectiveness of the RL-based approach.</li>
-    </ul>
-</div>
-<div class="link-container" id="stock-links">
-    <a href="https://github.com/hrithikM86/Optimizing-Stock-Trading-with-Reinforcement-Learning" target="_blank">Visit GitHub</a>
-</div>
-
-<!-- Understanding Credit Score Models -->
-<div class="section-title" onclick="toggleSection('credit-score', 'credit-links')">5. Understanding Credit Score Models &#9660;</div>
-<div id="credit-score" class="section-content">
-    <ul>
-        <li>Performed data preprocessing, oversampling, feature engineering and EDA on the lending data.</li>
-        <li>Employed the XGBoost algorithm to classify individuals’ credit scores, achieving an accuracy of 86%.</li>
-        <li>Researched credit scores, scoring techniques, and AI/ML applications in credit score modeling.</li>
-    </ul>
-</div>
-<div class="link-container" id="credit-links">
-    <a href="https://github.com/hrithikM86/Understanding-Credit-Score-Models/tree/main" target="_blank">Visit GitHub</a>
-</div>
-
-<!-- Neural Networks and Large Language Models -->
-<div class="section-title" onclick="toggleSection('neural-networks', 'neural-links')">6. Neural Networks and Large Language Models &#9660;</div>
-<div id="neural-networks" class="section-content">
-    <ul>
-        <li>Developed a Gradio QnA bot with FLAN-T5 and GPU acceleration for real-time text generation.</li>
-        <li>Built a custom binary neural network for image classification in PyTorch, achieving 81% accuracy.</li>
-        <li>Developed a BERT-based sentiment analysis model with a Gradio interface, achieving 85% accuracy.</li>
-    </ul>
-</div>
-<div class="link-container" id="neural-links">
-    <a href="https://github.com/hrithikM86/Neural-Networks-and-Large-Language-Models/tree/main" target="_blank">Visit GitHub</a>
-</div>
-
-<!-- Great Lunar Expedition for Everyone (GLEE) -->
-<div class="section-title" onclick="toggleSection('glee', 'glee-links')">7. Great Lunar Expedition for Everyone (GLEE) &#9660;</div>
-<div id="glee" class="section-content">
-    <ul>
-        <li>The Great Lunar Expedition for Everyone is a global mission for lunar surface science using chipsats.</li>
-        <li>Cleaned, processed & analyzed earthquake data using Python libraries Numpy, Matplotlib & Pandas.</li>
-        <li>Implemented Time Difference of Arrival algorithm to accurately locate a single seismic wave source.</li>
-    </ul>
-</div>
-<div class="link-container" id="glee-links">
-    <a href="https://www.aero.iitb.ac.in/satlab/glee.php" target="_blank">Visit Website</a>
-</div>
-
-
-<!-- Star Tracker based Attitude Determination System (STADS) -->
-<div class="section-title" onclick="toggleSection('stads', 'stads-links')">8. Star Tracker based Attitude Determination System (STADS) &#9660;</div>
-<div id="stads" class="section-content">
-    <ul>
-        <li>STADS is a CubeSat-compatible star tracker system for attitude determination, to be tested on POEM.</li>
-        <li>Integrated a camera with Raspberry Pi for Hardware-in-the-Loop Simulations & developed a robust script to automate the 3-stage algorithmic pipeline during the headless mode startup of Raspberry Pi.</li>
-        <li>Collaborated on power budget development and modified code to enhance system power efficiency.</li>
-        <li>Developed a code to optimise 5 hyperparameters of the Star Tracker algorithm using Genetic Algorithm.</li>
-    </ul>
-</div>
-<div class="link-container" id="stads-links">
-    <a href="https://www.aero.iitb.ac.in/satlab/glee.php" target="_blank">Visit Website</a>
-</div>
-
 <!-- AI powered chatbot -->
-<div class="section-title" onclick="toggleSection('ai-chatbot', 'ai-links')">9. AI powered chatbot &#9660;</div>
+<div class="section-title" onclick="toggleSection('ai-chatbot')">8. AI powered chatbot &#9660;</div>
 <div id="ai-chatbot" class="section-content">
+    <div class="link-container">
+        <a href="https://github.com/hrithikM86/AI-Powered-Chatbot" target="_blank">Visit GitHub</a>
+    </div>
     <ul>
         <li>Developed an AI-powered PDF chatbot using NLP, word embeddings, and similarity search techniques.</li>
         <li>Configured OpenAI’s API key for language processing access & establishing a question-answering chain.</li>
         <li>Implemented document similarity search with FAISS, comparing 1000+ text chunks using LangChain.</li>
     </ul>
 </div>
-<div class="link-container" id="ai-links">
-    <a href="https://github.com/hrithikM86/AI-Powered-Chatbot" target="_blank">Visit GitHub</a>
+
+
+<!-- Neural Networks and Large Language Models -->
+<div class="section-title" onclick="toggleSection('neural-networks')">9. Neural Networks and Large Language Models &#9660;</div>
+<div id="neural-networks" class="section-content">
+    <div class="link-container">
+        <a href="https://github.com/hrithikM86/Neural-Networks-and-Large-Language-Models/tree/main" target="_blank">Visit GitHub</a>
+    </div>
+    <ul>
+        <li>Developed a Gradio QnA bot with FLAN-T5 and GPU acceleration for real-time text generation.</li>
+        <li>Built a custom binary neural network for image classification in PyTorch, achieving 81% accuracy.</li>
+        <li>Developed a BERT-based sentiment analysis model with a Gradio interface, achieving 85% accuracy.</li>
+    </ul>
+</div>
+
+
+
+<!-- Understanding Credit Score Models -->
+<div class="section-title" onclick="toggleSection('credit-score')">10. Understanding Credit Score Models &#9660;</div>
+<div id="credit-score" class="section-content">
+    <div class="link-container">
+        <a href="https://github.com/hrithikM86/Understanding-Credit-Score-Models/tree/main" target="_blank">Visit GitHub</a>
+    </div>
+    <ul>
+        <li>Performed data preprocessing, oversampling, feature engineering and EDA on the lending data.</li>
+        <li>Employed the XGBoost algorithm to classify individuals’ credit scores, achieving an accuracy of 86%.</li>
+        <li>Researched credit scores, scoring techniques, and AI/ML applications in credit score modeling.</li>
+    </ul>
+</div>
+
+
+<!-- Great Lunar Expedition for Everyone (GLEE) -->
+<div class="section-title" onclick="toggleSection('glee')">11. Great Lunar Expedition for Everyone (GLEE) &#9660;</div>
+<div id="glee" class="section-content">
+    <div class="link-container">
+        <a href="https://www.aero.iitb.ac.in/satlab/glee.php" target="_blank">Visit Website</a>
+    </div>
+    <ul>
+        <li>The Great Lunar Expedition for Everyone is a global mission for lunar surface science using chipsats.</li>
+        <li>Cleaned, processed & analyzed earthquake data using Python libraries Numpy, Matplotlib & Pandas.</li>
+        <li>Implemented Time Difference of Arrival algorithm to accurately locate a single seismic wave source.</li>
+    </ul>
 </div>
 
 <!-- Robotic Arm -->
-<div class="section-title" onclick="toggleSection('robotic-arm', 'robotic-links')">10. Robotic Arm &#9660;</div>
+<div class="section-title" onclick="toggleSection('robotic-arm')">12. Robotic Arm &#9660;</div>
 <div id="robotic-arm" class="section-content">
+    <div class="link-container">
+        <a href="https://github.com/hrithikM86/RoboCivs/tree/main" target="_blank">Visit GitHub</a>
+    </div>
     <ul>
         <li>Creating a programmable robotic arm to perform specific movements, controlled via mobile application.</li>
         <li>Implemented MG996R and SG90 Micro Servo Motors to achieve desired rotations in the robotic arm.</li>
@@ -410,35 +451,22 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
         <li>Utilized Arduino UNO as the microcontroller to interface between Bluetooth module & mobile network.</li>
     </ul>
 </div>
-<div class="link-container" id="robotic-links">
-    <a href="https://github.com/hrithikM86/RoboCivs/tree/main" target="_blank">Visit GitHub</a>
-</div>
 
 <!-- Precipitation Prediction using ML -->
-<div class="section-title" onclick="toggleSection('precipitation-prediction', 'precipitation-links')">11. Precipitation Prediction using ML &#9660;</div>
+<div class="section-title" onclick="toggleSection('precipitation-prediction')">13. Precipitation Prediction using ML &#9660;</div>
 <div id="precipitation-prediction" class="section-content">
+    <div class="link-container">
+        <a href="https://github.com/hrithikM86/Precipitation-Prediction-using-ML/tree/main" target="_blank">Visit GitHub</a>
+    </div>
     <ul>
         <li>Created ML models using Random Forest & Logistic Regression to accurately predict precipitation.</li>
         <li>Handled class imbalance with oversampling, achieving 98.03% accuracy and 98.01% ROC-AUC score.</li>
         <li>Used chi-squared test to select the best features for the model, performed data preprocessing & EDA.</li>
     </ul>
 </div>
-<div class="link-container" id="precipitation-links">
-    <a href="https://github.com/hrithikM86/Precipitation-Prediction-using-ML/tree/main" target="_blank">Visit GitHub</a>
-</div>
 
-<!-- Deepfakes: GAN-based Face-swapping -->
-<div class="section-title" onclick="toggleSection('deepfakes', 'deepfakes-links')">12. Deepfakes: GAN-based Face-swapping &#9660;</div>
-<div id="deepfakes" class="section-content">
-    <ul>
-        <li>Advanced skills in modern deep learning frameworks and OOP, specializing in neural networks.</li>
-        <li>Studied AttGAN & Deepfakes, implemented GAN-based face-swapping using TensorFlow & PyTorch.</li>
-        <li>Enhanced facial attribute editing skills & deepened understanding of GANs through project execution.</li>
-    </ul>
-</div>
-<div class="link-container" id="deepfakes-links">
-    <a href="https://github.com/hrithikM86/Deepfakes-GAN-based-Face-swapping" target="_blank">Visit GitHub</a>
-</div>
+
+
 
 
 <h2 id="positions-of-responsibility">Positions of Responsibility</h2>

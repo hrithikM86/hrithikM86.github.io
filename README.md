@@ -216,9 +216,9 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
         <a href="https://scholar.google.com/citations?user=DBpGmU4AAAAJ&hl=en" target="_blank">Guide: Prof. Varun Bhalerao |</a>
         <a href="https://www.star-iitb.in/">STAR Lab |</a>
         <a href="#" target="_blank">InterIIT Tech Meet 13.0 |</a>
-        <a href="#" target="_blank">ISRO</a>
+        <a href="#" target="_blank">ISRO |</a>
         <a href="https://github.com/hrithikM86/InterIIT" target="_blank">GitHub |</a>
-        <a href="https://drive.google.com/file/d/1an4j_8vN37vJ3eQEXD5U6o7toDzKZXHh/view" target="_blank">Report |</a>
+        <a href="https://drive.google.com/file/d/1an4j_8vN37vJ3eQEXD5U6o7toDzKZXHh/view" target="_blank">Report</a>
     </div>
     <ul>
         <li>Won Gold Medal for ISRO’s lunar mineral mapping challenge, competing against teams from 23 IITs.</li>
@@ -253,8 +253,8 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <div class="link-container">
         <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar |</a>
         <a href="https://www.me.iitb.ac.in/~alankar/" target="_blank">ICME and Materials Genome Lab |</a>
-        <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">GitHub</a>
-        <a href="https://drive.google.com/file/d/1bP5sF61247_-N9RSpgAwL7Wza82byGiX/view" target="_blank">Report |</a>
+        <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">GitHub |</a>
+        <a href="https://drive.google.com/file/d/1bP5sF61247_-N9RSpgAwL7Wza82byGiX/view" target="_blank">Report</a>
     </div>
     <ul>
         <li>Engineered a Deep Convolutional GAN (DCGAN) to synthetically generate concrete crack images.</li>

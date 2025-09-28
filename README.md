@@ -3,44 +3,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hrithik Mhatre's Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        h1 {
-            color: blue;
-        }
-
-        .section-title {
-            cursor: pointer;
-            color: blue; /* Set the heading color to blue */
-            margin: 10px 0;
-            font-weight: bold;
-        }
-
-        .section-content {
-            display: none;
-            margin-left: 20px;
-        }
-
-        .link-container {
-            display: none;
-            margin-left: 20px;
-            color: green;
-            font-weight: bold;
-            font-size: 1.1em;
-        }
-
-        .link-container a {
-            color: green;
-            text-decoration: none;
-            margin-right: 10px; /* Add spacing between links */
-        }
-
-        .link-container a:hover {
-            text-decoration: underline;
-        }
+     <style>
+    /* --- Minimalistic Styling --- */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #222;
+        background-color: #fafafa;
+        margin: 0;
+        padding: 0 20px;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #007acc;
+    }
+    
+    .section-title {
+        cursor: pointer;
+        padding: 10px 15px;
+        margin: 10px 0 5px 0;
+        background-color: #f5f5f5;
+        border-left: 4px solid #007acc;
+        font-weight: 600;
+        transition: all 0.2s ease;
+        border-radius: 4px;
+    }
+    
+    .section-title:hover {
+        background-color: #e0f0ff;
+    }
+    
+    .link-container {
+        margin: 5px 0 10px 20px;
+        font-size: 0.95rem;
+    }
+    
+    .link-container a {
+        display: inline-block;
+        margin-right: 10px;
+        text-decoration: none;
+        color: #007acc;
+        transition: color 0.2s;
+    }
+    
+    .link-container a:hover {
+        text-decoration: underline;
+        color: #005a99;
+    }
+    
+    .section-content {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        display: none; /* Collapsed by default */
+    }
+    
+    .section-content ul {
+        padding-left: 20px;
+    }
+    
+    .section-content li {
+        margin-bottom: 5px;
+    }
     </style>
 </head>
 <body>
@@ -513,20 +538,13 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 
 <script>
-    function toggleSection(contentId, linksId) {
-        const content = document.getElementById(contentId);
-        const links = document.getElementById(linksId);
-
-        // Toggle the display of the content
-        if (content.style.display === "block") {
-            content.style.display = "none";
-            links.style.display = "none"; // Hide links when content is hidden
-        } else {
-            content.style.display = "block";
-            links.style.display = "block"; // Show links when content is shown
-        }
-    }
+/* --- Toggle Section --- */
+function toggleSection(sectionId) {
+    const content = document.getElementById(sectionId);
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+}
 </script>
+
 
 </body>
 </html>

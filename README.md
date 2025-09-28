@@ -79,7 +79,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <ol>
     <li>
         <b>Journal Publication:</b>  
-        Co-author. “Lunar Geochemistry from X-ray Line Flux Ratios Using CLASS on Chandrayaan-2.” 
+        Co-author. "Lunar Geochemistry from X-ray Line Flux Ratios Using CLASS on Chandrayaan-2." 
         Submitted to <i>The Planetary Science Journal</i>. Received coverage in major Indian newspapers and articles, highlighting its significance in lunar and planetary sciences.  
         <div class="link-container">
             <a href="https://arxiv.org/abs/2508.15563" target="_blank" rel="noopener noreferrer">Paper</a>
@@ -116,7 +116,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
     <li>
         <b>Preprint:</b>  
-        Hrithik Mhatre et al. "Parkinson’s Disease Detection Using ComParE Features with Machine Learning and Deep Learning Approaches."  
+        Hrithik Mhatre et al. "Parkinson's Disease Detection Using ComParE Features with Machine Learning and Deep Learning Approaches."  
         <div class="link-container">
             <a href="https://drive.google.com/file/d/11CBdK_CVs3tUaXSHTrg8H9I78apUTcpE/view" target="_blank" rel="noopener noreferrer">Paper</a>
         </div>

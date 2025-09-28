@@ -118,9 +118,9 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 
 
-<h2 id="professional-experience">Professional Experience - Internship</h2>
+<h2 id="professional-experience">Professional Experience</h2>
 
-<div class="section-title" onclick="toggleSection('amex-content', 'amex-links')">1. American Express &#9660;</div>
+<div class="section-title" onclick="toggleSection('amex-content', 'amex-links')">1. American Express  - Internship &#9660;</div>
 
 <div id="amex-content" class="section-content">
     <ul>

@@ -62,14 +62,15 @@
 <h2 id="education">Education</h2>
 <p><b>Indian Institute of Technology (IIT) Bombay</b><br>
 Bachelor of Technology in Civil Engineering with a Minor in Computer Science and Engineering<br>
-<b>GPA:</b> 8.83/10<br>
-<b>Expected Graduation:</b> 2025</p>
+<b>GPA:</b> 8.95/10<br>
+<b>Graduated:</b> 2025</p>
 
 <h2 id="scholastic-achievements">Scholastic Achievements</h2>
 <ul>
-    <li>Ranked 8 out of 150+ students in the B.Tech Civil Engineering program at IIT Bombay (2024)</li>
-    <li>Secured an All India Rank of 3225 in JEE Advanced 2021</li>
-    <li>Achieved a 99.17 percentile in JEE Main 2021</li>
+    <li>Graduated with a rank of 7 out of 150+ students in the B.Tech Civil Engineering program at IIT Bombay</li>
+    <li>Secured a perfect 10/10 Semester Grade Point Average (CGPA) during the 8th semester at IIT Bombay</li>
+    <li>Achieved a 99.17 percentile in the Joint Entrance Examination Main among over 1.5 million applicants</li>
+    <li>Secured a position in the top 2 percentile in JEE Advanced, competing among 0.15+ million candidates</li>
 </ul>
 
 <h2 id="professional-experience">Professional Experience</h2>
@@ -78,12 +79,11 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <div id="amex-content" class="section-content">
     <ul>
-        <li>Developed a variable rationalization framework to enhance model stability with minimal performance impact, utilizing an in-house Vendor Evaluation Tool along with SHAP, mRMR, and ALE techniques.</li>
-        <li>Proposed strategies to mitigate overfitting and performance decay in previous generation models.</li>
-        <li>Utilized GBM algorithms for default prediction and Bayesian optimization for hyperparameter tuning.</li>
-        <li>Achieved a 50%+ (179/345) reduction in model variables using the variable rationalization framework.</li>
+        <li>Designed a two-step variable rationalization framework by applying K-Means clustering to group variables by functional similarity and leveraging SHAP, PDP, and ALE to assign importance scores.</li>
+        <li>Utilized Bayesian optimization for hyperparameter tuning to address overfitting observed in previous-generation models.</li>
         <li>Developed a novel metric using basis points (bps) drop per variable in Gini and capture rate to assess model stability.</li>
-        <li>Utilized variables suggested by the rationalization tool to develop models, achieving a 30% improvement in monthly capture rate stability for commercial risk models managing over $100 billion in exposures.</li>
+        <li>Achieved a 50% reduction in model variables, driving a 30% improvement in model stability for commercial risk models managing $100B in exposures.</li>
+        <li>Received a Pre-Placement Offer (PPO) for this work.</li>
     </ul>
 </div>
 

@@ -499,7 +499,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 
 
-<h2 id="skills">Skills</h2>
+<!-- <h2 id="skills">Skills</h2>
 <ul>
     <li><strong>Programming Languages:</strong> C, C++, Python, MATLAB, SQL, HTML, CSS, R</li>
     <li><strong>Deep Learning Frameworks:</strong> TensorFlow, Keras, PyTorch</li>
@@ -524,7 +524,37 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
             <li>MATLAB Onramp</li>
         </ul>
     </li>
-</ul>
+</ul> -->
+
+<h2 id="skills-and-courses">Skills & Relevant Courses</h2>
+
+<table style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr style="border-bottom: 1px solid #ccc; background-color: #f9f9f9;">
+            <th style="text-align: left; padding: 8px; border: 1px solid #ddd;">Category</th>
+            <th style="text-align: left; padding: 8px; border: 1px solid #ddd;">Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Mathematics</strong></td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Calculus, Differential Equations, Linear Algebra, Probabilistic and Statistical Methods in Civil Engineering</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Programming</strong></td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Data Structures and Algorithms (DSA), Design and Analysis of Algorithms (DAA), Computer Networks, Introduction to Machine Learning, Logic for Computer Science, Computer Programming and Utilization</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Online Courses</strong></td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Deep Learning Specialization by Andrew Ng, Machine Learning Specialization by Andrew Ng, Natural Language Processing Specialization, Data Science Bootcamp by WIDS, MATLAB Onramp</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Skills</strong></td>
+            <td style="padding: 8px; border: 1px solid #ddd;">C/C++, Python, OpenCV, MATLAB, TensorFlow, PyTorch, Scikit-learn, PySpark, OpenAI Gym</td>
+        </tr>
+    </tbody>
+</table>
+
 
 <h2 id="extracurricular-activities">Extracurricular Activities</h2>
 <ul>

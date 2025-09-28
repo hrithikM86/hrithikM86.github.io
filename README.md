@@ -218,7 +218,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="section-title" onclick="toggleSection('parkinson-speech', 'parkinson-links')">3. Enhanced Speech-Based Pipeline for Detecting Parkinson’s Disease &#9660;</div>
 
 <div class="link-container" id="parkinson-links">
-    <a href="https://scholar.google.com.au/citations?user=86tKGf8AAAAJ&hl=en" target="_blank">Guide: Prof. Nirmal Punjabi, Koita Centre for Digital Health, IIT Bombay</a>
+    <a href="https://scholar.google.com.au/citations?user=86tKGf8AAAAJ&hl=en" target="_blank">Guide: Prof. Nirmal Punjabi, Koita Centre for Digital Health, IIT Bombay |</a>
     <a href="https://drive.google.com/file/d/11CBdK_CVs3tUaXSHTrg8H9I78apUTcpE/view" target="_blank">Report</a>
 </div>
 
@@ -239,9 +239,9 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="section-title" onclick="toggleSection('crack-detection', 'crack-links')">4. Classification, Segmentation, and GAN Implementation on Concrete Crack Surfaces &#9660;</div>
 
 <div class="link-container" id="crack-links">
-    <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar</a>
-    <a href="https://www.me.iitb.ac.in/~alankar/" target="_blank">ICME and Materials Genome Lab</a>
-    <a href="https://drive.google.com/file/d/1bP5sF61247_-N9RSpgAwL7Wza82byGiX/view" target="_blank">Report</a>
+    <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar |</a>
+    <a href="https://www.me.iitb.ac.in/~alankar/" target="_blank">ICME and Materials Genome Lab |</a>
+    <a href="https://drive.google.com/file/d/1bP5sF61247_-N9RSpgAwL7Wza82byGiX/view" target="_blank">Report |</a>
     <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">GitHub</a>
 </div>
 
@@ -258,8 +258,8 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="section-title" onclick="toggleSection('health-dashboard', 'health-links')">5. Data-Driven Dashboard for Public Health Analytics | Public Health Dept. Maharashtra &#9660;</div>
 
 <div class="link-container" id="health-links">
-    <a href="https://iitb.irins.org/profile/52104" target="_blank">Guide: Prof. Ganesh Ramkrishnan, Department of Computer Science, IIT Bombay</a>
-    <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank">GitHub</a>
+    <a href="https://iitb.irins.org/profile/52104" target="_blank">Guide: Prof. Ganesh Ramkrishnan, Department of Computer Science, IIT Bombay |</a>
+    <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank">GitHub |</a>
     <a href="https://drive.google.com/file/d/1lcJPyNfwnnUf7R-Rm_Mb3eqABJe_uBY6/view" target="_blank">Report</a>
 </div>
 

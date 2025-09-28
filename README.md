@@ -122,6 +122,10 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <div class="section-title" onclick="toggleSection('amex-content', 'amex-links')">1. American Express  - Internship &#9660;</div>
 
+<div class="link-container" id="amex-links">
+    <a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank">Manager : Archit Jain</a>
+</div>
+
 <div id="amex-content" class="section-content">
     <ul>
         <li>Designed a two-step variable rationalization framework by applying K-Means clustering to group variables by functional similarity and leveraging SHAP, PDP, and ALE to assign importance scores.</li>
@@ -129,10 +133,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
         <li>Developed a novel metric using basis points (bps) drop per variable in Gini and capture rate to assess model stability.</li>
         <li>Achieved a 50% reduction in model variables, driving a 30% improvement in model stability for commercial risk models managing $100B in exposures, Received a Pre-Placement Offer (PPO) for this work.</li>
     </ul>
-</div>
-
-<div class="link-container" id="amex-links">
-    <a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank">Manager : Archit Jain</a>
 </div>
 
 <!-- <h2 id="professional-experience">Professional Experience - Full Time</h2>
@@ -173,6 +173,12 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <!-- Concrete Crack Detection Section -->
 <div class="section-title" onclick="toggleSection('crack-detection', 'crack-links')">1. Classification, Segmentation and GAN Implementation on Concrete Crack Surfaces &#9660;</div>
 
+<div class="link-container" id="crack-links">
+    <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar</a>
+    <a href="https://www.me.iitb.ac.in/~alankar/" target="_blank">ICME and Materials Genome Lab</a>
+    <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">GitHub</a>
+</div>
+
 <div id="crack-detection" class="section-content">
     <ul>
         <li>Engineered a Deep Convolutional GAN (DCGAN) to synthetically generate concrete crack images.</li>
@@ -181,10 +187,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-<div class="link-container" id="crack-links">
-    <a href="https://iitb.irins.org/profile/155634" target="_blank style="color: blue;">Guide: Prof. Alankar Alankar</a>
-    <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">Visit GitHub</a>
-</div>
 
 
 <!-- Public Health Dashboard Section -->

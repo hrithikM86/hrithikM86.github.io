@@ -175,17 +175,17 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <div id="crack-detection" class="section-content">
     <ul>
-        <li>Implemented DenseNet121, ResNet50, and EfficientNet models for concrete crack detection.</li>
-        <li>Conducted a literature survey on Generative Adversarial Networks (GANs) and engineered a Deep Convolutional GAN (DCGAN) to generate images of concrete cracks.</li>
-        <li>Implemented a U-Net architecture in TensorFlow for crack surface segmentation, achieving a Dice Coefficient of 75.3% and a Mean Intersection over Union (IoU) of 61.3%.</li>
-        <li>Future work: Configuring a Raspberry Pi with an integrated camera to implement a crack detection algorithm, enabling detection in rotary machines and predicting overall machine health.</li>
+        <li>Engineered a Deep Convolutional GAN (DCGAN) to synthetically generate concrete crack images.</li>
+        <li>Fine-tuned a ResNet50 model to classify fine concrete cracks on lab-tested surfaces using both real and GAN-generated data, achieving 99.3% classification accuracy and an F1 score of 99%.</li>
+        <li>Implemented a U-Net architecture in TensorFlow for accurate crack surface segmentation, achieving a Dice Coefficient of 75.3% and a Mean Intersection over Union (IoU) of 61.3%.</li>
     </ul>
 </div>
 
 <div class="link-container" id="crack-links">
-    <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar</a>
+    <a href="https://iitb.irins.org/profile/155634" target="_blank style="color: blue;">Guide: Prof. Alankar Alankar</a>
     <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">Visit GitHub</a>
 </div>
+
 
 <!-- Public Health Dashboard Section -->
 <div class="section-title" onclick="toggleSection('health-dashboard', 'health-links')">2. Dashboard For Public Health Systems &#9660;</div>

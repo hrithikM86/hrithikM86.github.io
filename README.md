@@ -527,7 +527,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 
 <h2 id="extracurricular-activities">Extracurricular Activities</h2>
-<ul>
+<ol>
     <li><strong>2024:</strong> Guided 12+ students in developing a CNN-based model that translates ASL live video to text at SoC.</li>
     <li><strong>2024:</strong> Facilitated an NLP-based project for 12+ students at WIDS to build a Shakespearean language chatbot.</li>
     <li><strong>2022:</strong> Participated in XLR8 and built an advanced WiFi-controlled racing bot using the ESP32 micro-controller.</li>
@@ -535,7 +535,9 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <li><strong>2022:</strong> Participated in RC plane competition and built a high-performance aircraft showcasing technical skills.</li>
     <li><strong>2022:</strong> Mentored 10+ students at WIDS, from fundamentals to developing and testing Machine Learning models.</li>
     <li><strong>2022:</strong> Dedicated 80+ hours to impactful community service as a volunteer for UMMEED, an initiative under NSS.</li>
-</ul>
+    <li><strong>2022:</strong> Participated in the Versova Beach Cleanup organized by Abhyuday, IIT Bombay’s social impact initiative.</li>
+    <li><strong>2022:</strong> Raised ₹1.5 Lakhs within a week to fund initial checkup and cancer treatment for a hostel staff member.</li>
+</ol>
 
 
 

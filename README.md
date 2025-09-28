@@ -58,7 +58,6 @@
     <li><a href="#skills">Skills</a></li>
     <li><a href="#relevant-courses">Relevant Courses</a></li>
     <li><a href="#extracurricular-activities">Extracurricular Activities</a></li>
-    <li><a href="#international-experience">International Experience</a></li>
 </ul>
 
 <h2 id="education">Education</h2>

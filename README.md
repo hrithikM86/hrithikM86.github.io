@@ -127,8 +127,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
         <li>Designed a two-step variable rationalization framework by applying K-Means clustering to group variables by functional similarity and leveraging SHAP, PDP, and ALE to assign importance scores.</li>
         <li>Utilized Bayesian optimization for hyperparameter tuning to address overfitting observed in previous-generation models.</li>
         <li>Developed a novel metric using basis points (bps) drop per variable in Gini and capture rate to assess model stability.</li>
-        <li>Achieved a 50% reduction in model variables, driving a 30% improvement in model stability for commercial risk models managing $100B in exposures.</li>
-        <li>Received a Pre-Placement Offer (PPO) for this work.</li>
+        <li>Achieved a 50% reduction in model variables, driving a 30% improvement in model stability for commercial risk models managing $100B in exposures, Received a Pre-Placement Offer (PPO) for this work.</li>
     </ul>
 </div>
 

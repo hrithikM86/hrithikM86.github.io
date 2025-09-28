@@ -76,51 +76,43 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 
 <h2 id="publications">Publications and Conferences</h2>
+
 <ol>
-    <li>
-        <b>Journal Publication:</b><br>
-        Co-author. "Lunar Geochemistry from X-ray Line Flux Ratios Using CLASS on Chandrayaan-2." 
-        Submitted to <i>The Planetary Science Journal</i>. Received coverage in major Indian newspapers and articles, highlighting its significance in lunar and planetary sciences.<br>
-        <ul>
-            <li><a href="https://arxiv.org/abs/2508.15563" target="_blank" rel="noopener noreferrer">Paper</a></li>
-            <li><a href="https://www.star-iitb.in/research/chandrayaan" target="_blank" rel="noopener noreferrer">News Coverage</a></li>
-        </ul>
-    </li>
+  <li>
+    <b>Journal Publication:</b><br>
+    Co-author. "Lunar Geochemistry from X-ray Line Flux Ratios Using CLASS on Chandrayaan-2." 
+    Submitted to <i>The Planetary Science Journal</i>. Received coverage in major Indian newspapers and articles.<br>
+    - [Paper](https://arxiv.org/abs/2508.15563)
+    - [News Coverage](https://www.star-iitb.in/research/chandrayaan)
+  </li>
 
-    <li>
-        <b>Conference Poster:</b><br>
-        Co-author. "Elemental Ratios from Chandrayaan-2: High-Resolution XRF Mapping of the Lunar Surface." 
-        Selected for poster presentation at the Lunar & Planetary Science Conference (LPSC), Houston, 2025.<br>
-        <ul>
-            <li><a href="https://drive.google.com/file/d/1fK12Lo3S24XXCxZ_2zx-pmMl9QZu2jrh/view" target="_blank" rel="noopener noreferrer">Poster</a></li>
-        </ul>
-    </li>
+  <li>
+    <b>Conference Poster:</b><br>
+    Co-author. "Elemental Ratios from Chandrayaan-2: High-Resolution XRF Mapping of the Lunar Surface." 
+    Selected for poster presentation at the Lunar & Planetary Science Conference (LPSC), Houston, 2025.<br>
+    - [Poster](https://drive.google.com/file/d/1fK12Lo3S24XXCxZ_2zx-pmMl9QZu2jrh/view)
+  </li>
 
-    <li>
-        <b>Conference Poster:</b><br>
-        Kudupudi Puja Naga Prasanna, Hrithik Mhatre et al. "A Genetic Algorithm based Approach for Tuning Parameters of the Star Tracker Algorithms." 
-        Presented at the 42nd Meeting of the Astronomical Society of India, hosted by ISRO and IISc Bangalore, 2024.<br>
-        <ul>
-            <li><a href="https://drive.google.com/file/d/13UmXFrOX49zODJPpjmVfJ5SC3AHlIE-f/view" target="_blank" rel="noopener noreferrer">Poster</a></li>
-        </ul>
-    </li>
+  <li>
+    <b>Conference Poster:</b><br>
+    Kudupudi Puja Naga Prasanna, Hrithik Mhatre et al. "A Genetic Algorithm based Approach for Tuning Parameters of the Star Tracker Algorithms." 
+    Presented at the 42nd Meeting of the Astronomical Society of India, hosted by ISRO and IISc Bangalore, 2024.<br>
+    - [Poster](https://drive.google.com/file/d/13UmXFrOX49zODJPpjmVfJ5SC3AHlIE-f/view)
+  </li>
 
-    <li>
-        <b>Preprint:</b><br>
-        Hrithik Mhatre et al. "Pixels to Signals: A Real-Time Framework for Traffic Demand Estimation."<br>
-        <ul>
-            <li><a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank" rel="noopener noreferrer">Paper</a></li>
-        </ul>
-    </li>
+  <li>
+    <b>Preprint:</b><br>
+    Hrithik Mhatre et al. "Pixels to Signals: A Real-Time Framework for Traffic Demand Estimation."<br>
+    - [Paper](https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view)
+  </li>
 
-    <li>
-        <b>Preprint:</b><br>
-        Hrithik Mhatre et al. "Parkinson's Disease Detection Using ComParE Features with Machine Learning and Deep Learning Approaches."<br>
-        <ul>
-            <li><a href="https://drive.google.com/file/d/11CBdK_CVs3tUaXSHTrg8H9I78apUTcpE/view" target="_blank" rel="noopener noreferrer">Paper</a></li>
-        </ul>
-    </li>
+  <li>
+    <b>Preprint:</b><br>
+    Hrithik Mhatre et al. "Parkinson's Disease Detection Using ComParE Features with Machine Learning and Deep Learning Approaches."<br>
+    - [Paper](https://drive.google.com/file/d/11CBdK_CVs3tUaXSHTrg8H9I78apUTcpE/view)
+  </li>
 </ol>
+
 
 
 

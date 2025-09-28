@@ -141,7 +141,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 
 
-<h2 id="professional-experience">Professional Experience</h2>
+<!-- <h2 id="professional-experience">Professional Experience</h2>
 
 <div class="section-title" onclick="toggleSection('amex-content', 'amex-links')">1. American Express  - Internship &#9660;</div>
 
@@ -150,6 +150,21 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </div>
 
 <div id="amex-content" class="section-content">
+    <ul>
+        <li>Designed a two-step variable rationalization framework by applying K-Means clustering to group variables by functional similarity and leveraging SHAP, PDP, and ALE to assign importance scores.</li>
+        <li>Utilized Bayesian optimization for hyperparameter tuning to address overfitting observed in previous-generation models.</li>
+        <li>Developed a novel metric using basis points (bps) drop per variable in Gini and capture rate to assess model stability.</li>
+        <li>Achieved a 50% reduction in model variables, driving a 30% improvement in model stability for commercial risk models managing $100B in exposures, Received a Pre-Placement Offer (PPO) for this work.</li>
+    </ul>
+</div> -->
+
+<h2 id="professional-experience">Professional Experience</h2>
+<div class="section-title" onclick="toggleSection('amex-content')">1. American Express - Internship &#9660;</div>
+
+<div id="amex-content" class="section-content">
+    <div class="link-container">
+        <a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank">Manager : Archit Jain</a>
+    </div>
     <ul>
         <li>Designed a two-step variable rationalization framework by applying K-Means clustering to group variables by functional similarity and leveraging SHAP, PDP, and ALE to assign importance scores.</li>
         <li>Utilized Bayesian optimization for hyperparameter tuning to address overfitting observed in previous-generation models.</li>
@@ -222,10 +237,10 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="link-container" id="lunar-links">
     <a href="https://scholar.google.com/citations?user=DBpGmU4AAAAJ&hl=en" target="_blank">Guide: Prof. Varun Bhalerao |</a>
     <a href="https://www.star-iitb.in/">STAR Lab |</a>
-    <a href="https://github.com/hrithikM86/InterIIT" target="_blank">GitHub |</a>
-    <a href="https://drive.google.com/file/d/1an4j_8vN37vJ3eQEXD5U6o7toDzKZXHh/view" target="_blank">Report |</a>
     <a href="#" target="_blank">InterIIT Tech Meet 13.0 |</a>
     <a href="#" target="_blank">ISRO</a>
+    <a href="https://github.com/hrithikM86/InterIIT" target="_blank">GitHub |</a>
+    <a href="https://drive.google.com/file/d/1an4j_8vN37vJ3eQEXD5U6o7toDzKZXHh/view" target="_blank">Report |</a>
 </div>
 
 <div id="lunar-xrf" class="section-content">
@@ -266,8 +281,8 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="link-container" id="crack-links">
     <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar |</a>
     <a href="https://www.me.iitb.ac.in/~alankar/" target="_blank">ICME and Materials Genome Lab |</a>
-    <a href="https://drive.google.com/file/d/1bP5sF61247_-N9RSpgAwL7Wza82byGiX/view" target="_blank">Report |</a>
     <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">GitHub</a>
+    <a href="https://drive.google.com/file/d/1bP5sF61247_-N9RSpgAwL7Wza82byGiX/view" target="_blank">Report |</a>
 </div>
 
 <div id="crack-detection" class="section-content">
@@ -300,6 +315,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 
 <h2 id="technical-projects">Technical Projects</h2>
+
 <!-- GCON-VEGATHON | IEEE-GCON 2023 | C-DAC & IIT Guwahati -->
 <div class="section-title" onclick="toggleSection('gcon-vega', 'gcon-links')">1. GCON-VEGATHON | IEEE-GCON 2023 | C-DAC & IIT Guwahati &#9660;</div>
 <div id="gcon-vega" class="section-content">

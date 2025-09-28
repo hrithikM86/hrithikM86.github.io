@@ -175,8 +175,8 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="section-title" onclick="toggleSection('traffic-signal', 'traffic-links')">1. A Vision-Driven MARL Framework for Real-Time Traffic Signal Optimization &#9660;</div>
 
 <div class="link-container" id="traffic-links">
-    <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Guide: Prof. Archak Mittal, Transportation Systems Engineering, IIT Bombay</a>
-    <a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank">BTP 1 Report</a>
+    <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Guide: Prof. Archak Mittal, Transportation Systems Engineering, IIT Bombay |</a>
+    <a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank">BTP 1 Report |</a>
     <a href="https://drive.google.com/file/d/1CWoLeOPZqNhGBXULxWbK-gzi0ut6awht/view" target="_blank">BTP 2 Report</a>
 </div>
 
@@ -195,11 +195,11 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="section-title" onclick="toggleSection('lunar-xrf', 'lunar-links')">2. High-Resolution XRF Mapping of the Lunar Surface | Chandrayaan-2 &#9660;</div>
 
 <div class="link-container" id="lunar-links">
-    <a href="https://scholar.google.com/citations?user=DBpGmU4AAAAJ&hl=en" target="_blank">Guide: Prof. Varun Bhalerao</a>
-    <a href="https://www.star-iitb.in/">STAR Lab</a>
-    <a href="https://github.com/hrithikM86/InterIIT" target="_blank">GitHub</a>
-    <a href="https://drive.google.com/file/d/1an4j_8vN37vJ3eQEXD5U6o7toDzKZXHh/view" target="_blank">Report</a>
-    <a href="#" target="_blank">InterIIT Tech Meet 13.0</a>
+    <a href="https://scholar.google.com/citations?user=DBpGmU4AAAAJ&hl=en" target="_blank">Guide: Prof. Varun Bhalerao |</a>
+    <a href="https://www.star-iitb.in/">STAR Lab |</a>
+    <a href="https://github.com/hrithikM86/InterIIT" target="_blank">GitHub |</a>
+    <a href="https://drive.google.com/file/d/1an4j_8vN37vJ3eQEXD5U6o7toDzKZXHh/view" target="_blank">Report |</a>
+    <a href="#" target="_blank">InterIIT Tech Meet 13.0 |</a>
     <a href="#" target="_blank">ISRO</a>
 </div>
 

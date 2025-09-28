@@ -80,8 +80,7 @@
     <li><a href="#research-projects">Research & Development Projects</a></li>
     <li><a href="#technical-projects">Technical Projects</a></li>
     <li><a href="#positions-of-responsibility">Positions of Responsibility</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#relevant-courses">Relevant Courses</a></li>
+    <li><a href="#skills-and-courses">Skills and Relevant Courses</a></li>
     <li><a href="#extracurricular-activities">Extracurricular Activities</a></li>
 </ul>
 
@@ -496,36 +495,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 
 
-
-
-
-<!-- <h2 id="skills">Skills</h2>
-<ul>
-    <li><strong>Programming Languages:</strong> C, C++, Python, MATLAB, SQL, HTML, CSS, R</li>
-    <li><strong>Deep Learning Frameworks:</strong> TensorFlow, Keras, PyTorch</li>
-    <li><strong>Tools:</strong> SUMO, YOLO, OpenAI Gym, Raspberry Pi, Git, GitHub, EAGLE, Microchip Studio, QGIS, ETABS, Eclipse, MapWindow GIS</li>
-    <li><strong>Libraries:</strong> Scikit-learn, NumPy, SciPy, Matplotlib, Pandas, PySpark, PiCamera, VRay</li>
-</ul>
-
-<h2 id="relevant-courses">Relevant Courses</h2>
-<ul>
-    <li><strong>Academic Courses:</strong>
-        <ul>
-            <li>Mathematics: Calculus, Differential Equations, Linear Algebra, Probabilistic and Statistical Methods in Civil Engineering</li>
-            <li>Programming: Data Structures and Algorithms (DSA), Design and Analysis of Algorithms (DAA), Introduction to Machine Learning, Logic for Computer Science</li>
-        </ul>
-    </li>
-    <li><strong>Online Courses:</strong>
-        <ul>
-            <li>Deep Learning Specialization by Andrew Ng</li>
-            <li>Machine Learning Specialization by Andrew Ng</li>
-            <li>Natural Language Processing Specialization</li>
-            <li>Data Science Bootcamp by WIDS</li>
-            <li>MATLAB Onramp</li>
-        </ul>
-    </li>
-</ul> -->
-
 <h2 id="skills-and-courses">Skills & Relevant Courses</h2>
 
 <table style="border-collapse: collapse; width: 100%;">
@@ -556,19 +525,18 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </table>
 
 
+
 <h2 id="extracurricular-activities">Extracurricular Activities</h2>
 <ul>
-    <li>Participated in hackathons and workshops related to data science and machine learning.</li>
-    <li>Active member of the Civil Engineering Tech Team at EERI, IITB Student Chapter.</li>
-    <li>Participated in XLR8 and built an advanced WiFi-controlled racing bot using the ESP32 micro-controller.</li>
-    <li>Participated in an RC plane competition and built a high-performance aircraft showcasing technical skills.</li>
-    <li>Developed a Bluetooth-controlled robotic arm with Arduino UNO, capable of precise movements.</li>
-    <li>Guided 12+ students in developing a CNN-based model that translates ASL live video to text at SoC.</li>
-    <li>Mentored over 25+ students in machine learning and data science for two impactful projects at WIDS.</li>
-    <li>Presented Pratham and STADS modules at the Tech & RnD Expo as part of the Student Satellite team.</li>
-    <li>Participated in a Satellite Tracking Session, gaining hands-on experience in tracking satellites.</li>
-    <li>Dedicated 80+ hours to impactful community service as a volunteer for UMMEED, an initiative under NSS.</li>
+    <li><strong>2024:</strong> Guided 12+ students in developing a CNN-based model that translates ASL live video to text at SoC.</li>
+    <li><strong>2024:</strong> Facilitated an NLP-based project for 12+ students at WIDS to build a Shakespearean language chatbot.</li>
+    <li><strong>2022:</strong> Participated in XLR8 and built an advanced WiFi-controlled racing bot using the ESP32 micro-controller.</li>
+    <li><strong>2022:</strong> Developed a Bluetooth-controlled robotic arm with Arduino UNO, capable of precise movements.</li>
+    <li><strong>2022:</strong> Participated in RC plane competition and built a high-performance aircraft showcasing technical skills.</li>
+    <li><strong>2022:</strong> Mentored 10+ students at WIDS, from fundamentals to developing and testing Machine Learning models.</li>
+    <li><strong>2022:</strong> Dedicated 80+ hours to impactful community service as a volunteer for UMMEED, an initiative under NSS.</li>
 </ul>
+
 
 
 

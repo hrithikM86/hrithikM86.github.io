@@ -67,12 +67,12 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <b>Graduated:</b> 2025</p>
 
 <h2 id="scholastic-achievements">Scholastic Achievements</h2>
-<ul>
+<ol>
     <li>Graduated with a rank of 7 out of 150+ students in the B.Tech Civil Engineering program at IIT Bombay</li>
     <li>Secured a perfect 10/10 Semester Grade Point Average (CGPA) during the 8th semester at IIT Bombay</li>
     <li>Achieved a 99.17th percentile in the Joint Entrance Examination Main among over 1.5 million applicants</li>
     <li>Secured a position in the top 2 percentile in JEE Advanced, competing among 0.15+ million candidates</li>
-</ul>
+</ol>
 
 
 <h2 id="publications">Publications and Conferences</h2>

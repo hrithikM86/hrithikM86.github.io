@@ -466,37 +466,32 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </div>
 
 
-
-
-
 <h2 id="positions-of-responsibility">Positions of Responsibility</h2>
 
 <!-- Electrical Subsystem Head Section -->
-<div class="section-title" onclick="toggleSection('electrical-head', 'electrical-links')">1. Electrical Subsystem Head | Student Satellite Program, IIT Bombay &#9660;</div>
-
+<div class="section-title" onclick="toggleSection('electrical-head')">1. Electrical Subsystem Head | Student Satellite Program, IIT Bombay &#9660;</div>
 <div id="electrical-head" class="section-content">
+    <div class="link-container">
+        <a href="https://www.aero.iitb.ac.in/satlab/" target="_blank">Learn More</a>
+    </div>
     <ul>
         <li>Led a 9-member interdisciplinary team on Hardware In-Loop Simulation of the STADS module.</li>
         <li>Executed a 3-step recruitment process to select 6 of 50+ applicants, evaluating their technical skills.</li>
         <li>Successfully designed, mentored, and evaluated two technical hardware projects for the mini-project round.</li>
     </ul>
-    <div class="link-container" id="electrical-links">
-        <a href="https://www.aero.iitb.ac.in/satlab/" target="_blank">Learn More</a>
-    </div>
 </div>
 
 <!-- Senior Department Academic Mentor Section -->
-<div class="section-title" onclick="toggleSection('academic-mentor', 'academic-links')">2. Senior Department Academic Mentor & Subgroup Head | Civil Engineering Department &#9660;</div>
-
+<div class="section-title" onclick="toggleSection('academic-mentor')">2. Senior Department Academic Mentor & Subgroup Head | Civil Engineering Department &#9660;</div>
 <div id="academic-mentor" class="section-content">
-    <ul>
-        <li>Monitoring the academic performance of 6 sophomores to provide personalized guidance and counseling.</li>
-        <li>Leading a 6-member team to survey departmental needs and facilitate effective mentorship delivery.</li>
-        <li>Received the DAMP Special Recognition Award, given to 17 out of 400 students for exceptional contributions.</li>
-    </ul>
-    <div class="link-container" id="academic-links">
+    <div class="link-container">
         <a href="https://civildampiitb.github.io/" target="_blank">Learn More</a>
     </div>
+    <ul>
+        <li>Monitored the academic performance of 6 sophomores to provide personalized guidance and counseling.</li>
+        <li>Led a 6-member team to survey departmental needs and facilitate effective mentorship delivery.</li>
+        <li>Received the DAMP Special Recognition Award, given to 17 out of 400 students for exceptional contributions.</li>
+    </ul>
 </div>
 
 

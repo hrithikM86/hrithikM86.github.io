@@ -140,25 +140,8 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 
 
-
-<!-- <h2 id="professional-experience">Professional Experience</h2>
-
-<div class="section-title" onclick="toggleSection('amex-content', 'amex-links')">1. American Express  - Internship &#9660;</div>
-
-<div class="link-container" id="amex-links">
-    <a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank">Manager : Archit Jain</a>
-</div>
-
-<div id="amex-content" class="section-content">
-    <ul>
-        <li>Designed a two-step variable rationalization framework by applying K-Means clustering to group variables by functional similarity and leveraging SHAP, PDP, and ALE to assign importance scores.</li>
-        <li>Utilized Bayesian optimization for hyperparameter tuning to address overfitting observed in previous-generation models.</li>
-        <li>Developed a novel metric using basis points (bps) drop per variable in Gini and capture rate to assess model stability.</li>
-        <li>Achieved a 50% reduction in model variables, driving a 30% improvement in model stability for commercial risk models managing $100B in exposures, Received a Pre-Placement Offer (PPO) for this work.</li>
-    </ul>
-</div> -->
-
 <h2 id="professional-experience">Professional Experience</h2>
+
 <div class="section-title" onclick="toggleSection('amex-content')">1. American Express - Internship &#9660;</div>
 
 <div id="amex-content" class="section-content">
@@ -210,18 +193,14 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h2 id="research-projects">Research & Development Projects</h2>
 
-
 <!-- Traffic Signal Optimization Section -->
-<div class="section-title" onclick="toggleSection('traffic-signal', 'traffic-links')">1. A Vision-Driven MARL Framework for Real-Time Traffic Signal Optimization &#9660;</div>
-
-<div class="link-container" id="traffic-links">
-    <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Guide: Prof. Archak Mittal, Transportation Systems Engineering, IIT Bombay |</a>
-    <a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank">BTP 1 Report |</a>
-    <a href="https://drive.google.com/file/d/1CWoLeOPZqNhGBXULxWbK-gzi0ut6awht/view" target="_blank">BTP 2 Report</a>
-</div>
-
-
+<div class="section-title" onclick="toggleSection('traffic-signal')">1. A Vision-Driven MARL Framework for Real-Time Traffic Signal Optimization &#9660;</div>
 <div id="traffic-signal" class="section-content">
+    <div class="link-container">
+        <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Guide: Prof. Archak Mittal, Transportation Systems Engineering, IIT Bombay |</a>
+        <a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank">BTP 1 Report |</a>
+        <a href="https://drive.google.com/file/d/1CWoLeOPZqNhGBXULxWbK-gzi0ut6awht/view" target="_blank">BTP 2 Report</a>
+    </div>
     <ul>
         <li>Designed a real-time vehicle detection framework with adaptive background modeling (61.5× faster than K-means) & foreground isolation using differencing, grayscale, binarization & morphological operations.</li>
         <li>Applied DBSCAN for vehicle detection on foreground; 2.3× faster than YOLO with better accuracy.</li>
@@ -230,20 +209,17 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-
 <!-- Lunar XRF Mapping Section -->
-<div class="section-title" onclick="toggleSection('lunar-xrf', 'lunar-links')">2. High-Resolution XRF Mapping of the Lunar Surface | Chandrayaan-2 &#9660;</div>
-
-<div class="link-container" id="lunar-links">
-    <a href="https://scholar.google.com/citations?user=DBpGmU4AAAAJ&hl=en" target="_blank">Guide: Prof. Varun Bhalerao |</a>
-    <a href="https://www.star-iitb.in/">STAR Lab |</a>
-    <a href="#" target="_blank">InterIIT Tech Meet 13.0 |</a>
-    <a href="#" target="_blank">ISRO</a>
-    <a href="https://github.com/hrithikM86/InterIIT" target="_blank">GitHub |</a>
-    <a href="https://drive.google.com/file/d/1an4j_8vN37vJ3eQEXD5U6o7toDzKZXHh/view" target="_blank">Report |</a>
-</div>
-
+<div class="section-title" onclick="toggleSection('lunar-xrf')">2. High-Resolution XRF Mapping of the Lunar Surface | Chandrayaan-2 &#9660;</div>
 <div id="lunar-xrf" class="section-content">
+    <div class="link-container">
+        <a href="https://scholar.google.com/citations?user=DBpGmU4AAAAJ&hl=en" target="_blank">Guide: Prof. Varun Bhalerao |</a>
+        <a href="https://www.star-iitb.in/">STAR Lab |</a>
+        <a href="#" target="_blank">InterIIT Tech Meet 13.0 |</a>
+        <a href="#" target="_blank">ISRO</a>
+        <a href="https://github.com/hrithikM86/InterIIT" target="_blank">GitHub |</a>
+        <a href="https://drive.google.com/file/d/1an4j_8vN37vJ3eQEXD5U6o7toDzKZXHh/view" target="_blank">Report |</a>
+    </div>
     <ul>
         <li>Won Gold Medal for ISRO’s lunar mineral mapping challenge, competing against teams from 23 IITs.</li>
         <li>Studied X-Ray fluorescence physics & elemental detection methods for solar flare incidents on the Moon.</li>
@@ -255,14 +231,12 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </div>
 
 <!-- Parkinson's Disease Speech Detection Section -->
-<div class="section-title" onclick="toggleSection('parkinson-speech', 'parkinson-links')">3. Enhanced Speech-Based Pipeline for Detecting Parkinson’s Disease &#9660;</div>
-
-<div class="link-container" id="parkinson-links">
-    <a href="https://scholar.google.com.au/citations?user=86tKGf8AAAAJ&hl=en" target="_blank">Guide: Prof. Nirmal Punjabi, Koita Centre for Digital Health, IIT Bombay |</a>
-    <a href="https://drive.google.com/file/d/11CBdK_CVs3tUaXSHTrg8H9I78apUTcpE/view" target="_blank">Report</a>
-</div>
-
+<div class="section-title" onclick="toggleSection('parkinson-speech')">3. Enhanced Speech-Based Pipeline for Detecting Parkinson’s Disease &#9660;</div>
 <div id="parkinson-speech" class="section-content">
+    <div class="link-container">
+        <a href="https://scholar.google.com.au/citations?user=86tKGf8AAAAJ&hl=en" target="_blank">Guide: Prof. Nirmal Punjabi, Koita Centre for Digital Health, IIT Bombay |</a>
+        <a href="https://drive.google.com/file/d/11CBdK_CVs3tUaXSHTrg8H9I78apUTcpE/view" target="_blank">Report</a>
+    </div>
     <ul>
         <li>Proposed OpenSmile-based pipeline with mRMR-selected features & grid-tuned ML and LSTM models.</li>
         <li>Used SHAP values to validate if top voice-related features align with established Parkinson’s literature.</li>
@@ -273,19 +247,15 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-
-
 <!-- Concrete Crack Detection Section -->
-<div class="section-title" onclick="toggleSection('crack-detection', 'crack-links')">4. Classification, Segmentation, and GAN Implementation on Concrete Crack Surfaces &#9660;</div>
-
-<div class="link-container" id="crack-links">
-    <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar |</a>
-    <a href="https://www.me.iitb.ac.in/~alankar/" target="_blank">ICME and Materials Genome Lab |</a>
-    <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">GitHub</a>
-    <a href="https://drive.google.com/file/d/1bP5sF61247_-N9RSpgAwL7Wza82byGiX/view" target="_blank">Report |</a>
-</div>
-
+<div class="section-title" onclick="toggleSection('crack-detection')">4. Classification, Segmentation, and GAN Implementation on Concrete Crack Surfaces &#9660;</div>
 <div id="crack-detection" class="section-content">
+    <div class="link-container">
+        <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar |</a>
+        <a href="https://www.me.iitb.ac.in/~alankar/" target="_blank">ICME and Materials Genome Lab |</a>
+        <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">GitHub</a>
+        <a href="https://drive.google.com/file/d/1bP5sF61247_-N9RSpgAwL7Wza82byGiX/view" target="_blank">Report |</a>
+    </div>
     <ul>
         <li>Engineered a Deep Convolutional GAN (DCGAN) to synthetically generate concrete crack images.</li>
         <li>Fine-tuned a ResNet50 model to classify fine concrete cracks on lab-tested surfaces using both real and GAN-generated data, achieving 99.3% classification accuracy and an F1 score of 99%.</li>
@@ -293,24 +263,20 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-
 <!-- Public Health Dashboard Section -->
-<div class="section-title" onclick="toggleSection('health-dashboard', 'health-links')">5. Data-Driven Dashboard for Public Health Analytics | Public Health Dept. Maharashtra &#9660;</div>
-
-<div class="link-container" id="health-links">
-    <a href="https://iitb.irins.org/profile/52104" target="_blank">Guide: Prof. Ganesh Ramkrishnan, Department of Computer Science, IIT Bombay |</a>
-    <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank">GitHub |</a>
-    <a href="https://drive.google.com/file/d/1lcJPyNfwnnUf7R-Rm_Mb3eqABJe_uBY6/view" target="_blank">Report</a>
-</div>
-
+<div class="section-title" onclick="toggleSection('health-dashboard')">5. Data-Driven Dashboard for Public Health Analytics | Public Health Dept. Maharashtra &#9660;</div>
 <div id="health-dashboard" class="section-content">
+    <div class="link-container">
+        <a href="https://iitb.irins.org/profile/52104" target="_blank">Guide: Prof. Ganesh Ramkrishnan, Department of Computer Science, IIT Bombay |</a>
+        <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank">GitHub |</a>
+        <a href="https://drive.google.com/file/d/1lcJPyNfwnnUf7R-Rm_Mb3eqABJe_uBY6/view" target="_blank">Report</a>
+    </div>
     <ul>
         <li>Developed a data-driven dashboard for analytical insights on healthcare services in Maharashtra state.</li>
         <li>Analyzed district-level trends in common, severe, and high-risk mental health conditions; assessed treatment accessibility and its influence on outcomes, uncovering a 6-fold rise in cases post-COVID.</li>
         <li>Engineered a novel ‘Health Index’ variable using mental health metrics to quantify district-level healthcare conditions, whose scores identified 11 out of 34 districts with suboptimal services.</li>
     </ul>
 </div>
-
 
 
 

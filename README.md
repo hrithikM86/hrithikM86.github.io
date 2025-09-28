@@ -373,7 +373,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="section-title" onclick="toggleSection('gcon-vega')">7. GCON-VEGATHON | IEEE-GCON 2023 | C-DAC & IIT Guwahati &#9660;</div>
 <div id="gcon-vega" class="section-content">
     <div class="link-container">
-        <a href="https://ieee-gcon.org/" target="_blank">Website</a>
+        <a href="https://event.iitg.ac.in/GCON2023/" target="_blank">Website</a>
     </div>
     <ul>
         <li>Selected as a top 15 semi-finalist out of 50+ competitors, showcasing exceptional skills & teamwork.</li>
@@ -386,7 +386,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="section-title" onclick="toggleSection('ai-chatbot')">8. AI powered chatbot &#9660;</div>
 <div id="ai-chatbot" class="section-content">
     <div class="link-container">
-        <a href="https://github.com/hrithikM86/AI-Powered-Chatbot" target="_blank">Visit GitHub</a>
+        <a href="https://github.com/hrithikM86/AI-Powered-Chatbot" target="_blank">GitHub</a>
     </div>
     <ul>
         <li>Developed an AI-powered PDF chatbot using NLP, word embeddings, and similarity search techniques.</li>
@@ -400,7 +400,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="section-title" onclick="toggleSection('neural-networks')">9. Neural Networks and Large Language Models &#9660;</div>
 <div id="neural-networks" class="section-content">
     <div class="link-container">
-        <a href="https://github.com/hrithikM86/Neural-Networks-and-Large-Language-Models/tree/main" target="_blank">Visit GitHub</a>
+        <a href="https://github.com/hrithikM86/Neural-Networks-and-Large-Language-Models/tree/main" target="_blank">GitHub</a>
     </div>
     <ul>
         <li>Developed a Gradio QnA bot with FLAN-T5 and GPU acceleration for real-time text generation.</li>
@@ -415,7 +415,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="section-title" onclick="toggleSection('credit-score')">10. Understanding Credit Score Models &#9660;</div>
 <div id="credit-score" class="section-content">
     <div class="link-container">
-        <a href="https://github.com/hrithikM86/Understanding-Credit-Score-Models/tree/main" target="_blank">Visit GitHub</a>
+        <a href="https://github.com/hrithikM86/Understanding-Credit-Score-Models/tree/main" target="_blank">GitHub</a>
     </div>
     <ul>
         <li>Performed data preprocessing, oversampling, feature engineering and EDA on the lending data.</li>
@@ -429,7 +429,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="section-title" onclick="toggleSection('glee')">11. Great Lunar Expedition for Everyone (GLEE) &#9660;</div>
 <div id="glee" class="section-content">
     <div class="link-container">
-        <a href="https://www.aero.iitb.ac.in/satlab/glee.php" target="_blank">Visit Website</a>
+        <a href="https://www.aero.iitb.ac.in/satlab/glee.php" target="_blank">Website</a>
     </div>
     <ul>
         <li>The Great Lunar Expedition for Everyone is a global mission for lunar surface science using chipsats.</li>
@@ -442,7 +442,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="section-title" onclick="toggleSection('robotic-arm')">12. Robotic Arm &#9660;</div>
 <div id="robotic-arm" class="section-content">
     <div class="link-container">
-        <a href="https://github.com/hrithikM86/RoboCivs/tree/main" target="_blank">Visit GitHub</a>
+        <a href="https://github.com/hrithikM86/RoboCivs/tree/main" target="_blank">GitHub</a>
     </div>
     <ul>
         <li>Creating a programmable robotic arm to perform specific movements, controlled via mobile application.</li>
@@ -456,7 +456,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 <div class="section-title" onclick="toggleSection('precipitation-prediction')">13. Precipitation Prediction using ML &#9660;</div>
 <div id="precipitation-prediction" class="section-content">
     <div class="link-container">
-        <a href="https://github.com/hrithikM86/Precipitation-Prediction-using-ML/tree/main" target="_blank">Visit GitHub</a>
+        <a href="https://github.com/hrithikM86/Precipitation-Prediction-using-ML/tree/main" target="_blank">GitHub</a>
     </div>
     <ul>
         <li>Created ML models using Random Forest & Logistic Regression to accurately predict precipitation.</li>

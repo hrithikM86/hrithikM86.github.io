@@ -51,6 +51,7 @@
     <li><a href="#scholastic-achievements">Scholastic Achievements</a></li>
     <li><a href="#publications">Publications and Conferences</a></li>
     <li><a href="#professional-experience">Professional Experience</a></li>
+    <li><a href="#international-experience">International Experience</a></li>
     <li><a href="#research-projects">Research & Development Projects</a></li>
     <li><a href="#technical-projects">Technical Projects</a></li>
     <li><a href="#positions-of-responsibility">Positions of Responsibility</a></li>
@@ -158,13 +159,14 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <div id="sdc-content" class="section-content">
     <ul>
-        <li>Integral member of the Civil Engineering Tech Team at the Earthquake Engineering Research Institute (EERI), IITB Student Chapter, developing solutions for the Seismic Design Competition (SDC) by EERI in San Francisco.</li>
-        <li>Achieved 8th position internationally as the sole Indian team, competing against participants from 10+ different countries and 30+ renowned universities.</li>
-        <li>Generated building income of $0.38 million+ while ensuring the 19-storey skyscraper withstood all ground motions with negligible rooftop acceleration.</li>
-        <li>Designed the exterior of a 19-storey skyscraper with 4 sky bridges, seamlessly integrating with San Francisco’s cityscape using 3ds Max, Revit, and V-Ray to create 3D renderings.</li>
-        <li>Researched LEED certification and proposed sustainable elements such as Xeriscaping for enhanced carbon absorption and Double Sheet Eco-Sense Glass for a green building façade design.</li>
+        <li>Core member of the Civil Engineering Tech Team, EERI IITB Student Chapter, contributing to Seismic Design Competition (SDC) solutions.</li>
+        <li>Secured 8th place internationally as the sole Indian team, competing against 30+ universities across 10+ countries.</li>
+        <li>Engineered a 19-storey skyscraper with 4 sky bridges, generating $0.38M+ revenue while ensuring negligible rooftop acceleration under seismic loading.</li>
+        <li>Developed detailed 3D exterior models and renderings using 3ds Max, Revit, and V-Ray, integrating the design with San Francisco’s cityscape.</li>
+        <li>Implemented sustainable features for LEED compliance, including Xeriscaping for enhanced carbon absorption and Double Sheet Eco-Sense Glass for energy-efficient façade design.</li>
     </ul>
 </div>
+
 
 
 <h2 id="research-projects">Research & Development Projects</h2>

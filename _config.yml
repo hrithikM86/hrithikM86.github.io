@@ -2,5 +2,6 @@ title: Hrithik Mhatre
 logo: /img/Hrithik.jpg
 description: Graduate student from IIT Bombay, majoring in Civil Engineering with a minor in Computer Science and Engineering.
 # show_downloads: true
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
+
 

@@ -76,56 +76,48 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h2 id="publications">Publications and Conferences</h2>
 
-<div class="section-title" onclick="toggleSection('pub-content', 'pub-links')">1. Journal Publication &#9660;</div>
-<div id="pub-content" class="section-content">
-    <ul>
-        <li>Co-author. “Lunar Geochemistry from X-ray Line Flux Ratios Using CLASS on Chandrayaan-2.” Submitted to <i>The Planetary Science Journal</i>. Received coverage in major Indian newspapers and articles, highlighting its significance in lunar and planetary sciences.</li>
-    </ul>
-</div>
-<div class="link-container" id="pub-links">
-    <a href="https://arxiv.org/abs/2508.15563" target="_blank">Paper</a> | 
-    <a href="https://www.star-iitb.in/research/chandrayaan" target="_blank">News Coverage</a>
-</div>
+<ul>
+    <li>
+        Co-author. “Lunar Geochemistry from X-ray Line Flux Ratios Using CLASS on Chandrayaan-2.” 
+        Submitted to <i>The Planetary Science Journal</i>. Received coverage in major Indian newspapers and articles, 
+        highlighting its significance in lunar and planetary sciences.  
+        <div class="link-container">
+            <a href="https://arxiv.org/abs/2508.15563" target="_blank">Paper</a> | 
+            <a href="https://www.star-iitb.in/research/chandrayaan" target="_blank">News Coverage</a>
+        </div>
+    </li>
 
-<div class="section-title" onclick="toggleSection('poster1-content', 'poster1-links')">2. Poster Presentation &#9660;</div>
-<div id="poster1-content" class="section-content">
-    <ul>
-        <li>Co-author. "Elemental Ratios from Chandrayaan-2: High-Resolution XRF Mapping of the Lunar Surface." Selected for poster presentation at the Lunar & Planetary Science Conference (LPSC), hosted by NASA and the Lunar and Planetary Institute, Houston, 2025.</li>
-    </ul>
-</div>
-<div class="link-container" id="poster1-links">
-    <a href="https://drive.google.com/file/d/1fK12Lo3S24XXCxZ_2zx-pmMl9QZu2jrh/view" target="_blank">Poster</a>
-</div>
+    <li>
+        Co-author. "Elemental Ratios from Chandrayaan-2: High-Resolution XRF Mapping of the Lunar Surface." 
+        Selected for poster presentation at the Lunar & Planetary Science Conference (LPSC), hosted by NASA and the Lunar and Planetary Institute, Houston, 2025.  
+        <div class="link-container">
+            <a href="https://drive.google.com/file/d/1fK12Lo3S24XXCxZ_2zx-pmMl9QZu2jrh/view" target="_blank">Poster</a>
+        </div>
+    </li>
 
-<div class="section-title" onclick="toggleSection('poster2-content', 'poster2-links')">3. Poster Presentation &#9660;</div>
-<div id="poster2-content" class="section-content">
-    <ul>
-        <li>Kudupudi Puja Naga Prasanna, Hrithik Mhatre et al. "A Genetic Algorithm based Approach for Tuning Parameters of the Star Tracker Algorithms." Presented at the 42nd Meeting of the Astronomical Society of India, hosted by ISRO and IISc Bangalore, 2024.</li>
-    </ul>
-</div>
-<div class="link-container" id="poster2-links">
-    <a href="https://drive.google.com/file/d/13UmXFrOX49zODJPpjmVfJ5SC3AHlIE-f/view" target="_blank">Poster</a>
-</div>
+    <li>
+        Kudupudi Puja Naga Prasanna, Hrithik Mhatre et al. "A Genetic Algorithm based Approach for Tuning Parameters of the Star Tracker Algorithms." 
+        Presented at the 42nd Meeting of the Astronomical Society of India, hosted by ISRO and IISc Bangalore, 2024.  
+        <div class="link-container">
+            <a href="https://drive.google.com/file/d/13UmXFrOX49zODJPpjmVfJ5SC3AHlIE-f/view" target="_blank">Poster</a>
+        </div>
+    </li>
 
-<div class="section-title" onclick="toggleSection('preprint1-content', 'preprint1-links')">4. Preprint &#9660;</div>
-<div id="preprint1-content" class="section-content">
-    <ul>
-        <li>Hrithik Mhatre et al. "Pixels to Signals: A Real-Time Framework for Traffic Demand Estimation."</li>
-    </ul>
-</div>
-<div class="link-container" id="preprint1-links">
-    <a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank">Paper</a>
-</div>
+    <li>
+        Hrithik Mhatre et al. "Pixels to Signals: A Real-Time Framework for Traffic Demand Estimation."  
+        <div class="link-container">
+            <a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank">Paper</a>
+        </div>
+    </li>
 
-<div class="section-title" onclick="toggleSection('preprint2-content', 'preprint2-links')">5. Preprint &#9660;</div>
-<div id="preprint2-content" class="section-content">
-    <ul>
-        <li>Hrithik Mhatre et al. "Parkinson’s Disease Detection Using ComParE Features with Machine Learning and Deep Learning Approaches."</li>
-    </ul>
-</div>
-<div class="link-container" id="preprint2-links">
-    <a href="https://drive.google.com/file/d/11CBdK_CVs3tUaXSHTrg8H9I78apUTcpE/view" target="_blank">Paper</a>
-</div>
+    <li>
+        Hrithik Mhatre et al. "Parkinson’s Disease Detection Using ComParE Features with Machine Learning and Deep Learning Approaches."  
+        <div class="link-container">
+            <a href="https://drive.google.com/file/d/11CBdK_CVs3tUaXSHTrg8H9I78apUTcpE/view" target="_blank">Paper</a>
+        </div>
+    </li>
+</ul>
+
 
 
 <h2 id="professional-experience">Professional Experience - Internship</h2>

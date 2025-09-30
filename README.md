@@ -464,6 +464,40 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
+<!-- Economic Evaluation of Jaipur Metro Phase-I -->
+<div class="section-title" onclick="toggleSection('economic-eval')">14. Economic Evaluation of Jaipur Metro Phase-I &#9660;</div>
+<div id="economic-eval" class="section-content">
+    <div class="link-container">
+        <a href="https://www.civil.iitb.ac.in/~vedagiri/" target="_blank">Guide: Prof. P. Vedagiri, Department of Civil Engineering, IIT Bombay |</a>
+        <a href="https://drive.google.com/file/d/1U5En6AjQqfEWCMDEojTa4Ltz4vm29C1G/view" target="_blank">Course Project | Report</a>
+    </div>
+    <ul>
+        <li>Performed a 30-year cost–benefit and financial analysis of Jaipur Metro (Phase-I), modelling capital & operating costs, maintenance, and salvage values.</li>
+        <li>Forecasted ridership growth and monetized user benefits (travel time savings, vehicle operating cost savings) to compute annual willingness-to-pay and total economic benefits.</li>
+        <li>Assessed externalities and environmental impacts (reduced emissions & congestion) and included them in the evaluation using standard shadow pricing adjustments.</li>
+        <li>Conducted sensitivity analysis on demand growth, discount rates, and cost overruns to test robustness of results and identify critical risk drivers.</li>
+        <li>Results: Economic IRR = <strong>18.6%</strong>, ENPV = <strong>Rs. 5,598 Cr</strong>, Financial IRR = <strong>8.24%</strong> — indicating strong economic justification, financial viability, and long-term sustainability.</li>
+    </ul>
+</div>
+
+<!-- Urban Travel Demand Modeling and Traffic Assignment -->
+<div class="section-title" onclick="toggleSection('urban-travel')">15. Urban Travel Demand Modeling and Traffic Assignment &#9660;</div>
+<div id="urban-travel" class="section-content">
+    <div class="link-container">
+        <a href="https://www.civil.iitb.ac.in/~kvkrao/" target="_blank">Guide: Prof. K. V. Krishna Rao, Department of Civil Engineering, IIT Bombay |</a>
+        <a href="#" target="_blank">Course Project</a>
+    </div>
+    <ul>
+        <li>Formulated household trip production models using regression techniques with socio-economic and land-use dummy variables, applying matrix-based least squares estimation.</li>
+        <li>Performed rigorous statistical validation using <em>R²</em>, <em>t-tests</em>, and <em>F-statistics</em> to ensure model robustness and reliability.</li>
+        <li>Calibrated gravity models for inter-zonal trip distribution, optimizing friction factors via the Bureau of Public Roads (BPR) procedure.</li>
+        <li>Implemented traffic assignment algorithms including capacity restraint, Method of Successive Averages (MSA), and Frank–Wolfe to achieve user-equilibrium traffic flows across the network.</li>
+    </ul>
+</div>
+
+
+
+
 
 <h2 id="positions-of-responsibility">Positions of Responsibility</h2>
 

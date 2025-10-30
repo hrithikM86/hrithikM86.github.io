@@ -201,7 +201,7 @@
 
         .section-content.active {
             padding: 1.5rem;
-            max-height: 1000px;
+            max-height: 5000px; /* Increased to prevent content cutoff */
         }
 
         .section-content ul {
@@ -286,6 +286,22 @@
                 align-items: center;
                 gap: 1rem;
             }
+            
+            .section-header h3 {
+                font-size: 1.1rem;
+            }
+        }
+        
+        /* Fix for overlapping content */
+        .section-content.active {
+            display: block;
+            overflow: visible;
+        }
+        
+        /* Ensure proper spacing between sections */
+        .section {
+            position: relative;
+            z-index: 1;
         }
     </style>
 </head>

@@ -495,6 +495,20 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
+<!-- Traffic Signal Design and Analysis -->
+<div class="section-title" onclick="toggleSection('signal-design')">16. Traffic Signal Design and Analysis &#9660;</div>
+<div id="signal-design" class="section-content">
+    <div class="link-container">
+        <a href="https://www.civil.iitb.ac.in/~velaga/" target="_blank">Guide: Prof. Nagendra R. Velaga, Department of Civil Engineering, IIT Bombay |</a>
+        <a href="#" target="_blank">Course Project</a>
+    </div>
+    <ul>
+        <li>Processed <em>real-time traffic data</em> to build a structured dataset and estimate intersection load patterns.</li>
+        <li>Designed an optimized <em>signal timing plan</em> to improve intersection efficiency and minimize conflicts.</li>
+        <li>Simulated and evaluated alternative signal groups in <em>VISSIM</em> to determine the most effective configuration.</li>
+        <li>Formulated <em>data-driven strategies</em> to reduce congestion and ensure smoother traffic movement.</li>
+    </ul>
+</div>
 
 
 

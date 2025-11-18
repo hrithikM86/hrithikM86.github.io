@@ -351,7 +351,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <ul>
         <li>Developed a preprocessing pipeline, including tokenization and stopword removal using NLTK.</li>
         <li>Trained CBOW & Skip-Gram embeddings from scratch, used PCA for visualization, and compared results with pre-trained Word2Vec across ML frameworks including SVM, XGBoost, and Neural Networks.</li>
-        <li>Selected the best techniques to achieve 71% accuracy in 5-class sentiment classification of reviews.</li>
+        <li>Selected the best techniques to achieve 91% accuracy in 5-class sentiment classification of reviews.</li>
     </ul>
 </div>
 

@@ -126,15 +126,17 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
   <li>
     <b>Preprint:</b><br>
-    Hrithik Mhatre et al. "Pixels to Signals: A Real-Time Framework for Traffic Demand Estimation."  
+    Hrithik Mhatre et al. "Parkinson’s Disease Classification using Speech under Data-Constrained Regime."  
+    <a href="https://drive.google.com/file/d/1vyE_GrdCpSitCYxlcEz2168DFiIP4HtI/view" target="_blank" rel="noopener noreferrer">Paper</a>
+  </li>
+  
+  <li>
+    <b>Preprint:</b><br>
+    Hrithik Mhatre et al. "Pixels to Signals: A Real-Time Framework for Traffic Demand Estimation", manuscript under development  
     <a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank" rel="noopener noreferrer">Paper</a>
   </li>
 
-  <li>
-    <b>Preprint:</b><br>
-    Hrithik Mhatre et al. "Parkinson's Disease Detection Using ComParE Features with Machine Learning and Deep Learning Approaches."  
-    <a href="https://drive.google.com/file/d/11CBdK_CVs3tUaXSHTrg8H9I78apUTcpE/view" target="_blank" rel="noopener noreferrer">Paper</a>
-  </li>
+
 </ol>
 
 

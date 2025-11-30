@@ -125,7 +125,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
   </li>
 
   <li>
-    <b>Preprint:</b><br>
+    <b>Journal Publication:</b><br>
     Mayurakshi Mukherji, Hrithik Mhatre et al. "Parkinson’s Disease Classification using Speech under Data-Constrained Regime." To be submitted to the IEEE Journal of Biomedical & Health Informatics
     <a href="https://drive.google.com/file/d/1vyE_GrdCpSitCYxlcEz2168DFiIP4HtI/view" target="_blank" rel="noopener noreferrer">Paper</a>
   </li>

@@ -143,7 +143,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h2 id="professional-experience">Professional Experience</h2>
 
-<div class="section-title" onclick="toggleSection('amex-ft-content')">2. American Express – Full Time &#9660;</div>
+<div class="section-title" onclick="toggleSection('amex-ft-content')">1. American Express – Full Time &#9660;</div>
 
 <div id="amex-ft-content" class="section-content">
     <div class="role-subtitle">Credit & Fraud Risk – Machine Learning Modeling Team</div>
@@ -156,7 +156,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 </div>
 
 
-<div class="section-title" onclick="toggleSection('amex-content')">1. American Express - Internship &#9660;</div>
+<div class="section-title" onclick="toggleSection('amex-content')">2. American Express - Internship &#9660;</div>
 
 <div id="amex-content" class="section-content">
     <div class="link-container">

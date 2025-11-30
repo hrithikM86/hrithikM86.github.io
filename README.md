@@ -143,6 +143,19 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
 
 <h2 id="professional-experience">Professional Experience</h2>
 
+<div class="section-title" onclick="toggleSection('amex-ft-content')">2. American Express – Full Time &#9660;</div>
+
+<div id="amex-ft-content" class="section-content">
+    <div class="role-subtitle">Credit & Fraud Risk – Machine Learning Modeling Team</div>
+    <ul>
+        <li>Improved robustness and reliability of credit risk prediction models processing 125M+ monthly transactions by applying causal inference, targeted feature engineering, and interpretability techniques.</li>
+        <li>Leveraged Big Data tools such as PySpark, Hive, and cloud services to build scalable data pipelines for high-volume analytics.</li>
+        <li>Refined dependent-variable design and introduced market-aligned exclusion logic to reduce data noise, resulting in an 8.5% lift in defaulter sensitivity and a 0.3% gain in Gini and capture rate.</li>
+        <li>Optimized credit line increase thresholds, improving the identification of high-risk customers by 2% and strengthening portfolio-level risk controls.</li>
+    </ul>
+</div>
+
+
 <div class="section-title" onclick="toggleSection('amex-content')">1. American Express - Internship &#9660;</div>
 
 <div id="amex-content" class="section-content">
@@ -157,23 +170,6 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     </ul>
 </div>
 
-<!-- <h2 id="professional-experience">Professional Experience - Full Time</h2>
-
-<div class="section-title" onclick="toggleSection('amex-content', 'amex-links')">1. American Express &#9660;</div>
-
-<div id="amex-content" class="section-content">
-    <ul>
-        <li>Designed a two-step variable rationalization framework by applying K-Means clustering to group variables by functional similarity and leveraging SHAP, PDP, and ALE to assign importance scores.</li>
-        <li>Utilized Bayesian optimization for hyperparameter tuning to address overfitting observed in previous-generation models.</li>
-        <li>Developed a novel metric using basis points (bps) drop per variable in Gini and capture rate to assess model stability.</li>
-        <li>Achieved a 50% reduction in model variables, driving a 30% improvement in model stability for commercial risk models managing $100B in exposures.</li>
-        <li>Received a Pre-Placement Offer (PPO) for this work.</li>
-    </ul>
-</div>
-
-<div class="link-container" id="amex-links">
-    <a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank">Manager : Archit Jain</a>
-</div> -->
 
 
 

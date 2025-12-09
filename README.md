@@ -106,8 +106,14 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     <b>Journal Publication:</b><br>
     Co-author. "Lunar Geochemistry from X-ray Line Flux Ratios Using CLASS on Chandrayaan-2." 
     Under review at <i>The Planetary Science Journal</i>. Received coverage in major Indian newspapers and articles.  
-    <a href="https://arxiv.org/abs/2508.15563" target="_blank" rel="noopener noreferrer">Paper</a> | 
+    <a href="https://arxiv.org/pdf/2508.15563" target="_blank" rel="noopener noreferrer">Paper</a> | 
     <a href="https://www.star-iitb.in/research/chandrayaan" target="_blank" rel="noopener noreferrer">News Coverage</a>
+  </li>
+
+  <li>
+    <b>Journal Publication:</b><br>
+    Mayurakshi Mukherji, Hrithik Mhatre et al. "Parkinson’s Disease Classification using Speech under Data-Constrained Regime." To be submitted to the IEEE Journal of Biomedical & Health Informatics
+    <a href="https://drive.google.com/file/d/1vyE_GrdCpSitCYxlcEz2168DFiIP4HtI/view" target="_blank" rel="noopener noreferrer">Paper</a>
   </li>
 
   <li>
@@ -123,15 +129,9 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
     Presented at the 42nd Meeting of the Astronomical Society of India, hosted by ISRO and IISc Bangalore, 2024.  
     <a href="https://drive.google.com/file/d/13UmXFrOX49zODJPpjmVfJ5SC3AHlIE-f/view" target="_blank" rel="noopener noreferrer">Poster</a>
   </li>
-
-  <li>
-    <b>Journal Publication:</b><br>
-    Mayurakshi Mukherji, Hrithik Mhatre et al. "Parkinson’s Disease Classification using Speech under Data-Constrained Regime." To be submitted to the IEEE Journal of Biomedical & Health Informatics
-    <a href="https://drive.google.com/file/d/1vyE_GrdCpSitCYxlcEz2168DFiIP4HtI/view" target="_blank" rel="noopener noreferrer">Paper</a>
-  </li>
   
   <li>
-    <b>Preprint:</b><br>
+    <b>arXiv:</b><br>
     Hrithik Mhatre et al. "Pixels to Signals: A Real-Time Framework for Traffic Demand Estimation", manuscript under development  
     <a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank" rel="noopener noreferrer">Paper</a>
   </li>

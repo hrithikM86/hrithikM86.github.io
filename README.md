@@ -1,654 +1,602 @@
-<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Hrithik Mhatre — MS in CS Applicant</title>
-  <meta name="description" content="Portfolio — research, projects, publications, experience. Content from README.">
-
-  <!-- Embedded minimal CSS (single-file for easy drop-in) -->
-  <style>
-    :root{
-      --bg:#fbfbfb; --card:#fff; --muted:#6b7280; --text:#0f1724;
-      --accent:#0b5fff; --radius:12px; --maxw:1100px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hrithik Mhatre's Portfolio</title>
+     <style>
+    /* --- Minimalistic Styling --- */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #222;
+        background-color: #fafafa;
+        margin: 0;
+        padding: 0 20px;
     }
-    *{box-sizing:border-box}
-    body{
-      margin:0; font-family:Inter,system-ui,Segoe UI,Roboto,Arial;
-      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
-      background:var(--bg); color:var(--text); line-height:1.45;
-      padding:28px 16px; display:flex; justify-content:center;
+    
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #007acc;
     }
-    .container{width:100%; max-width:var(--maxw)}
-    header{display:grid; grid-template-columns:1fr 420px; gap:22px; align-items:center}
-    @media (max-width:880px){header{grid-template-columns:1fr}}
-    .intro{
-      background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.5));
-      padding:22px; border-radius:var(--radius); box-shadow:0 8px 24px rgba(12,18,30,0.04)
+    
+    .section-title {
+        cursor: pointer;
+        padding: 10px 15px;
+        margin: 10px 0 5px 0;
+        background-color: #f5f5f5;
+        border-left: 4px solid #007acc;
+        font-weight: 600;
+        transition: all 0.2s ease;
+        border-radius: 4px;
     }
-    .name{font-size:clamp(22px,4vw,34px);margin:0 0 6px 0;font-weight:700}
-    .subtitle{margin:0 0 14px 0;color:var(--muted)}
-    .cta-row{display:flex;gap:10px;flex-wrap:wrap}
-    .btn{padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
-    .btn.primary{background:var(--accent);color:#fff}
-    .btn.ghost{background:transparent;border:1px solid rgba(11,95,255,0.12);color:var(--accent)}
-    .cards{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
-    @media (max-width:880px){.cards{grid-template-columns:repeat(3,1fr)}}
-    @media (max-width:520px){.cards{grid-template-columns:repeat(2,1fr)}}
-    .card{padding:18px;border-radius:12px;background:var(--card);min-height:86px;
-          display:flex;flex-direction:column;align-items:center;justify-content:center;
-          cursor:pointer;border:1px solid rgba(12,18,30,0.04);transition:transform .18s, box-shadow .18s}
-    .card:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(12,18,30,0.06)}
-    .card small{color:var(--muted);font-weight:600}
-    main{margin-top:18px}
-    section{margin:16px 0}
-    .section-head{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-radius:10px;
-                 background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.5));cursor:pointer;border:1px solid rgba(12,18,30,0.03)}
-    .section-title{font-weight:700;margin:0}
-    .section-meta{color:var(--muted); font-size:0.95rem}
-    .content{margin-top:12px;padding:14px;border-radius:10px;background:var(--card);border:1px solid rgba(12,18,30,0.04);
-             overflow:hidden;transition:max-height .36s, opacity .28s}
-    .content.collapsed{max-height:0;padding-top:0;padding-bottom:0;opacity:0;border:none}
-    .item-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
-    @media (max-width:820px){.item-grid{grid-template-columns:1fr}}
-    .item{padding:14px;border-radius:10px;background:linear-gradient(180deg,#fff,#fbfcff);border:1px solid rgba(12,18,30,0.04)}
-    .item h4{margin:0 0 6px 0;font-size:1rem}
-    .item p{margin:0 0 8px 0;color:var(--muted)}
-    .tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
-    .tag{font-size:0.82rem;padding:6px 8px;border-radius:999px;border:1px solid rgba(11,95,255,0.12);color:var(--accent);font-weight:600}
-    .links{display:flex;gap:10px;flex-wrap:wrap}
-    .links a{color:var(--accent);font-weight:600;text-decoration:none}
-    table{width:100%;border-collapse:collapse;margin-top:8px}
-    th,td{padding:10px;border:1px solid #eee;text-align:left}
-    th{background:#fafaff;font-weight:700}
-    footer{margin:28px 0 60px;color:var(--muted);text-align:center}
-    .muted{color:var(--muted)}
-  </style>
+    
+    .section-title:hover {
+        background-color: #e0f0ff;
+    }
+    
+    .link-container {
+        margin: 5px 0 10px 20px;
+        font-size: 0.95rem;
+    }
+    
+    .link-container a {
+        display: inline-block;
+        margin-right: 10px;
+        text-decoration: none;
+        color: #007acc;
+        transition: color 0.2s;
+    }
+    
+    .link-container a:hover {
+        text-decoration: underline;
+        color: #005a99;
+    }
+    
+    .section-content {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        display: none; /* Collapsed by default */
+    }
+    
+    .section-content ul {
+        padding-left: 20px;
+    }
+    
+    .section-content li {
+        margin-bottom: 5px;
+    }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="intro" role="banner">
-        <h1 class="name">Hrithik Mhatre</h1>
-        <p class="subtitle">MS in Computer Science applicant interested in AI and systems</p>
-        <p class="muted">Clean portfolio showcasing research, projects, publications, and experience — focused on machine learning, computer vision, and system-scale engineering.</p>
-        <div style="margin-top:12px" class="cta-row">
-          <a class="btn primary" href="#contact" onclick="navTo(event,'contact')">Contact / Resume</a>
-          <a class="btn ghost" href="#publications" onclick="navTo(event,'publications')">Publications</a>
-        </div>
-      </div>
 
-      <nav aria-label="quick sections">
-        <div class="cards" role="navigation">
-          <div class="card" data-target="research" onclick="navTo(event,'research')">
-            Research
-            <small>Guides, reports, papers</small>
-          </div>
-          <div class="card" data-target="technical-projects" onclick="navTo(event,'technical-projects')">
-            Projects
-            <small>GitHub & demos</small>
-          </div>
-          <div class="card" data-target="professional-experience" onclick="navTo(event,'professional-experience')">
-            Experience
-            <small>Industry & internships</small>
-          </div>
-          <div class="card" data-target="publications" onclick="navTo(event,'publications')">
-            Publications
-            <small>Papers & posters</small>
-          </div>
-          <div class="card" data-target="skills-and-courses" onclick="navTo(event,'skills-and-courses')">
-            Skills
-            <small>Programming & courses</small>
-          </div>
-          <div class="card" data-target="contact" onclick="navTo(event,'contact')">
-            Contact
-            <small>Email / links</small>
-          </div>
-        </div>
-      </nav>
-    </header>
+<h2>Table of Contents</h2>
+<ul>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#scholastic-achievements">Scholastic Achievements</a></li>
+    <li><a href="#publications">Publications and Conferences</a></li>
+    <li><a href="#professional-experience">Professional Experience</a></li>
+    <li><a href="#international-experience">International Experience</a></li>
+    <li><a href="#research-projects">Research & Development Projects</a></li>
+    <li><a href="#technical-projects">Technical Projects</a></li>
+    <li><a href="#positions-of-responsibility">Positions of Responsibility</a></li>
+    <li><a href="#skills-and-courses">Skills and Relevant Courses</a></li>
+    <li><a href="#extracurricular-activities">Extracurricular Activities</a></li>
+</ul>
 
-    <main>
-      <!-- Education -->
-      <section id="education">
-        <div class="section-head" onclick="toggle('education-body')">
-          <div>
-            <h3 class="section-title">Education</h3>
-            <div class="section-meta">Indian Institute of Technology (IIT) Bombay</div>
-          </div>
-          <div class="section-meta">B.Tech Civil Engineering — Minor in CS — GPA: 8.95/10 (2025)</div>
-        </div>
-        <div id="education-body" class="content collapsed">
-          <p><strong>IIT Bombay</strong><br>
-          Bachelor of Technology in Civil Engineering with a Minor in Computer Science and Engineering<br>
-          <strong>GPA:</strong> 8.95/10 — <strong>Graduated:</strong> 2025</p>
-        </div>
-      </section>
+<h2 id="education">Education</h2>
+<p><b>Indian Institute of Technology (IIT) Bombay</b><br>
+Bachelor of Technology in Civil Engineering with a Minor in Computer Science and Engineering<br>
+<b>GPA:</b> 8.95/10<br>
+<b>Graduated:</b> 2025</p>
 
-      <!-- Scholastic Achievements -->
-      <section id="scholastic-achievements">
-        <div class="section-head" onclick="toggle('scholastic-body')">
-          <div>
-            <h3 class="section-title">Scholastic Achievements</h3>
-            <div class="section-meta">Academic highlights</div>
-          </div>
-        </div>
-        <div id="scholastic-body" class="content collapsed">
-          <ol>
-            <li>Graduated with rank 7 out of 150+ students in the B.Tech Civil Engg program.</li>
-            <li>Secured a perfect 10/10 Semester GPA during 8th semester.</li>
-            <li>99.17th percentile in JEE Main among 1.5M+ applicants.</li>
-            <li>Top 2 percentile in JEE Advanced.</li>
-          </ol>
-        </div>
-      </section>
+<h2 id="scholastic-achievements">Scholastic Achievements</h2>
+<ol>
+    <li>Graduated with a rank of 7 out of 150+ students in the B.Tech Civil Engineering program at IIT Bombay</li>
+    <li>Secured a perfect 10/10 Semester Grade Point Average (CGPA) during the 8th semester at IIT Bombay</li>
+    <li>Achieved a 99.17th percentile in the Joint Entrance Examination Main among over 1.5 million applicants</li>
+    <li>Secured a position in the top 2 percentile in JEE Advanced, competing among 0.15+ million candidates</li>
+</ol>
 
-      <!-- Publications -->
-      <section id="publications">
-        <div class="section-head" onclick="toggle('publications-body')">
-          <div>
-            <h3 class="section-title">Publications & Conferences</h3>
-            <div class="section-meta">Journal papers, arXiv, posters</div>
-          </div>
-        </div>
-        <div id="publications-body" class="content collapsed">
-          <ol>
-            <li>
-              <strong>Journal Publication:</strong><br>
-              Co-author. "Lunar Geochemistry from X-ray Line Flux Ratios Using CLASS on Chandrayaan-2." Under review at <em>The Planetary Science Journal</em>.
-              <div class="links"><a href="https://arxiv.org/pdf/2508.15563" target="_blank" rel="noopener noreferrer">Paper (arXiv)</a> <a href="https://www.star-iitb.in/research/chandrayaan" target="_blank" rel="noopener noreferrer">News Coverage</a></div>
-            </li>
-            <li>
-              <strong>Journal Publication:</strong><br>
-              Mayurakshi Mukherji, Hrithik Mhatre et al. "Parkinson’s Disease Classification using Speech under Data-Constrained Regime." To be submitted to IEEE JBHI.
-              <div class="links"><a href="https://drive.google.com/file/d/1vyE_GrdCpSitCYxlcEz2168DFiIP4HtI/view" target="_blank" rel="noopener noreferrer">Paper</a></div>
-            </li>
-            <li>
-              <strong>Conference Poster:</strong><br>
-              "Elemental Ratios from Chandrayaan-2: High-Resolution XRF Mapping of the Lunar Surface." Poster at LPSC, Houston, 2025.
-              <div class="links"><a href="https://drive.google.com/file/d/1fK12Lo3S24XXCxZ_2zx-pmMl9QZu2jrh/view" target="_blank" rel="noopener noreferrer">Poster</a></div>
-            </li>
-            <li>
-              <strong>Conference Poster:</strong><br>
-              Kudupudi Puja Naga Prasanna, Hrithik Mhatre et al. "A Genetic Algorithm based Approach for Tuning Parameters of the Star Tracker Algorithms." Presented at 42nd Meeting of the Astronomical Society of India (ISRO & IISc), 2024.
-              <div class="links"><a href="https://drive.google.com/file/d/13UmXFrOX49zODJPpjmVfJ5SC3AHlIE-f/view" target="_blank" rel="noopener noreferrer">Poster</a></div>
-            </li>
-            <li>
-              <strong>arXiv:</strong><br>
-              Hrithik Mhatre et al. "Pixels to Signals: A Real-Time Framework for Traffic Demand Estimation" (manuscript under development).
-              <div class="links"><a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank" rel="noopener noreferrer">Draft</a></div>
-            </li>
-          </ol>
-        </div>
-      </section>
 
-      <!-- Professional Experience -->
-      <section id="professional-experience">
-        <div class="section-head" onclick="toggle('prof-body')">
-          <div>
-            <h3 class="section-title">Professional Experience</h3>
-            <div class="section-meta">Industry roles & internships</div>
-          </div>
-        </div>
+<h2 id="publications">Publications and Conferences</h2>
 
-        <div id="prof-body" class="content collapsed">
-          <div class="item-grid">
-            <div class="item">
-              <h4>American Express — Full Time</h4>
-              <p class="muted">Credit & Fraud Risk – Machine Learning Modeling Team</p>
-              <ul>
-                <li>Improved robustness and reliability of credit risk prediction models processing 125M+ monthly transactions by applying causal inference, targeted feature engineering, and interpretability techniques.</li>
-                <li>Leveraged Big Data tools such as PySpark, Hive, and cloud services to build scalable data pipelines for high-volume analytics.</li>
-                <li>Refined dependent-variable design and introduced market-aligned exclusion logic to reduce data noise, resulting in an 8.5% lift in defaulter sensitivity and a 0.3% gain in Gini and capture rate.</li>
-                <li>Optimized credit line increase thresholds, improving the identification of high-risk customers by 2% and strengthening portfolio-level risk controls.</li>
-              </ul>
-            </div>
+<ol>
+  <li>
+    <b>Journal Publication:</b><br>
+    Co-author. "Lunar Geochemistry from X-ray Line Flux Ratios Using CLASS on Chandrayaan-2." 
+    Under review at <i>The Planetary Science Journal</i>. Received coverage in major Indian newspapers and articles.  
+    <a href="https://arxiv.org/pdf/2508.15563" target="_blank" rel="noopener noreferrer">Paper</a> | 
+    <a href="https://www.star-iitb.in/research/chandrayaan" target="_blank" rel="noopener noreferrer">News Coverage</a>
+  </li>
 
-            <div class="item">
-              <h4>American Express — Internship</h4>
-              <p class="muted">Modeling & variable rationalization</p>
-              <ul>
-                <li>Designed a two-step variable rationalization framework using K-Means clustering for functional grouping and SHAP, PDP, ALE for importance scoring.</li>
-                <li>Applied Bayesian optimization for hyperparameter tuning to address overfitting in prior models.</li>
-                <li>Developed a metric using basis points drop per variable in Gini and capture rate to assess model stability.</li>
-                <li>Achieved a 50% reduction in model variables and a 30% improvement in model stability for commercial risk models managing $100B exposures. Received a Pre-Placement Offer (PPO).</li>
-                <div class="links"><a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank" rel="noopener noreferrer">Manager: Archit Jain</a></div>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+  <li>
+    <b>Journal Publication:</b><br>
+    Mayurakshi Mukherji, Hrithik Mhatre et al. "Parkinson’s Disease Classification using Speech under Data-Constrained Regime." To be submitted to the IEEE Journal of Biomedical & Health Informatics
+    <a href="https://drive.google.com/file/d/1vyE_GrdCpSitCYxlcEz2168DFiIP4HtI/view" target="_blank" rel="noopener noreferrer">Paper</a>
+  </li>
 
-      <!-- International Experience -->
-      <section id="international-experience">
-        <div class="section-head" onclick="toggle('int-body')">
-          <div>
-            <h3 class="section-title">International Experience</h3>
-            <div class="section-meta">Competitions & conferences</div>
-          </div>
-        </div>
-        <div id="int-body" class="content collapsed">
-          <div class="item">
-            <h4>Seismic Design Competition — San Francisco, USA</h4>
-            <p class="muted">EERI IITB Student Chapter</p>
-            <ul>
-              <li>Core member; secured 8th place internationally as the sole Indian team (30+ universities across 10+ countries).</li>
-              <li>Engineered a 19-storey skyscraper with 4 sky bridges; generated $0.38M+ simulated revenue while ensuring negligible rooftop acceleration under seismic loading.</li>
-              <li>Developed 3D models and renderings using 3ds Max, Revit, V-Ray; integrated LEED-compliant sustainable features.</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+  <li>
+    <b>Conference Poster:</b><br>
+    Co-author. "Elemental Ratios from Chandrayaan-2: High-Resolution XRF Mapping of the Lunar Surface." 
+    Selected for poster presentation at the Lunar & Planetary Science Conference (LPSC), Houston, 2025.  
+    <a href="https://drive.google.com/file/d/1fK12Lo3S24XXCxZ_2zx-pmMl9QZu2jrh/view" target="_blank" rel="noopener noreferrer">Poster</a>
+  </li>
 
-      <!-- Research & Development Projects -->
-      <section id="research">
-        <div class="section-head" onclick="toggle('research-body')">
-          <div>
-            <h3 class="section-title">Research & Development Projects</h3>
-            <div class="section-meta">BTPs, lab projects & guides</div>
-          </div>
-        </div>
+  <li>
+    <b>Conference Poster:</b><br>
+    Kudupudi Puja Naga Prasanna, Hrithik Mhatre et al. "A Genetic Algorithm based Approach for Tuning Parameters of the Star Tracker Algorithms." 
+    Presented at the 42nd Meeting of the Astronomical Society of India, hosted by ISRO and IISc Bangalore, 2024.  
+    <a href="https://drive.google.com/file/d/13UmXFrOX49zODJPpjmVfJ5SC3AHlIE-f/view" target="_blank" rel="noopener noreferrer">Poster</a>
+  </li>
+  
+  <li>
+    <b>arXiv:</b><br>
+    Hrithik Mhatre et al. "Pixels to Signals: A Real-Time Framework for Traffic Demand Estimation", manuscript under development  
+    <a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank" rel="noopener noreferrer">Paper</a>
+  </li>
 
-        <div id="research-body" class="content collapsed">
-          <div class="item-grid">
-            <div class="item">
-              <h4>A Vision-Driven MARL Framework for Real-Time Traffic Signal Optimization</h4>
-              <p>Designed a real-time vehicle detection framework with adaptive background modeling and foreground isolation, integrated into a hierarchical MARL model for signal optimization.</p>
-              <ul>
-                <li>Adaptive background modeling & differencing pipeline (grayscale, binarization, morphological ops); 61.5× faster than K-means.</li>
-                <li>DBSCAN used for vehicle detection on foreground; 2.3× faster than YOLO with comparable/better accuracy.</li>
-                <li>Spatial-Temporal-Decoupled Masked Pre-training for forecasting traffic patterns.</li>
-                <li>Integrated SUMO & LibSignal with MARL for proactive intersection control.</li>
-                <div class="links">
-                  <a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank" rel="noopener noreferrer">BTP Report</a>
-                  <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Guide</a>
-                </div>
-              </ul>
-            </div>
 
-            <div class="item">
-              <h4>High-Resolution XRF Mapping of the Lunar Surface | Chandrayaan-2</h4>
-              <p>High-res GeoTIFF mapping of XRF line ratios; awarded Gold at an ISRO challenge and selected for poster presentations.</p>
-              <ul>
-                <li>Generated XRF ratio maps at ~5.3 km/pixel resolution, processed spaceborne payload data and produced GeoTIFF outputs.</li>
-                <li>Won Gold Medal in ISRO challenge; contributions covered in media and used by STAR Lab.</li>
-                <li>InterIIT & ISRO collaborations with reproducible pipelines and GeoTIFF product delivery.</li>
-                <div class="links">
-                  <a href="https://github.com/hrithikM86/InterIIT" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <a href="https://www.star-iitb.in/" target="_blank" rel="noopener noreferrer">STAR Lab</a>
-                </div>
-              </ul>
-            </div>
+</ol>
 
-            <div class="item">
-              <h4>Enhanced Speech-Based Pipeline for Detecting Parkinson’s Disease</h4>
-              <p>OpenSmile pipeline with mRMR features, SHAP validation, LSTM & decision tree models with strong ROC performance.</p>
-              <ul>
-                <li>Feature extraction using OpenSmile; mRMR for feature selection; model interpretability via SHAP.</li>
-                <li>Built LSTM and tree-based classifiers and validated using ROC curves and cross-validation.</li>
-                <div class="links"><a href="https://drive.google.com/file/d/11CBdK_CVs3tUaXSHTrg8H9I78apUTcpE/view" target="_blank" rel="noopener noreferrer">Report</a></div>
-              </ul>
-            </div>
 
-            <div class="item">
-              <h4>Classification, Segmentation, and GANs on Concrete Crack Surfaces</h4>
-              <p>GAN-driven augmentation plus ResNet50 classifier and U-Net segmentation with high accuracy & Dice/IoU metrics.</p>
-              <ul>
-                <li>DCGAN for synthetic crack generation; ResNet50 fine-tuned for classification — 99.3% accuracy, F1 99%.</li>
-                <li>U-Net segmentation in TensorFlow achieving Dice Coefficient 75.3% and Mean IoU 61.3%.</li>
-                <div class="links"><a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank" rel="noopener noreferrer">GitHub</a></div>
-              </ul>
-            </div>
 
-            <div class="item">
-              <h4>Data-Driven Dashboard for Public Health Analytics | Maharashtra</h4>
-              <p>Dashboard to analyze district-level mental health trends and construct a 'Health Index' to highlight service gaps post-COVID.</p>
-              <ul>
-                <li>Analyzed district-level trends; found a 6× rise in certain conditions post-COVID.</li>
-                <li>Engineered a Health Index to identify 11/34 districts with suboptimal services.</li>
-                <div class="links">
-                  <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <a href="https://drive.google.com/file/d/1lcJPyNfwnnUf7R-Rm_Mb3eqABJe_uBY6/view" target="_blank" rel="noopener noreferrer">Report</a>
-                </div>
-              </ul>
-            </div>
+<h2 id="professional-experience">Professional Experience</h2>
 
-          </div>
-        </div>
-      </section>
+<div class="section-title" onclick="toggleSection('amex-ft-content')">1. American Express – Full Time &#9660;</div>
 
-      <!-- Technical Projects (full list preserved) -->
-      <section id="technical-projects">
-        <div class="section-head" onclick="toggle('technical-body')">
-          <div>
-            <h3 class="section-title">Technical Projects</h3>
-            <div class="section-meta">Course projects, club projects & competitions</div>
-          </div>
-        </div>
+<div id="amex-ft-content" class="section-content">
+    <div class="role-subtitle">Credit & Fraud Risk – Machine Learning Modeling Team</div>
+    <ul>
+        <li>Improved robustness and reliability of credit risk prediction models processing 125M+ monthly transactions by applying causal inference, targeted feature engineering, and interpretability techniques.</li>
+        <li>Leveraged Big Data tools such as PySpark, Hive, and cloud services to build scalable data pipelines for high-volume analytics.</li>
+        <li>Refined dependent-variable design and introduced market-aligned exclusion logic to reduce data noise, resulting in an 8.5% lift in defaulter sensitivity and a 0.3% gain in Gini and capture rate.</li>
+        <li>Optimized credit line increase thresholds, improving the identification of high-risk customers by 2% and strengthening portfolio-level risk controls.</li>
+    </ul>
+</div>
 
-        <div id="technical-body" class="content collapsed">
-          <!-- Full long list preserved from README (each project expanded) -->
-          <div class="item-grid">
 
-            <div class="item">
-              <h4>Star-Tracker based Attitude Determination System (STADS)</h4>
-              <p>Student Satellite Program (SatLab). Guide: Prof. Varun Bhalerao.</p>
-              <ul>
-                <li>Enhanced Lost-in-Space star-matching algorithm — reduced hardware runtime by 50%.</li>
-                <li>Optimized matching & estimation using Genetic Algorithm, achieved benchmark accuracy: 87% across 4 constellations within 36 arc-seconds error.</li>
-                <li>Integrated camera + Raspberry Pi for Hardware-in-the-Loop simulations; automated 3-stage pipeline for headless startup.</li>
-                <div class="links"><a href="https://www.aero.iitb.ac.in/satlab/stads.php" target="_blank" rel="noopener noreferrer">SatLab STADS</a></div>
-              </ul>
-            </div>
+<div class="section-title" onclick="toggleSection('amex-content')">2. American Express - Internship &#9660;</div>
 
-            <div class="item">
-              <h4>Multi-Objective Optimization & Uncertainty Analysis of the Lake Problem</h4>
-              <p>Course project. Guide: Prof. Riddhi Singh.</p>
-              <ul>
-                <li>Stochastic optimization model balancing environmental and economic objectives for lake pollution control.</li>
-                <li>Monte Carlo uncertainty analysis for robust decision-making.</li>
-                <li>Applied NSGA-II and MOEA/D to generate Pareto fronts and identify trade-offs.</li>
-                <div class="links"><a href="https://github.com/hrithikM86/Stochastic-Multi-Objective-Optimization-and-Uncertainty-Analysis-of-the-Lake-Problem" target="_blank" rel="noopener noreferrer">GitHub</a></div>
-              </ul>
-            </div>
+<div id="amex-content" class="section-content">
+    <div class="link-container">
+        <a href="https://www.linkedin.com/in/archit-jain-4b027761/" target="_blank">Manager : Archit Jain</a>
+    </div>
+    <ul>
+        <li>Designed a two-step variable rationalization framework by applying K-Means clustering to group variables by functional similarity and leveraging SHAP, PDP, and ALE to assign importance scores.</li>
+        <li>Utilized Bayesian optimization for hyperparameter tuning to address overfitting observed in previous-generation models.</li>
+        <li>Developed a novel metric using basis points (bps) drop per variable in Gini and capture rate to assess model stability.</li>
+        <li>Achieved a 50% reduction in model variables, driving a 30% improvement in model stability for commercial risk models managing $100B in exposures, Received a Pre-Placement Offer (PPO) for this work.</li>
+    </ul>
+</div>
 
-            <div class="item">
-              <h4>Optimizing Stock Trading with Reinforcement Learning</h4>
-              <p>Finance Club project — OpenAI Gym, Actor-Critic (DDPG).</p>
-              <ul>
-                <li>Explored DQN and DDPG. Built RL trading environment with Actor-Critic (DDPG).</li>
-                <li>Designed action space & reward function for portfolio optimization on GSPC2018 data.</li>
-                <li>Demonstrated profit: $140 from $5,000 seed investment.</li>
-                <div class="links"><a href="https://github.com/hrithikM86/Optimizing-Stock-Trading-with-Reinforcement-Learning" target="_blank" rel="noopener noreferrer">GitHub</a></div>
-              </ul>
-            </div>
 
-            <div class="item">
-              <h4>Attendance Mate — Face Recognition Attendance System</h4>
-              <p>Selected & funded under The SANDBOX Program at IIT Bombay.</p>
-              <ul>
-                <li>Used MTCNN for face detection; Keras-VGGFace for embeddings.</li>
-                <li>Designed a Siamese network with triplet loss — achieved 87.1% accuracy.</li>
-                <li>Used students’ phones as capture devices; cost-effective deployment model.</li>
-                <div class="links"><a href="https://github.com/hrithikM86/Attendance-Mate-Face-Recognition-Attendance-System/tree/main" target="_blank" rel="noopener noreferrer">GitHub</a></div>
-              </ul>
-            </div>
 
-            <div class="item">
-              <h4>Sentiment Analysis of Customer Reviews for Singapore Airlines (NLP)</h4>
-              <p>Course project. Guide: Prof. Abir De.</p>
-              <ul>
-                <li>Preprocessing with NLTK (tokenize, stopwords), trained CBOW & Skip-Gram from scratch.</li>
-                <li>Compared pre-trained Word2Vec vs trained embeddings; models: SVM, XGBoost, Neural Nets.</li>
-                <li>Achieved 91% accuracy for 5-class sentiment classification; used PCA for embedding visualization.</li>
-                <div class="links"><a href="https://github.com/hrithikM86/CS419-Sentiment-Analysis-of-Customer-Reviews-for-Singapore-Airlines-using-NLP/tree/main" target="_blank" rel="noopener noreferrer">GitHub</a></div>
-              </ul>
-            </div>
 
-            <div class="item">
-              <h4>Deepfakes: GAN-based Face-swapping</h4>
-              <p>GAN experiments in TensorFlow & PyTorch.</p>
-              <ul>
-                <li>Implemented face-swapping and attribute editing using AttGAN and related GAN models.</li>
-                <li>Improved practical understanding of GAN training stability and facial attribute manipulation.</li>
-                <div class="links"><a href="https://github.com/hrithikM86/Deepfakes-GAN-based-Face-swapping" target="_blank" rel="noopener noreferrer">GitHub</a></div>
-              </ul>
-            </div>
+<h2 id="international-experience">International Experience</h2>
+<div class="section-title" onclick="toggleSection('sdc-content', 'sdc-links')">1. Seismic Design Competition, San Francisco, USA &#9660;</div>
 
-            <div class="item">
-              <h4>GCON-VEGATHON | IEEE-GCON 2023</h4>
-              <ul>
-                <li>Top-15 semi-finalist out of 50+ teams.</li>
-                <li>Proposed bare-metal embedded design with OV2640 image sensor; feature extraction on VEGA processor.</li>
-                <li>Designed PCB for camera+VEGA board integration.</li>
-                <div class="links"><a href="https://event.iitg.ac.in/GCON2023/" target="_blank" rel="noopener noreferrer">Event</a></div>
-              </ul>
-            </div>
+<div id="sdc-content" class="section-content">
+    <ul>
+        <li>Core member of the Civil Engineering Tech Team, EERI IITB Student Chapter, contributing to Seismic Design Competition (SDC) solutions.</li>
+        <li>Secured 8th place internationally as the sole Indian team, competing against 30+ universities across 10+ countries.</li>
+        <li>Engineered a 19-storey skyscraper with 4 sky bridges, generating $0.38M+ revenue while ensuring negligible rooftop acceleration under seismic loading.</li>
+        <li>Developed detailed 3D exterior models and renderings using 3ds Max, Revit, and V-Ray, integrating the design with San Francisco’s cityscape.</li>
+        <li>Implemented sustainable features for LEED compliance, including Xeriscaping for enhanced carbon absorption and Double Sheet Eco-Sense Glass for energy-efficient façade design.</li>
+    </ul>
+</div>
 
-            <div class="item">
-              <h4>AI-Powered PDF Chatbot</h4>
-              <ul>
-                <li>NLP-based Q&A bot: embeddings + similarity search (FAISS) + LangChain + OpenAI API.</li>
-                <li>Implemented document chunking and similarity search across 1000+ chunks for fast retrieval.</li>
-                <div class="links"><a href="https://github.com/hrithikM86/AI-Powered-Chatbot" target="_blank" rel="noopener noreferrer">GitHub</a></div>
-              </ul>
-            </div>
 
-            <div class="item">
-              <h4>Neural Networks & Large Language Models</h4>
-              <ul>
-                <li>Built Gradio QnA bot with FLAN-T5 (GPU accelerated).</li>
-                <li>Custom binary neural network in PyTorch — 81% accuracy.</li>
-                <li>BERT-based sentiment analysis with Gradio — 85% accuracy.</li>
-                <div class="links"><a href="https://github.com/hrithikM86/Neural-Networks-and-Large-Language-Models/tree/main" target="_blank" rel="noopener noreferrer">GitHub</a></div>
-              </ul>
-            </div>
 
-            <div class="item">
-              <h4>Understanding Credit Score Models</h4>
-              <ul>
-                <li>Preprocessing, oversampling, feature engineering.</li>
-                <li>XGBoost classifier — 86% accuracy.</li>
-                <div class="links"><a href="https://github.com/hrithikM86/Understanding-Credit-Score-Models/tree/main" target="_blank" rel="noopener noreferrer">GitHub</a></div>
-              </ul>
-            </div>
+<h2 id="research-projects">Research & Development Projects</h2>
 
-            <div class="item">
-              <h4>Great Lunar Expedition for Everyone (GLEE)</h4>
-              <ul>
-                <li>Global chipsat lunar science mission involvement.</li>
-                <li>Processed seismic data with NumPy/Matplotlib/Pandas; implemented TDoA for source localization.</li>
-                <div class="links"><a href="https://www.aero.iitb.ac.in/satlab/glee.php" target="_blank" rel="noopener noreferrer">GLEE</a></div>
-              </ul>
-            </div>
+<!-- Traffic Signal Optimization Section -->
+<div class="section-title" onclick="toggleSection('traffic-signal')">1. A Vision-Driven MARL Framework for Real-Time Traffic Signal Optimization &#9660;</div>
+<div id="traffic-signal" class="section-content">
+    <div class="link-container">
+        <a href="https://scholar.google.com/citations?user=nM_oGqQAAAAJ&hl=en" target="_blank">Guide: Prof. Archak Mittal, Transportation Systems Engineering, IIT Bombay |</a>
+        <a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank">BTP 1 Report |</a>
+        <a href="https://drive.google.com/file/d/1CWoLeOPZqNhGBXULxWbK-gzi0ut6awht/view" target="_blank">BTP 2 Report</a>
+    </div>
+    <ul>
+        <li>Designed a real-time vehicle detection framework with adaptive background modeling (61.5× faster than K-means) & foreground isolation using differencing, grayscale, binarization & morphological operations.</li>
+        <li>Applied DBSCAN for vehicle detection on foreground; 2.3× faster than YOLO with better accuracy.</li>
+        <li>Implemented Spatial-Temporal-Decoupled Masked Pre-training for forecasting traffic patterns.</li>
+        <li>Integrated real-time & forecasted traffic data using SUMO & LibSignal into a hierarchical Multi-Agent Reinforcement Learning (MARL) model for proactive traffic signal optimization at an intersection.</li>
+    </ul>
+</div>
 
-            <div class="item">
-              <h4>Robotic Arm</h4>
-              <ul>
-                <li>Programmable robotic arm controlled via mobile app; MG996R & SG90 servos; Arduino UNO interface.</li>
-                <li>Bluetooth to Arduino integration for mobile control.</li>
-                <div class="links"><a href="https://github.com/hrithikM86/RoboCivs/tree/main" target="_blank" rel="noopener noreferrer">GitHub</a></div>
-              </ul>
-            </div>
+<!-- Lunar XRF Mapping Section -->
+<div class="section-title" onclick="toggleSection('lunar-xrf')">2. High-Resolution XRF Mapping of the Lunar Surface | Chandrayaan-2 &#9660;</div>
+<div id="lunar-xrf" class="section-content">
+    <div class="link-container">
+        <a href="https://scholar.google.com/citations?user=DBpGmU4AAAAJ&hl=en" target="_blank">Guide: Prof. Varun Bhalerao |</a>
+        <a href="https://www.star-iitb.in/">STAR Lab |</a>
+        <a href="#" target="_blank">InterIIT Tech Meet 13.0 |</a>
+        <a href="#" target="_blank">ISRO |</a>
+        <a href="https://github.com/hrithikM86/InterIIT" target="_blank">GitHub |</a>
+        <a href="https://drive.google.com/file/d/1an4j_8vN37vJ3eQEXD5U6o7toDzKZXHh/view" target="_blank">Report</a>
+    </div>
+    <ul>
+        <li>Won Gold Medal for ISRO’s lunar mineral mapping challenge, competing against teams from 23 IITs.</li>
+        <li>Studied X-Ray fluorescence physics & elemental detection methods for solar flare incidents on the Moon.</li>
+        <li>Designed spectral data preprocessing techniques, including background modeling & Gaussian fitting.</li>
+        <li>Developed a novel algorithm for solar flare detection using Chandrayaan-2’s Large Area Soft X-ray Spectrometer data by analyzing characteristic elemental XRF line strengths and temporal variations.</li>
+        <li>Used Gaussian Mixture Models (GMMs) for unsupervised clustering of lunar geochemical data, revealing compositional patterns.</li>
+        <li>Generated the first high-resolution spatial map of XRF line ratios as GeoTIFF files at 5.3 km/pixel resolution.</li>
+    </ul>
+</div>
 
-            <div class="item">
-              <h4>Precipitation Prediction using ML</h4>
-              <ul>
-                <li>Random Forest & Logistic Regression; oversampling for class imbalance — 98.03% accuracy and 98.01% ROC-AUC.</li>
-                <li>Feature selection via chi-squared test, EDA and preprocessing.</li>
-                <div class="links"><a href="https://github.com/hrithikM86/Precipitation-Prediction-using-ML/tree/main" target="_blank" rel="noopener noreferrer">GitHub</a></div>
-              </ul>
-            </div>
+<!-- Parkinson's Disease Speech Detection Section -->
+<div class="section-title" onclick="toggleSection('parkinson-speech')">3. Enhanced Speech-Based Pipeline for Detecting Parkinson’s Disease &#9660;</div>
+<div id="parkinson-speech" class="section-content">
+    <div class="link-container">
+        <a href="https://scholar.google.com.au/citations?user=86tKGf8AAAAJ&hl=en" target="_blank">Guide: Prof. Nirmal Punjabi, Koita Centre for Digital Health, IIT Bombay |</a>
+        <a href="https://drive.google.com/file/d/11CBdK_CVs3tUaXSHTrg8H9I78apUTcpE/view" target="_blank">Report</a>
+    </div>
+    <ul>
+        <li>Proposed OpenSmile-based pipeline with mRMR-selected features & grid-tuned ML and LSTM models.</li>
+        <li>Used SHAP values to validate if top voice-related features align with established Parkinson’s literature.</li>
+        <li>Applied decision trees on point features (ROC: 1) & fine-tuned LSTMs on time-series data (ROC: 0.98).</li>
+        <li>Outperformed the standard 22-feature baseline with an average 2% ROC gain on Parkinson’s detection.</li>
+        <li>Demonstrated richness of speech data over phonation, achieving an average 13.6% higher classification ROC.</li>
+        <li>Showed that silence in PD data improves classification and highlights its diagnostic significance.</li>
+    </ul>
+</div>
 
-            <div class="item">
-              <h4>Economic Evaluation of Jaipur Metro Phase-I</h4>
-              <ul>
-                <li>30-year cost-benefit analysis and forecasting; monetized travel time savings and VOC savings.</li>
-                <li>Sensitivity analysis on demand, discount rate and cost overruns.</li>
-                <li>Results: Economic IRR = <strong>18.6%</strong>; ENPV = <strong>Rs. 5,598 Cr</strong>; Financial IRR = <strong>8.24%</strong>.</li>
-                <div class="links"><a href="https://drive.google.com/file/d/1U5En6AjQqfEWCMDEojTa4Ltz4vm29C1G/view" target="_blank" rel="noopener noreferrer">Report</a></div>
-              </ul>
-            </div>
+<!-- Concrete Crack Detection Section -->
+<div class="section-title" onclick="toggleSection('crack-detection')">4. Classification, Segmentation, and GAN Implementation on Concrete Crack Surfaces &#9660;</div>
+<div id="crack-detection" class="section-content">
+    <div class="link-container">
+        <a href="https://iitb.irins.org/profile/155634" target="_blank">Guide: Prof. Alankar Alankar |</a>
+        <a href="https://www.me.iitb.ac.in/~alankar/" target="_blank">ICME and Materials Genome Lab |</a>
+        <a href="https://github.com/hrithikM86/CS490-RnD-Classification-Segmentation-and-GAN-implementation-on-Concrete-Crack-Images/tree/main" target="_blank">GitHub |</a>
+        <a href="https://drive.google.com/file/d/1bP5sF61247_-N9RSpgAwL7Wza82byGiX/view" target="_blank">Report</a>
+    </div>
+    <ul>
+        <li>Engineered a Deep Convolutional GAN (DCGAN) to synthetically generate concrete crack images.</li>
+        <li>Fine-tuned a ResNet50 model to classify fine concrete cracks on lab-tested surfaces using both real and GAN-generated data, achieving 99.3% classification accuracy and an F1 score of 99%.</li>
+        <li>Implemented a U-Net architecture in TensorFlow for accurate crack surface segmentation, achieving a Dice Coefficient of 75.3% and a Mean Intersection over Union (IoU) of 61.3%.</li>
+    </ul>
+</div>
 
-            <div class="item">
-              <h4>Urban Travel Demand Modeling & Traffic Assignment</h4>
-              <ul>
-                <li>Household trip production models (regression + dummy variables); matrix-based least squares estimation.</li>
-                <li>Validated via R², t-tests, F-statistics; calibrated gravity models; implemented capacity restraint, MSA and Frank–Wolfe for traffic assignment.</li>
-              </ul>
-            </div>
+<!-- Public Health Dashboard Section -->
+<div class="section-title" onclick="toggleSection('health-dashboard')">5. Data-Driven Dashboard for Public Health Analytics | Public Health Dept. Maharashtra &#9660;</div>
+<div id="health-dashboard" class="section-content">
+    <div class="link-container">
+        <a href="https://iitb.irins.org/profile/52104" target="_blank">Guide: Prof. Ganesh Ramkrishnan, Department of Computer Science, IIT Bombay |</a>
+        <a href="https://github.com/hrithikM86/DH307-Development-Of-An-Integrated-Dashboard-For-Public-Health-Systems" target="_blank">GitHub |</a>
+        <a href="https://drive.google.com/file/d/1lcJPyNfwnnUf7R-Rm_Mb3eqABJe_uBY6/view" target="_blank">Report</a>
+    </div>
+    <ul>
+        <li>Developed a data-driven dashboard for analytical insights on healthcare services in Maharashtra state.</li>
+        <li>Analyzed district-level trends in common, severe, and high-risk mental health conditions; assessed treatment accessibility and its influence on outcomes, uncovering a 6-fold rise in cases post-COVID.</li>
+        <li>Engineered a novel ‘Health Index’ variable using mental health metrics to quantify district-level healthcare conditions, whose scores identified 11 out of 34 districts with suboptimal services.</li>
+    </ul>
+</div>
 
-            <div class="item">
-              <h4>Traffic Signal Design & Analysis</h4>
-              <ul>
-                <li>Processed real-time traffic data; designed optimized signal timing plans and simulated alternatives in VISSIM.</li>
-                <li>Formulated data-driven strategies to reduce congestion and conflicts.</li>
-              </ul>
-            </div>
 
-            <div class="item">
-              <h4>More Capstone & Course Projects</h4>
-              <p class="muted small">Other projects (concrete crack detection, health dashboard, MARL traffic, star-tracker GA tuning, etc.) are preserved in full from the README. All links remain intact.</p>
-            </div>
 
-          </div>
-        </div>
-      </section>
+<h2 id="technical-projects">Technical Projects</h2>
 
-      <!-- Positions of Responsibility -->
-      <section id="positions-of-responsibility">
-        <div class="section-head" onclick="toggle('pos-body')">
-          <div>
-            <h3 class="section-title">Positions of Responsibility</h3>
-            <div class="section-meta">Leadership & mentoring</div>
-          </div>
-        </div>
-        <div id="pos-body" class="content collapsed">
-          <div class="item-grid">
-            <div class="item">
-              <h4>Electrical Subsystem Head | Student Satellite Program (SatLab)</h4>
-              <ul>
-                <li>Led a 9-member team for Hardware-in-the-Loop simulation of STADS.</li>
-                <li>Conducted a 3-step recruitment selecting 6 of 50+ candidates.</li>
-                <li>Designed and mentored two hardware projects for mini-project round.</li>
-              </ul>
-            </div>
+<!-- Star Tracker based Attitude Determination System (STADS) -->
+<div class="section-title" onclick="toggleSection('stads')">1. Star-Tracker based Attitude Determination System (STADS) &#9660;</div>
+<div id="stads" class="section-content">
+    <div class="link-container">
+        <a href="https://www.aero.iitb.ac.in/satlab/stads.php" target="_blank">Student Satellite Program (SatLab), IIT Bombay |</a>
+        <a href="https://scholar.google.com/citations?user=DBpGmU4AAAAJ&hl=en" target="_blank">Guide: Prof. Varun Bhalerao</a>
+    </div>
+    <ul>
+        <li>Enhanced Lost-in-Space star-matching algorithm, reducing hardware run time by 50%.</li>
+        <li>Optimized star matching, verification, and estimation algorithms using Genetic Algorithm, achieving benchmark accuracy of 87% of images from 4 diverse constellations within 36 arc-seconds error.</li>
+        <li>Integrated a camera and Raspberry Pi for Hardware-in-the-Loop Simulations & developed a robust script to automate the 3-stage algorithmic pipeline during headless mode startup.</li>
+    </ul>
+</div>
 
-            <div class="item">
-              <h4>Senior Department Academic Mentor & Subgroup Head</h4>
-              <ul>
-                <li>Monitored academic performance of 6 sophomores; led a 6-member survey team; received DAMP Special Recognition.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- Skills & Courses -->
-      <section id="skills-and-courses">
-        <div class="section-head" onclick="toggle('skills-body')">
-          <div>
-            <h3 class="section-title">Skills & Relevant Courses</h3>
-            <div class="section-meta">Math, Programming & online specializations</div>
-          </div>
-        </div>
-        <div id="skills-body" class="content collapsed">
-          <table>
-            <thead>
-              <tr><th>Category</th><th>Details</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>Mathematics</strong></td><td>Calculus, Differential Equations, Linear Algebra, Probabilistic & Statistical Methods in Civil Engineering</td></tr>
-              <tr><td><strong>Programming</strong></td><td>Data Structures & Algorithms, DAA, Computer Networks, Intro to ML, Logic for CS, Programming & Utilization</td></tr>
-              <tr><td><strong>Online Courses</strong></td><td>Deep Learning (Andrew Ng), Machine Learning, NLP Specialization, Data Science Bootcamp, MATLAB Onramp</td></tr>
-              <tr><td><strong>Skills</strong></td><td>C/C++, Python, OpenCV, MATLAB, TensorFlow, PyTorch, Scikit-learn, PySpark, OpenAI Gym</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
+<!-- Multi-Objective Optimization and Uncertainty Analysis of the Lake Problem -->
+<div class="section-title" onclick="toggleSection('lake-problem')">2. Multi-Objective Optimization and Uncertainty Analysis of the Lake Problem &#9660;</div>
+<div id="lake-problem" class="section-content">
+    <div class="link-container">
+        <a href="https://scholar.google.com/citations?user=VpsQcKoAAAAJ&hl=en" target="_blank">Guide: Prof. Riddhi Singh, Civil Engineering Department, IIT Bombay |</a>
+        <a href="#" target="_blank">Course Project |</a>
+        <a href="https://github.com/hrithikM86/Stochastic-Multi-Objective-Optimization-and-Uncertainty-Analysis-of-the-Lake-Problem" target="_blank">GitHub |</a>
+        <a href="https://drive.google.com/file/d/1PYypVYhoAfWQLZlBek_08MFmRB7cZZXu/view" target="_blank">Report</a>
+    </div>
+    <ul>
+        <li>Developed a stochastic optimization model to balance multiple environmental and economic goals in the lake pollution problem.</li>
+        <li>Incorporated uncertainty analysis using Monte Carlo simulations to improve robustness of decision-making.</li>
+        <li>Applied NSGA-II and MOEA/D to generate Pareto fronts, highlighting trade-offs and identifying optimal solutions.</li>
+    </ul>
+</div>
 
-      <!-- Extracurricular -->
-      <section id="extracurricular-activities">
-        <div class="section-head" onclick="toggle('extra-body')">
-          <div>
-            <h3 class="section-title">Extracurricular Activities</h3>
-            <div class="section-meta">Teaching, volunteering & competitions</div>
-          </div>
-        </div>
-        <div id="extra-body" class="content collapsed">
-          <ol>
-            <li><strong>2024:</strong> Guided 12+ students in developing a CNN-based ASL video-to-text model at SoC.</li>
-            <li><strong>2024:</strong> Facilitated an NLP Shakespearean chatbot project at WIDS for 12+ students.</li>
-            <li><strong>2022:</strong> Built WiFi-controlled racing bot (ESP32); Bluetooth robotic arm with Arduino UNO.</li>
-            <li><strong>2022:</strong> Mentored 10+ students at WIDS; volunteered 80+ hours for UMMEED (NSS).</li>
-            <li><strong>2022:</strong> Raised ₹1.5 Lakhs within a week for a hostel staff member’s medical treatment.</li>
-          </ol>
-        </div>
-      </section>
 
-      <!-- Contact -->
-      <section id="contact">
-        <div class="section-head" onclick="toggle('contact-body')">
-          <div>
-            <h3 class="section-title">Contact</h3>
-            <div class="section-meta">Email, resume & links</div>
-          </div>
-        </div>
-        <div id="contact-body" class="content collapsed">
-          <p class="muted">Replace the email and resume link below with your live ones before publishing.</p>
-          <p><strong>Email:</strong> <a href="mailto:hrithik@example.com">hrithik@example.com</a></p>
-          <div class="links">
-            <a href="#" target="_blank" rel="noopener noreferrer">Resume (replace link)</a>
-            <a href="https://github.com/hrithikM86" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          </div>
-        </div>
-      </section>
+<!-- Optimizing Stock Trading with Reinforcement Learning -->
+<div class="section-title" onclick="toggleSection('stock-trading')">3. Optimizing Stock Trading with Reinforcement Learning &#9660;</div>
+<div id="stock-trading" class="section-content">
+    <div class="link-container">
+        <a href="#" target="_blank">Finance Club, IIT Bombay |</a>
+        <a href="https://github.com/hrithikM86/Optimizing-Stock-Trading-with-Reinforcement-Learning" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Utilized OpenAI Gym to explore Reinforcement Learning algorithms, including DQN and DDPG.</li>
+        <li>Developed an RL-based trading environment using the Actor-Critic Model (DDPG) with a robust action space and reward function for portfolio optimization on G^SPC2018 stocks.</li>
+        <li>Achieved a profit of $140 from a $5,000 investment, demonstrating the effectiveness of the RL-based approach.</li>
+    </ul>
+</div>
 
-    </main>
+<!-- Attendance Mate - Face Recognition Attendance System -->
+<div class="section-title" onclick="toggleSection('attendance-mate')">4. Attendance Mate - Face Recognition Attendance System &#9660;</div>
+<div id="attendance-mate" class="section-content">
+    <div class="link-container">
+        <a href="https://makerbhavanfoundation.org/programs/" target="_blank">The SANDBOX Program, IIT Bombay | Selected and Fully Funded |</a>
+        <a href="https://github.com/hrithikM86/Attendance-Mate-Face-Recognition-Attendance-System/tree/main" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Developed a reliable and cost-effective attendance system utilizing students’ phones to record attendance.</li>
+        <li>Engineered a robust pipeline using the MTCNN algorithm for accurate student face extraction, followed by Keras-VGGFace to generate face embedding vectors for enhanced recognition.</li>
+        <li>Designed and fine-tuned a Siamese neural network with triplet loss, achieving 87.1% accuracy.</li>
+    </ul>
+</div>
 
-    <footer>
-      Content preserved from your README. Save this as <code>index.html</code> and replace the placeholder email/resume. :contentReference[oaicite:1]{index=1}
-    </footer>
-  </div>
+<!-- Sentiment Analysis of Customer Reviews for Singapore Airlines -->
+<div class="section-title" onclick="toggleSection('sentiment-nlp')">5. Sentiment Analysis of Customer Reviews for Singapore Airlines using NLP &#9660;</div>
+<div id="sentiment-nlp" class="section-content">
+    <div class="link-container">
+        <a href="https://scholar.google.co.in/citations?user=_9ZKKbIAAAAJ&hl=en" target="_blank">Guide: Prof. Abir De, Department of Computer Science, IIT Bombay |</a>
+        <a href="https://github.com/hrithikM86/CS419-Sentiment-Analysis-of-Customer-Reviews-for-Singapore-Airlines-using-NLP/tree/main" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Developed a preprocessing pipeline, including tokenization and stopword removal using NLTK.</li>
+        <li>Trained CBOW & Skip-Gram embeddings from scratch, used PCA for visualization, and compared results with pre-trained Word2Vec across ML frameworks including SVM, XGBoost, and Neural Networks.</li>
+        <li>Selected the best techniques to achieve 91% accuracy in 5-class sentiment classification of reviews.</li>
+    </ul>
+</div>
 
-  <!-- Vanilla JS: toggle sections, nav, smooth scroll -->
-  <script>
-    function toggle(id){
-      const el = document.getElementById(id);
-      if(!el) return;
-      if(el.classList.contains('collapsed')) openSec(el);
-      else closeSec(el);
-    }
-    function openSec(el){
-      el.classList.remove('collapsed');
-      el.style.maxHeight = el.scrollHeight + 40 + 'px';
-      setTimeout(()=> el.style.maxHeight = 'none', 380);
-    }
-    function closeSec(el){
-      // accept either element or id
-      if(typeof el === 'string') el = document.getElementById(el);
-      if(!el) return;
-      el.style.maxHeight = el.scrollHeight + 'px';
-      requestAnimationFrame(()=> { el.style.maxHeight = '0px'; setTimeout(()=> el.classList.add('collapsed'), 360); });
-    }
-    function navTo(e,id){
-      if(e) e.preventDefault();
-      const sec = document.getElementById(id);
-      if(!sec) return;
-      // expand if there is a body element with -body suffix
-      const body = document.getElementById(id+'-body') || document.getElementById(id+'-content') || document.getElementById(id+'-section') || null;
-      // our layout uses ids like 'research-body' etc; but fallback to open section content by query
-      const contentCandidate = document.querySelector('#'+id+' .content') || document.getElementById(id+'-body') || document.getElementById(id+'-content');
-      if(contentCandidate && contentCandidate.classList.contains('collapsed')) openSec(contentCandidate);
-      sec.scrollIntoView({behavior:'smooth', block:'start'});
-      sec.setAttribute('tabindex','-1');
-      setTimeout(()=> { sec.focus({preventScroll:true}); sec.removeAttribute('tabindex'); },700);
-    }
+<!-- Deepfakes: GAN-based Face-swapping -->
+<div class="section-title" onclick="toggleSection('deepfakes')">6. Deepfakes: GAN-based Face-swapping &#9660;</div>
+<div id="deepfakes" class="section-content">
+    <div class="link-container">
+        <a href="https://github.com/hrithikM86/Deepfakes-GAN-based-Face-swapping" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Advanced skills in modern deep learning frameworks and OOP, specializing in neural networks.</li>
+        <li>Studied AttGAN & Deepfakes, implemented GAN-based face-swapping using TensorFlow & PyTorch.</li>
+        <li>Enhanced facial attribute editing skills & deepened understanding of GANs through project execution.</li>
+    </ul>
+</div>
 
-    // On load: nothing expanded; open key small sections on mobile for convenience
-    document.addEventListener('DOMContentLoaded', ()=>{
-      if(window.innerWidth < 600){
-        const e = document.getElementById('education-body');
-        const c = document.getElementById('contact-body');
-        if(e) openSec(e);
-        if(c) openSec(c);
-      }
-      // if location hash present, try to open the target section
-      if(location.hash){
-        const id = location.hash.replace('#','');
-        const sec = document.getElementById(id);
-        if(sec) navTo(null,id);
-      }
-    });
+<!-- GCON-VEGATHON | IEEE-GCON 2023 | C-DAC & IIT Guwahati -->
+<div class="section-title" onclick="toggleSection('gcon-vega')">7. GCON-VEGATHON | IEEE-GCON 2023 | C-DAC & IIT Guwahati &#9660;</div>
+<div id="gcon-vega" class="section-content">
+    <div class="link-container">
+        <a href="https://event.iitg.ac.in/GCON2023/" target="_blank">Website</a>
+    </div>
+    <ul>
+        <li>Selected as a top 15 semi-finalist out of 50+ competitors, showcasing exceptional skills & teamwork.</li>
+        <li>Proposed a bare-metal embedded system with an OV2640 image sensor to capture low-resolution images and efficiently extract star centroids using a feature extraction algorithm on a VEGA processor.</li>
+        <li>Designed a Printed Circuit Board (PCB) to seamlessly integrate the camera and VEGA board.</li>
+    </ul>
+</div>
 
-    // Collapse expanded sections when clicking outside (desktop convenience)
-    document.addEventListener('click', (e)=>{
-      if(e.target.closest('.content') || e.target.closest('.section-head') || e.target.closest('.card')) return;
-      if(window.innerWidth > 900){
-        document.querySelectorAll('.content').forEach(c => { if(!c.classList.contains('collapsed')) closeSec(c); });
-      }
-    });
-  </script>
+<!-- AI powered chatbot -->
+<div class="section-title" onclick="toggleSection('ai-chatbot')">8. AI powered chatbot &#9660;</div>
+<div id="ai-chatbot" class="section-content">
+    <div class="link-container">
+        <a href="https://github.com/hrithikM86/AI-Powered-Chatbot" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Developed an AI-powered PDF chatbot using NLP, word embeddings, and similarity search techniques.</li>
+        <li>Configured OpenAI’s API key for language processing access & establishing a question-answering chain.</li>
+        <li>Implemented document similarity search with FAISS, comparing 1000+ text chunks using LangChain.</li>
+    </ul>
+</div>
+
+
+<!-- Neural Networks and Large Language Models -->
+<div class="section-title" onclick="toggleSection('neural-networks')">9. Neural Networks and Large Language Models &#9660;</div>
+<div id="neural-networks" class="section-content">
+    <div class="link-container">
+        <a href="https://github.com/hrithikM86/Neural-Networks-and-Large-Language-Models/tree/main" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Developed a Gradio QnA bot with FLAN-T5 and GPU acceleration for real-time text generation.</li>
+        <li>Built a custom binary neural network for image classification in PyTorch, achieving 81% accuracy.</li>
+        <li>Developed a BERT-based sentiment analysis model with a Gradio interface, achieving 85% accuracy.</li>
+    </ul>
+</div>
+
+
+
+<!-- Understanding Credit Score Models -->
+<div class="section-title" onclick="toggleSection('credit-score')">10. Understanding Credit Score Models &#9660;</div>
+<div id="credit-score" class="section-content">
+    <div class="link-container">
+        <a href="https://github.com/hrithikM86/Understanding-Credit-Score-Models/tree/main" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Performed data preprocessing, oversampling, feature engineering and EDA on the lending data.</li>
+        <li>Employed the XGBoost algorithm to classify individuals’ credit scores, achieving an accuracy of 86%.</li>
+        <li>Researched credit scores, scoring techniques, and AI/ML applications in credit score modeling.</li>
+    </ul>
+</div>
+
+
+<!-- Great Lunar Expedition for Everyone (GLEE) -->
+<div class="section-title" onclick="toggleSection('glee')">11. Great Lunar Expedition for Everyone (GLEE) &#9660;</div>
+<div id="glee" class="section-content">
+    <div class="link-container">
+        <a href="https://www.aero.iitb.ac.in/satlab/glee.php" target="_blank">Website</a>
+    </div>
+    <ul>
+        <li>The Great Lunar Expedition for Everyone is a global mission for lunar surface science using chipsats.</li>
+        <li>Cleaned, processed & analyzed earthquake data using Python libraries Numpy, Matplotlib & Pandas.</li>
+        <li>Implemented Time Difference of Arrival algorithm to accurately locate a single seismic wave source.</li>
+    </ul>
+</div>
+
+<!-- Robotic Arm -->
+<div class="section-title" onclick="toggleSection('robotic-arm')">12. Robotic Arm &#9660;</div>
+<div id="robotic-arm" class="section-content">
+    <div class="link-container">
+        <a href="https://github.com/hrithikM86/RoboCivs/tree/main" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Creating a programmable robotic arm to perform specific movements, controlled via mobile application.</li>
+        <li>Implemented MG996R and SG90 Micro Servo Motors to achieve desired rotations in the robotic arm.</li>
+        <li>Created a versatile system linking mobile devices to control the robotic arm’s specific movements.</li>
+        <li>Utilized Arduino UNO as the microcontroller to interface between Bluetooth module & mobile network.</li>
+    </ul>
+</div>
+
+<!-- Precipitation Prediction using ML -->
+<div class="section-title" onclick="toggleSection('precipitation-prediction')">13. Precipitation Prediction using ML &#9660;</div>
+<div id="precipitation-prediction" class="section-content">
+    <div class="link-container">
+        <a href="https://github.com/hrithikM86/Precipitation-Prediction-using-ML/tree/main" target="_blank">GitHub</a>
+    </div>
+    <ul>
+        <li>Created ML models using Random Forest & Logistic Regression to accurately predict precipitation.</li>
+        <li>Handled class imbalance with oversampling, achieving 98.03% accuracy and 98.01% ROC-AUC score.</li>
+        <li>Used chi-squared test to select the best features for the model, performed data preprocessing & EDA.</li>
+    </ul>
+</div>
+
+<!-- Economic Evaluation of Jaipur Metro Phase-I -->
+<div class="section-title" onclick="toggleSection('economic-eval')">14. Economic Evaluation of Jaipur Metro Phase-I &#9660;</div>
+<div id="economic-eval" class="section-content">
+    <div class="link-container">
+        <a href="https://www.civil.iitb.ac.in/~vedagiri/" target="_blank">Guide: Prof. P. Vedagiri, Department of Civil Engineering, IIT Bombay |</a>
+        <a href="https://drive.google.com/file/d/1U5En6AjQqfEWCMDEojTa4Ltz4vm29C1G/view" target="_blank">Course Project | Report</a>
+    </div>
+    <ul>
+        <li>Performed a 30-year cost–benefit and financial analysis of Jaipur Metro (Phase-I), modelling capital & operating costs, maintenance, and salvage values.</li>
+        <li>Forecasted ridership growth and monetized user benefits (travel time savings, vehicle operating cost savings) to compute annual willingness-to-pay and total economic benefits.</li>
+        <li>Assessed externalities and environmental impacts (reduced emissions & congestion) and included them in the evaluation using standard shadow pricing adjustments.</li>
+        <li>Conducted sensitivity analysis on demand growth, discount rates, and cost overruns to test robustness of results and identify critical risk drivers.</li>
+        <li>Results: Economic IRR = <strong>18.6%</strong>, ENPV = <strong>Rs. 5,598 Cr</strong>, Financial IRR = <strong>8.24%</strong> — indicating strong economic justification, financial viability, and long-term sustainability.</li>
+    </ul>
+</div>
+
+<!-- Urban Travel Demand Modeling and Traffic Assignment -->
+<div class="section-title" onclick="toggleSection('urban-travel')">15. Urban Travel Demand Modeling and Traffic Assignment &#9660;</div>
+<div id="urban-travel" class="section-content">
+    <div class="link-container">
+        <a href="https://www.civil.iitb.ac.in/~kvkrao/" target="_blank">Guide: Prof. K. V. Krishna Rao, Department of Civil Engineering, IIT Bombay |</a>
+        <a href="#" target="_blank">Course Project</a>
+    </div>
+    <ul>
+        <li>Formulated household trip production models using regression techniques with socio-economic and land-use dummy variables, applying matrix-based least squares estimation.</li>
+        <li>Performed rigorous statistical validation using <em>R²</em>, <em>t-tests</em>, and <em>F-statistics</em> to ensure model robustness and reliability.</li>
+        <li>Calibrated gravity models for inter-zonal trip distribution, optimizing friction factors via the Bureau of Public Roads (BPR) procedure.</li>
+        <li>Implemented traffic assignment algorithms including capacity restraint, Method of Successive Averages (MSA), and Frank–Wolfe to achieve user-equilibrium traffic flows across the network.</li>
+    </ul>
+</div>
+
+<!-- Traffic Signal Design and Analysis -->
+<div class="section-title" onclick="toggleSection('signal-design')">16. Traffic Signal Design and Analysis &#9660;</div>
+<div id="signal-design" class="section-content">
+    <div class="link-container">
+        <a href="https://www.civil.iitb.ac.in/~velaga/" target="_blank">Guide: Prof. Nagendra R. Velaga, Department of Civil Engineering, IIT Bombay |</a>
+        <a href="#" target="_blank">Course Project</a>
+    </div>
+    <ul>
+        <li>Processed <em>real-time traffic data</em> to build a structured dataset and estimate intersection load patterns.</li>
+        <li>Designed an optimized <em>signal timing plan</em> to improve intersection efficiency and minimize conflicts.</li>
+        <li>Simulated and evaluated alternative signal groups in <em>VISSIM</em> to determine the most effective configuration.</li>
+        <li>Formulated <em>data-driven strategies</em> to reduce congestion and ensure smoother traffic movement.</li>
+    </ul>
+</div>
+
+
+
+
+
+<h2 id="positions-of-responsibility">Positions of Responsibility</h2>
+
+<!-- Electrical Subsystem Head Section -->
+<div class="section-title" onclick="toggleSection('electrical-head')">1. Electrical Subsystem Head | Student Satellite Program, IIT Bombay &#9660;</div>
+<div id="electrical-head" class="section-content">
+    <div class="link-container">
+        <a href="https://www.aero.iitb.ac.in/satlab/" target="_blank">Learn More</a>
+    </div>
+    <ul>
+        <li>Led a 9-member interdisciplinary team on Hardware In-Loop Simulation of the STADS module.</li>
+        <li>Executed a 3-step recruitment process to select 6 of 50+ applicants, evaluating their technical skills.</li>
+        <li>Successfully designed, mentored, and evaluated two technical hardware projects for the mini-project round.</li>
+    </ul>
+</div>
+
+<!-- Senior Department Academic Mentor Section -->
+<div class="section-title" onclick="toggleSection('academic-mentor')">2. Senior Department Academic Mentor & Subgroup Head | Civil Engineering Department &#9660;</div>
+<div id="academic-mentor" class="section-content">
+    <div class="link-container">
+        <a href="https://civildampiitb.github.io/" target="_blank">Learn More</a>
+    </div>
+    <ul>
+        <li>Monitored the academic performance of 6 sophomores to provide personalized guidance and counseling.</li>
+        <li>Led a 6-member team to survey departmental needs and facilitate effective mentorship delivery.</li>
+        <li>Received the DAMP Special Recognition Award, given to 17 out of 400 students for exceptional contributions.</li>
+    </ul>
+</div>
+
+
+
+<h2 id="skills-and-courses">Skills & Relevant Courses</h2>
+
+<table style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr style="border-bottom: 1px solid #ccc; background-color: #f9f9f9;">
+            <th style="text-align: left; padding: 8px; border: 1px solid #ddd;">Category</th>
+            <th style="text-align: left; padding: 8px; border: 1px solid #ddd;">Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Mathematics</strong></td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Calculus, Differential Equations, Linear Algebra, Probabilistic and Statistical Methods in Civil Engineering</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Programming</strong></td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Data Structures and Algorithms (DSA), Design and Analysis of Algorithms (DAA), Computer Networks, Introduction to Machine Learning, Logic for Computer Science, Computer Programming and Utilization</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Online Courses</strong></td>
+            <td style="padding: 8px; border: 1px solid #ddd;">Deep Learning Specialization by Andrew Ng, Machine Learning Specialization by Andrew Ng, Natural Language Processing Specialization, Data Science Bootcamp by WIDS, MATLAB Onramp</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Skills</strong></td>
+            <td style="padding: 8px; border: 1px solid #ddd;">C/C++, Python, OpenCV, MATLAB, TensorFlow, PyTorch, Scikit-learn, PySpark, OpenAI Gym</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+<h2 id="extracurricular-activities">Extracurricular Activities</h2>
+<ol>
+    <li><strong>2024:</strong> Guided 12+ students in developing a CNN-based model that translates ASL live video to text at SoC.</li>
+    <li><strong>2024:</strong> Facilitated an NLP-based project for 12+ students at WIDS to build a Shakespearean language chatbot.</li>
+    <li><strong>2022:</strong> Participated in XLR8 and built an advanced WiFi-controlled racing bot using the ESP32 micro-controller.</li>
+    <li><strong>2022:</strong> Developed a Bluetooth-controlled robotic arm with Arduino UNO, capable of precise movements.</li>
+    <li><strong>2022:</strong> Participated in RC plane competition and built a high-performance aircraft showcasing technical skills.</li>
+    <li><strong>2022:</strong> Mentored 10+ students at WIDS, from fundamentals to developing and testing Machine Learning models.</li>
+    <li><strong>2022:</strong> Dedicated 80+ hours to impactful community service as a volunteer for UMMEED, an initiative under NSS.</li>
+    <li><strong>2022:</strong> Participated in the Versova Beach Cleanup organized by Abhyuday, IIT Bombay’s social impact initiative.</li>
+    <li><strong>2022:</strong> Raised ₹1.5 Lakhs within a week to fund initial checkup and cancer treatment for a hostel staff member.</li>
+</ol>
+
+
+
+
+<script>
+/* --- Toggle Section --- */
+function toggleSection(sectionId) {
+    const content = document.getElementById(sectionId);
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+}
+</script>
+
+
 </body>
 </html>

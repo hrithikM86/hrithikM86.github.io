@@ -133,7 +133,7 @@ Bachelor of Technology in Civil Engineering with a Minor in Computer Science and
   <li>
     <b>arXiv:</b><br>
     Hrithik Mhatre et al. "Pixels to Signals: A Real-Time Framework for Traffic Demand Estimation", manuscript under development  
-    <a href="https://drive.google.com/file/d/12JbkbaXc6_Ob8vs-hnuARdLMdhKwU72R/view" target="_blank" rel="noopener noreferrer">Paper</a>
+    <a href="https://arxiv.org/pdf/2510.24902" target="_blank" rel="noopener noreferrer">Paper</a>
   </li>
 
 

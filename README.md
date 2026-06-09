@@ -2,17 +2,6 @@
 
 # Hrithik Mhatre
 
-**Civil Engineering · Machine Learning · Aerospace Systems**
-
-[![IIT Bombay](https://img.shields.io/badge/IIT%20Bombay-B.Tech%20Civil%20Engineering-003366?style=flat-square&logo=graduation-cap&logoColor=white)](https://www.iitb.ac.in/)
-[![GPA](https://img.shields.io/badge/GPA-8.95%2F10-28a745?style=flat-square)](https://www.iitb.ac.in/)
-[![Rank](https://img.shields.io/badge/Dept.%20Rank-7%20%2F%20150%2B-f39c12?style=flat-square)](https://www.iitb.ac.in/)
-[![American Express](https://img.shields.io/badge/American%20Express-ML%20Modeling-016FD0?style=flat-square&logo=american-express&logoColor=white)](https://www.americanexpress.com/)
-
-</div>
-
----
-
 ## Navigation
 
 | Section | |

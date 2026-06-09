@@ -1,7 +1,3 @@
-<div align="center">
-
-# Hrithik Mhatre
-
 ## Navigation
 
 | Section | |
